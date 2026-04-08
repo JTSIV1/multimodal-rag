@@ -3,4 +3,4 @@ pyarrow
 Pillow
 requests
 pytesseract
-
+tqdm

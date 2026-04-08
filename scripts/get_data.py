@@ -20,6 +20,7 @@ import os
 import shutil
 import sys
 from typing import Any, Dict, Iterable, List, Optional
+from tqdm import tqdm
 
 try:
 	from datasets import load_dataset
@@ -138,7 +139,7 @@ def export_dataset(
 			print(f"  WARNING: could not find image column for {hf_id} {split_name}; skipping images.")
 
 		count = 0
-		for i, ex in enumerate(subset):
+		for i, ex in tqdm(enumerate(subset), total=len(subset)):
 			if max_examples is not None and count >= max_examples:
 				break
 
