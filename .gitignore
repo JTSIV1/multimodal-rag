@@ -1,2 +1,5 @@
 venv/
 data/
+.env
+/scripts/embeddings/
+.DS_Store

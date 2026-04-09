@@ -4,3 +4,8 @@ Pillow
 requests
 pytesseract
 tqdm
+chromadb
+duckdb
+duckdb-engine
+tqdm
+
