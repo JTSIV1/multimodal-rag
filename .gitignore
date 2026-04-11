@@ -1,3 +1,6 @@
 venv/
 data/
 Qwen3-VL-8B-Instruct/
+Qwen3-VL-2B-Instruct/
+embeddings/
+.env
