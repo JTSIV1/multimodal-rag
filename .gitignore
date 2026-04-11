@@ -2,6 +2,7 @@ venv/
 data/
 .env
 /scripts/embeddings/
+/scripts/embeddings_ocr/
 .DS_Store
 Qwen3-VL-8B-Instruct/
 Qwen3-VL-2B-Instruct/
