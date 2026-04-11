@@ -3,7 +3,11 @@ pyarrow
 Pillow
 requests
 pytesseract
+chromadb
+duckdb
+duckdb-engine
 tqdm
+
 transformers
 torch
 accelerate
