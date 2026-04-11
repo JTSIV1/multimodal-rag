@@ -4,3 +4,4 @@ data/
 /scripts/embeddings/
 .DS_Store
 Qwen3-VL-8B-Instruct/
+Qwen3-VL-2B-Instruct/
