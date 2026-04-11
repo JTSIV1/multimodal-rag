@@ -3,8 +3,8 @@
 ## Environment Setup
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+conda create -n mm-rag python=3.10 -y
+conda activate mm-rag
 pip install -r requirements.txt
 ```
 
