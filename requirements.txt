@@ -25,3 +25,7 @@ openai
 partial_json_parser
 einops
 sgl_kernel
+sentence_transformers
+nltk
+rouge-score
+bert-score
