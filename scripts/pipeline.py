@@ -31,7 +31,7 @@ class MMRAGPipeline:
         mode: str,
         vlm_model_id: str,
         vlm_checkpoint_path: str,
-        image_retriever_model_id: str = "athrael-soju/colqwen3.5-v1",
+        image_retriever_model_id: str = "athrael-soju/colqwen3.5-4.5B-v3",
         image_retriever_persist_dir: str = "embeddings/",
         ocr_retriever_model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
         ocr_retriever_persist_dir: Optional[str] = None,
@@ -87,8 +87,9 @@ class MMRAGPipeline:
         for _, _score, img_path in results:
             if img_path and os.path.exists(img_path):
                 content.append({
-                    "type": "image", 
-                    "image": img_path
+                    "type": "image",
+                    "image": img_path,
+                    "max_pixels": 1003520,
                 })
 
         if not content:
@@ -150,7 +151,7 @@ class MMRAGPipeline:
             sampling_params: Forwarded to VLM.generate().
         """
         if sampling_params is None:
-            sampling_params = {"max_new_tokens": 512}
+            sampling_params = {"max_new_tokens": 4096}
 
         messages = [{"role": "system", "content": [{"type": "text", "text": "You are a question answering assistant for corporate applications. Respond in one sentence using all available information"}]}]
 

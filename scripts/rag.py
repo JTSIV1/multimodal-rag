@@ -13,7 +13,7 @@ from pathlib import Path
 class RAGRetreiver():
     def __init__(
         self,
-        model_name: str = "athrael-soju/colqwen3.5-v1",
+        model_name: str = "athrael-soju/colqwen3.5-4.5B-v3",
         persist_dir: str = "embeddings/",
         device: str = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu",
         per_page: bool = True,
@@ -132,17 +132,22 @@ class RAGRetreiver():
             # Two ingestion modes:
             # - per_page: aggregate patch embeddings to a single vector per page (compact, recommended)
             # - per_patch: store each patch as a separate vector (larger, more fine-grained retrieval)
+            # Prefix IDs with the dataset slug so entries from different datasets
+            # never collide in the shared ChromaDB collection.
+            dataset_slug = str(entry.get("dataset", "unk")).split("/")[-1]
+            ex_idx = entry.get('example_index', '0')
+
             if self.per_page:
                 # mean-pool across patches to get a single page embedding
                 page_emb = embd.mean(axis=0)
-                vid = f"page_{entry.get('doc_id','unk')}_{entry.get('example_index','0')}"
+                vid = f"{dataset_slug}_{ex_idx}"
                 buf_ids.append(vid)
                 buf_embs.append(page_emb.tolist())
                 buf_metas.append(metadata)
             else:
                 # store every patch separately
                 num_patches = embd.shape[0]
-                ids = [f"doc_{entry.get('doc_id','unk')}_p{i}" for i in range(num_patches)]
+                ids = [f"{dataset_slug}_{ex_idx}_p{i}" for i in range(num_patches)]
                 for i in range(num_patches):
                     buf_ids.append(ids[i])
                     buf_embs.append(embd[i].tolist())
