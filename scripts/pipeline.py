@@ -170,6 +170,7 @@ class MMRAGPipeline:
         qas_jsonl_path: str,
         output_path: str,
         max_examples: Optional[int] = None,
+        example_indices: Optional[set] = None,
         sampling_params: Optional[dict] = None,
         verbose: bool = False,
     ) -> List[Dict[str, Any]]:
@@ -182,10 +183,13 @@ class MMRAGPipeline:
         VLM, making this a strong upper-bound baseline.
 
         Args:
-            qas_jsonl_path: Path to qas.jsonl.
-            output_path:    Where to write the predictions JSON.
-            max_examples:   Limit inference to the first N examples (None = all).
-            sampling_params:Forwarded to VLM.generate().
+            qas_jsonl_path:  Path to qas.jsonl.
+            output_path:     Where to write the predictions JSON.
+            max_examples:    Limit inference to the first N examples (None = all).
+            example_indices: Optional set of example_index values to restrict inference
+                             to (e.g. the test fold from a reproducible train/test split).
+                             When None, all examples are used.
+            sampling_params: Forwarded to VLM.generate().
 
         Returns:
             The list of prediction records (also written to output_path).
@@ -195,6 +199,9 @@ class MMRAGPipeline:
 
         with open(qas_jsonl_path, "r", encoding="utf-8") as fh:
             examples = [json.loads(line) for line in fh]
+
+        if example_indices is not None:
+            examples = [ex for ex in examples if ex.get("example_index") in example_indices]
 
         if max_examples is not None:
             examples = examples[:max_examples]
