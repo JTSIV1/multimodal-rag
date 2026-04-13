@@ -29,3 +29,5 @@ sentence_transformers
 nltk
 rouge-score
 bert-score
+ipywidgets
+nest_asyncio

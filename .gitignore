@@ -8,3 +8,4 @@ Qwen3-VL-8B-Instruct/
 Qwen3-VL-2B-Instruct/
 /scripts/__pycache__/
 /results/
+*/__pycache__/
