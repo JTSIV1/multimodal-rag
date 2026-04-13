@@ -8,6 +8,13 @@ conda activate mm-rag
 pip install -r requirements.txt
 ```
 
+To use with the Jupyter Notebooks:
+
+```bash
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=mm-rag
+```
+
 ## Pull REAL-MM-RAG data
 
 See scripts/get_data.py for the helper to pull the REAL-MM-RAG dataset.
