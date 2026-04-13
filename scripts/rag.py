@@ -10,7 +10,7 @@ from tqdm import tqdm
 from pathlib import Path
 
 # Class to retrive documents from info in data/ for RAG to pass as context to Qwen3VL
-class RAGRetriver():
+class RAGRetreiver():
     def __init__(
         self,
         model_name: str = "athrael-soju/colqwen3.5-v1",
@@ -202,7 +202,7 @@ class RAGRetriver():
 
 
 if __name__ == "__main__":
-    rag = RAGRetriver()
+    rag = RAGRetreiver()
 
     # Try to discover datasets under the repository's data/raw folder
     repo_root = Path(__file__).resolve().parents[1]
