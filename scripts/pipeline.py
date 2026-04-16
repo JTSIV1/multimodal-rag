@@ -80,7 +80,7 @@ class MMRAGPipeline:
     # Message builders
     def _build_image_rag_message(self, query: str) -> dict:
         """Retrieve top-k page images via visual RAG and build a VLM message."""
-        raw = self.retriever.search(query, num_patches=1000, top_k=self.top_k * 5)
+        raw = self.retriever.search(query, top_k=self.top_k * 5)
         results = sorted(raw, key=lambda x: x[1], reverse=True)[: self.top_k]
 
         content: List[dict] = []

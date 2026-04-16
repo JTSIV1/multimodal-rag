@@ -98,17 +98,30 @@ class VLM:
             image_inputs, _ = process_vision_info(messages, image_patch_size=self.processor.image_processor.patch_size)
             response = self.model.generate(prompt=text, image_data=image_inputs, sampling_params=sampling_params)
             return response
-
+    
         # Transformers fallback: prepare tokenized inputs and run .generate()
-        inputs = self.processor.apply_chat_template(
+        text = self.processor.apply_chat_template(
             messages,
-            tokenize=True,
-            add_generation_prompt=True,
-            return_dict=True,
-            return_tensors="pt",
+            tokenize=False,
+            add_generation_prompt=True
         )
-        inputs = inputs.to(self.transformer_model.device)
-        generated_ids = self.transformer_model.generate(**inputs, max_new_tokens=sampling_params.get("max_new_tokens", 1024))
+        
+        image_inputs, video_inputs = process_vision_info(messages)
+        
+        inputs = self.processor(
+            text=[text],
+            images=image_inputs,
+            videos=video_inputs,
+            padding=True,
+            return_dict=True,
+            return_tensors="pt"
+        ).to(self.transformer_model.device)
+
+        generated_ids = self.transformer_model.generate(
+            **inputs, 
+            max_new_tokens=sampling_params.get("max_new_tokens", 1024)
+        )
+
         generated_ids_trimmed = [out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
         output_text = self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)
         return {"text": output_text[0] if isinstance(output_text, list) else output_text}
