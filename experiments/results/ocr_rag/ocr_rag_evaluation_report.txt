@@ -1,0 +1,42 @@
+=========================================
+      MODEL EVALUATION REPORT
+=========================================
+
+--- OVERALL METRICS ---
+Total Samples: 701
+BLEU      : 0.2615 ± 0.2707 (95% CI: [0.2414, 0.2815])
+ROUGE1    : 0.5256 ± 0.2363 (95% CI: [0.5081, 0.5431])
+ROUGE2    : 0.3808 ± 0.2726 (95% CI: [0.3606, 0.4010])
+ROUGEL    : 0.4718 ± 0.2481 (95% CI: [0.4534, 0.4902])
+BERT_F1   : 0.9160 ± 0.0423 (95% CI: [0.9128, 0.9191])
+
+--- METRICS BY DATASET ---
+Dataset: FinancialReport (N=171)
+  BLEU      : 0.2751 ± 0.2677
+  ROUGE1    : 0.5161 ± 0.2194
+  ROUGE2    : 0.3879 ± 0.2597
+  ROUGEL    : 0.4725 ± 0.2324
+  BERT_F1   : 0.9148 ± 0.0408
+
+Dataset: TechReport (N=259)
+  BLEU      : 0.2727 ± 0.2900
+  ROUGE1    : 0.5384 ± 0.2469
+  ROUGE2    : 0.3861 ± 0.2900
+  ROUGEL    : 0.4785 ± 0.2625
+  BERT_F1   : 0.9155 ± 0.0456
+
+Dataset: TechSlides (N=271)
+  BLEU      : 0.2421 ± 0.2526
+  ROUGE1    : 0.5193 ± 0.2364
+  ROUGE2    : 0.3712 ± 0.2640
+  ROUGEL    : 0.4649 ± 0.2443
+  BERT_F1   : 0.9171 ± 0.0401
+
+--- SIGNIFICANCE TESTS (Performance Across Datasets) ---
+Using Kruskal-Wallis H-test (non-parametric ANOVA) to test if scores differ by dataset.
+BLEU: H-stat=2.1580, p-value=3.3994e-01 [ns]
+ROUGE1: H-stat=0.5157, p-value=7.7272e-01 [ns]
+ROUGE2: H-stat=0.5408, p-value=7.6309e-01 [ns]
+ROUGEL: H-stat=0.1894, p-value=9.0963e-01 [ns]
+BERT_F1: H-stat=0.4902, p-value=7.8263e-01 [ns]
+(* p<0.05, ** p<0.01, *** p<0.001, ns = not significant)

@@ -7,7 +7,6 @@ chromadb
 duckdb
 duckdb-engine
 tqdm
-
 transformers
 torch
 accelerate
@@ -31,3 +30,4 @@ rouge-score
 bert-score
 ipywidgets
 nest_asyncio
+bitsandbytes
