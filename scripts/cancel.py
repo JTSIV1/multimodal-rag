@@ -11,7 +11,8 @@ client = Together(
 )
 
 ids = [
-    "da8cd5b2-62dc-475b-bc27-e230f491f3b6"
+    "06256bc9-f00d-4d54-9968-2c7488ceeae4",
+    "2a52718b-8a16-441f-ab51-5868782a21a4"
 ]
 
 for id in ids:

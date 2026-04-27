@@ -1,0 +1,21 @@
+=========================================
+      LLM-AS-A-JUDGE EVALUATION REPORT
+=========================================
+
+--- OVERALL METRICS ---
+Total Samples: 671  (ok=661, errors=0, skipped=10)
+ACCURACY      : 4.5537 ± 0.8227 (95% CI: [4.4908, 4.6166])
+RELEVANCE     : 4.9185 ± 0.4059 (95% CI: [4.8859, 4.9510])
+GROUNDEDNESS  : 4.8515 ± 0.6007 (95% CI: [4.8035, 4.8994])
+FAITHFULNESS  : 4.8735 ± 0.5798 (95% CI: [4.8290, 4.9180])
+
+--- METRICS BY DATASET ---
+Dataset: LectureSlides (N=661)
+  ACCURACY      : 4.5537 ± 0.8227
+  RELEVANCE     : 4.9185 ± 0.4059
+  GROUNDEDNESS  : 4.8515 ± 0.6007
+  FAITHFULNESS  : 4.8735 ± 0.5798
+
+--- SIGNIFICANCE TESTS (Performance Across Datasets) ---
+Using Kruskal-Wallis H-test (non-parametric ANOVA) to test if scores differ by dataset.
+Only one dataset found. Skipping across-dataset significance tests.

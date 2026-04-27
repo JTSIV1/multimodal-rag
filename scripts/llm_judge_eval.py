@@ -285,13 +285,13 @@ if __name__ == "__main__":
     os.makedirs(BATCHES_DIR, exist_ok=True)
 
     EXPERIMENTS = [
-        # dict(
-        #     name="baseline_no_rag",
-        #     results=f"{_results_base}/baseline_no_rag/baseline_no_rag_results.jsonl",
-        #     retrieval_files=None,
-        #     is_vision=False,
-        #     no_context=True,
-        # ),
+        dict(
+            name="baseline_no_rag",
+            results=f"{_results_base}/baseline_no_rag/baseline_no_rag_results.jsonl",
+            retrieval_files=None,
+            is_vision=False,
+            no_context=True,
+        ),
         dict(
             name="baseline_ideal_image",
             results=f"{_results_base}/baseline_ideal_rag_image/baseline_ideal_rag_image_results.jsonl",
@@ -326,6 +326,41 @@ if __name__ == "__main__":
                 f"{_results_base}/ocr_rag/retrieval_techslides.json",
             ],
             is_vision=False,
+            no_context=False,
+        ),
+        dict(
+            name="fintuned_checkpoint_175",
+            results=f"{_results_base}/finetuned_image_rag/results_checkpoint-175.jsonl",
+            retrieval_files=None,
+            is_vision=True,
+            no_context=False,
+        ),
+        dict(
+            name="fintuned_checkpoint_350",
+            results=f"{_results_base}/finetuned_image_rag/results_checkpoint-350.jsonl",
+            retrieval_files=None,
+            is_vision=True,
+            no_context=False,
+        ),
+        dict(
+            name="fintuned_checkpoint_525",
+            results=f"{_results_base}/finetuned_image_rag/results_checkpoint-525.jsonl",
+            retrieval_files=None,
+            is_vision=True,
+            no_context=False,
+        ),
+        dict(
+            name="custom_base_model",
+            results=f"{_results_base}/custom_dataset/base_results.jsonl",
+            retrieval_files=None,
+            is_vision=True,
+            no_context=False,
+        ),
+        dict(
+            name="custom_fintune_model",
+            results=f"{_results_base}/custom_dataset/finetuned_results.jsonl",
+            retrieval_files=None,
+            is_vision=True,
             no_context=False,
         ),
     ]
