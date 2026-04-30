@@ -1,44 +1,3 @@
-"""
-Generates new (question, answer, image_path) triplets from your own PDF
-documents using the LOCAL Qwen3-VL-8B model (via the project's VLM class)
-as the teacher — no OpenAI API key required.
-
-Output format exactly mirrors the REAL-MM-RAG qas.jsonl produced by
-scripts/get_data.py, so MMRAGPipeline.ingest() and run_inference() work
-on custom data without any modification.
-
-Output structure (drop into data/raw/ like any other dataset):
-    <out_dir>/
-        pages/       ← rendered PNG per page
-        qas.jsonl    ← (question, answer, image_path, ...) records
-        pages.jsonl  ← page metadata
-
-Usage (run from repo root):
-    python scripts/generate_custom_data.py \\
-        --input_dir  ./my_pdfs \\
-        --out_dir    data/raw/CustomDocs/train \\
-        --doc_type   tech_slides \\
-        --num_questions 3 \\
-        --skip_first_pages 1
-
-    # Then plug in exactly like REAL-MM-RAG data:
-    #   pipeline.ingest("data/raw/CustomDocs/train/qas.jsonl")
-    #   pipeline.run_inference("data/raw/CustomDocs/train/qas.jsonl", ...)
-
-Requirements (in addition to existing requirements.txt):
-    pip install pymupdf
-"""
-
-from __future__ import annotations
-
-Custom Fine-tuning Data Generation Pipeline (Image/PNG Edition)
-Generates new (question, answer, image_path) triplets from a folder of PNGs
-using a larger teacher model.
-
-The model is downloaded to Colab's ephemeral storage (/content/) to 
-avoid hitting Google Drive storage quotas.
-"""
-
 import argparse
 import json
 import logging
@@ -56,11 +15,10 @@ sys.path.insert(0, os.path.abspath('/content/drive/MyDrive/multimodal-rag'))
 try:
     from scripts.vlm import VLM
 except ImportError:
-    logger.error("Could not import VLM from scripts.vlm. Ensure you are running this from the repository root.")
+    logger.error("make sure you are running this from the repository root.")
     sys.exit(1)
 
 def extract_json_array(text: str) -> list:
-    """Attempts to cleanly extract a JSON array from the model's text output."""
     match = re.search(r'\[\s*\{.*?\}\s*\]', text, re.DOTALL)
     if match:
         try:
@@ -90,7 +48,6 @@ def main():
     args.out_dir.mkdir(parents=True, exist_ok=True)
     qas_path = args.out_dir / "qas.jsonl"
 
-    # Define the instruction block
     prompt_instruction = ""
     if args.doc_type == "financial_report":
         prompt_instruction = "Focus on extracting specific numerical figures, year-over-year changes, table data, and financial metrics."
@@ -101,7 +58,6 @@ def main():
     elif args.doc_type == "lecture_slides":
         prompt_instruction = "Focus on key concepts, definitions, equations, diagrams, and the main pedagogical points of the slide."
 
-    # ── Resume support: collect image paths and example_index already on disk ──
     done_images = set()
     next_example_index = 0
     if args.resume and qas_path.exists():
@@ -115,13 +71,11 @@ def main():
                     continue
         logger.info(f"Resume: {len(done_images)} images already processed; resuming from example_index {next_example_index}.")
 
-    # ── Process Input Images ──
     image_files = list(args.input_dir.glob("*.png")) + list(args.input_dir.glob("*.jpg"))
     if not image_files:
         logger.error(f"No PNG or JPG files found in {args.input_dir}")
         return
 
-    # ── Initialize Model ──
     logger.info(f"Loading teacher model: {args.model_id}")
     logger.info(f"Downloading to ephemeral storage: {args.local_dir} (Protects GDrive Space)")
 
@@ -134,9 +88,6 @@ def main():
     example_index = next_example_index
     total_kept = 0
 
-    # Open the output file in append mode and flush after each image so a
-    # disconnect doesn't lose progress. fsync is overkill here; flush is enough
-    # to push the line out of Python's buffer to the OS.
     mode = "a" if args.resume else "w"
     with open(qas_path, mode, encoding="utf-8") as out_f:
         for img_path in tqdm(image_files, desc="Processing Images"):

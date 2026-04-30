@@ -7,26 +7,21 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge_score import rouge_scorer
 from bert_score import score as b_score
 
-# Ensure nltk tokenizer is available (uncomment if needed)
 # nltk.download('punkt')
 
 warnings.filterwarnings('ignore')
 
 def calculate_bleu(reference, hypothesis):
-    """Calculates smoothed sentence-level BLEU score."""
     if not isinstance(reference, str) or not isinstance(hypothesis, str):
         return 0.0
     
-    # Simple whitespace tokenization for BLEU
     ref_tokens = str(reference).split()
     hyp_tokens = str(hypothesis).split()
     
-    # Use smoothing method 1 to avoid 0 scores for short sentences without exact n-gram matches
     smooth = SmoothingFunction().method1
     return sentence_bleu([ref_tokens], hyp_tokens, smoothing_function=smooth)
 
 def calculate_rouge(reference, hypothesis):
-    """Calculates ROUGE-1, ROUGE-2, and ROUGE-L F1 scores."""
     if not isinstance(reference, str) or not isinstance(hypothesis, str):
         return {'rouge1': 0.0, 'rouge2': 0.0, 'rougeL': 0.0}
         
@@ -44,15 +39,10 @@ def calculate_bertscore(references, hypotheses, lang='en', model_type=None):
     references = [str(r) if pd.notna(r) else "" for r in references]
     hypotheses = [str(h) if pd.notna(h) else "" for h in hypotheses]
     
-    # BERTScore processes batches significantly faster than single items
     P, R, F1 = b_score(hypotheses, references, lang=lang, model_type=model_type, verbose=False)
     return F1.tolist()
 
 def evaluate_dataframe(df, output_filepath):
-    """
-    Evaluates a dataframe with 'dataset', 'ground_truth', and 'generated_answer' columns.
-    Writes the aggregated metrics and significance tests to a text file.
-    """
     required_cols = ['dataset', 'ground_truth', 'generated_answer']
     for col in required_cols:
         if col not in df.columns:

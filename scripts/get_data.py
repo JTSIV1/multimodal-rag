@@ -21,24 +21,14 @@ import shutil
 import sys
 from typing import Any, Dict, Iterable, List, Optional
 from tqdm import tqdm
-
-try:
-	from datasets import load_dataset
-except Exception as e:
-	print("ERROR: the `datasets` library is required. Install with `pip install datasets`.")
-	raise
-
-try:
-	from PIL import Image
-except Exception:
-	print("ERROR: the `Pillow` library is required. Install with `pip install pillow`.")
-	raise
+from datasets import load_dataset
+from PIL import ImageChops
 
 try:
 	import pytesseract
 	TESSERACT_AVAILABLE = True
 except Exception:
-	pytesseract = None  # type: ignore
+	pytesseract = None 
 	TESSERACT_AVAILABLE = False
 
 
@@ -62,32 +52,27 @@ def find_first_field(example: Dict[str, Any], candidates: Iterable[str]) -> Opti
 def pil_from_value(v: Any) -> Optional[Image.Image]:
 	if v is None:
 		return None
-	# HuggingFace ImageFeature typically stores a dict with 'path'
 	if isinstance(v, dict) and "path" in v:
 		try:
 			return Image.open(v["path"]).convert("RGB")
 		except Exception:
 			pass
-	# If it's already a PIL image
 	try:
 		if isinstance(v, Image.Image):
 			return v.convert("RGB")
 	except Exception:
 		pass
-	# If it's raw bytes
 	if isinstance(v, (bytes, bytearray)):
 		try:
 			return Image.open(io.BytesIO(v)).convert("RGB")
 		except Exception:
 			pass
-	# If it's a string path or URL
 	if isinstance(v, str):
 		if os.path.exists(v):
 			try:
 				return Image.open(v).convert("RGB")
 			except Exception:
 				pass
-		# try HTTP fetch for URLs
 		if v.startswith("http://") or v.startswith("https://"):
 			try:
 				import requests
@@ -97,7 +82,6 @@ def pil_from_value(v: Any) -> Optional[Image.Image]:
 				return Image.open(io.BytesIO(resp.content)).convert("RGB")
 			except Exception:
 				pass
-	# Arrow ImageFeature may expose bytes under 'bytes' key
 	if isinstance(v, dict) and "bytes" in v:
 		try:
 			return Image.open(io.BytesIO(v["bytes"])).convert("RGB")
@@ -132,11 +116,6 @@ def export_dataset(
 
 		# detect image columns
 		img_cols = [k for k, v in subset.features.items() if "image" in k.lower() or v.__class__.__name__.lower() == "image"]
-		if not img_cols:
-			# fallback: any column named 'image' or containing 'page'
-			img_cols = [k for k in subset.features.keys() if "image" in k.lower() or "page" in k.lower()]
-		if not img_cols:
-			print(f"  WARNING: could not find image column for {hf_id} {split_name}; skipping images.")
 
 		count = 0
 		for i, ex in tqdm(enumerate(subset), total=len(subset)):

@@ -62,7 +62,6 @@ _EXPERIMENTS_DIR = os.path.normpath(
 )
 
 def _resolve_path(p: str) -> str:
-    """Resolve a path that may be relative to the experiments/ directory."""
     if not p:
         return p
     if os.path.isabs(p) and os.path.exists(p):
@@ -74,7 +73,6 @@ def _resolve_path(p: str) -> str:
 
 
 def _read_ocr_text(img_path: str) -> str:
-    """Find and read the OCR .txt file corresponding to an image path."""
     img_path = _resolve_path(img_path)
     if not img_path:
         return "No context found."
@@ -92,92 +90,14 @@ def _read_ocr_text(img_path: str) -> str:
     return "No context found."
 
 
-# def create_batch_file(model_id, results_file, output_batch_file, retrieval_files=None, is_vision=False, no_context=False):
-#     """Create a JSONL batch file for Together AI evaluation.
-
-#     retrieval_files: list of retrieval JSON paths to merge, or None to derive
-#                      context directly from the result record (ideal baselines).
-#     no_context:      if True, include a placeholder indicating no retrieval was done.
-#     """
-#     with open(results_file, 'r') as f:
-#         results = [json.loads(line) for line in f]
-
-#     # Merge retrieval records from one or more files; key by (dataset, example_index)
-#     retrieval_dict = {}
-#     if retrieval_files:
-#         for rf in retrieval_files:
-#             with open(rf) as f:
-#                 for item in json.load(f):
-#                     retrieval_dict[(item['dataset'], item['example_index'])] = item
-
-#     with open(output_batch_file, 'w') as out_f:
-#         for res in results:
-#             idx = res['example_index']
-#             dataset = res['dataset']
-#             retrieval_data = retrieval_dict.get((dataset, idx), {})
-
-#             user_content = [
-#                 {"type": "text", "text": f"Question: {res['question']}"},
-#                 {"type": "text", "text": f"Ground Truth: {res['ground_truth']}"},
-#                 {"type": "text", "text": f"Generated Answer: {res['generated_answer']}"},
-#             ]
-
-#             if no_context:
-#                 user_content.append({"type": "text", "text": "Retrieved Context: None (no retrieval was performed)"})
-#             elif is_vision:
-#                 user_content.append({"type": "text", "text": "Retrieved Context (Images Follow):"})
-#                 if retrieval_files:
-#                     img_paths = retrieval_data.get('retrieved_images', [])
-#                 else:
-#                     # Ideal baseline: the ground-truth image was given directly
-#                     intended = res.get('intended_img', '')
-#                     img_paths = [intended] if intended else []
-#                 for img_path in img_paths:
-#                     resolved = _resolve_path(img_path)
-#                     if os.path.exists(resolved):
-#                         mime, b64 = encode_image(resolved)
-#                         user_content.append({
-#                             "type": "image_url",
-#                             "image_url": {"url": f"data:{mime};base64,{b64}"}
-#                         })
-#             else:
-#                 if retrieval_files:
-#                     context_text = retrieval_data.get('retrieved_prompt', 'No context found.')
-#                 else:
-#                     # Ideal text baseline: read OCR of the ground-truth image
-#                     context_text = _read_ocr_text(res.get('intended_img', ''))
-#                 user_content.append({"type": "text", "text": f"Retrieved Context: {context_text}"})
-
-#             request = {
-#                 "custom_id": f"eval_{dataset}_{idx}",
-#                 "method": "POST",
-#                 "url": "/v1/chat/completions",
-#                 "body": {
-#                     "model": model_id,
-#                     "messages": [
-#                         {"role": "system", "content": SYSTEM_PROMPT},
-#                         {"role": "user", "content": user_content}
-#                     ],
-#                     "temperature": 0.7,
-#                 }
-#             }
-#             out_f.write(json.dumps(request) + '\n')
-
-#     print(f"  Written {len(results)} requests → {output_batch_file}")
 
 def create_batch_file(model_id, results_file, output_batch_file, retrieval_files=None, is_vision=False, no_context=False):
-    """Create a JSONL batch file for Together AI evaluation.
 
-    retrieval_files: list of retrieval JSON paths to merge, or None to derive
-                     context directly from the result record (ideal baselines).
-    no_context:      if True, include a placeholder indicating no retrieval was done.
-    """
     MAX_FILE_BYTES = 95_000_000
 
     with open(results_file, 'r') as f:
         results = [json.loads(line) for line in f]
 
-    # Merge retrieval records from one or more files; key by (dataset, example_index)
     retrieval_dict = {}
     if retrieval_files:
         for rf in retrieval_files:
@@ -185,7 +105,6 @@ def create_batch_file(model_id, results_file, output_batch_file, retrieval_files
                 for item in json.load(f):
                     retrieval_dict[(item['dataset'], item['example_index'])] = item
 
-    # Prepare file naming and chunking logic
     base_name, ext = os.path.splitext(output_batch_file)
     file_index = 0
     current_file_path = f"{base_name}_{file_index}{ext}"
@@ -212,7 +131,6 @@ def create_batch_file(model_id, results_file, output_batch_file, retrieval_files
             if retrieval_files:
                 img_paths = retrieval_data.get('retrieved_images', [])
             else:
-                # Ideal baseline: the ground-truth image was given directly
                 intended = res.get('intended_img', '')
                 img_paths = [intended] if intended else []
             for img_path in img_paths:
@@ -227,7 +145,6 @@ def create_batch_file(model_id, results_file, output_batch_file, retrieval_files
             if retrieval_files:
                 context_text = retrieval_data.get('retrieved_prompt', 'No context found.')
             else:
-                # Ideal text baseline: read OCR of the ground-truth image
                 context_text = _read_ocr_text(res.get('intended_img', ''))
             user_content.append({"type": "text", "text": f"Retrieved Context: {context_text}"})
 
@@ -245,12 +162,10 @@ def create_batch_file(model_id, results_file, output_batch_file, retrieval_files
             }
         }
         
-        # Serialize and encode to get accurate byte size
         json_line = json.dumps(request) + '\n'
         line_bytes = json_line.encode('utf-8')
         line_byte_size = len(line_bytes)
 
-        # Check if adding this line exceeds the 95MB limit
         if current_byte_size + line_byte_size > MAX_FILE_BYTES:
             out_f.close()
             file_index += 1
@@ -270,9 +185,6 @@ def create_batch_file(model_id, results_file, output_batch_file, retrieval_files
         print(f"  Written {len(results)} requests → chunked across {file_index + 1} files ({base_name}_0{ext} to {base_name}_{file_index}{ext})")
 
     return generated_files
-
-
-# ── Configuration ────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
 
@@ -365,8 +277,6 @@ if __name__ == "__main__":
         ),
     ]
 
-    # ── Run ──────────────────────────────────────────────────────────────────────
-
     batch_ids = {}
     for exp in EXPERIMENTS:
         base_batch_file = os.path.join(BATCHES_DIR, f"batch_{exp['name']}.jsonl")
@@ -393,6 +303,4 @@ if __name__ == "__main__":
                 endpoint="/v1/chat/completions",
             )
 
-    print("\n=== All batch jobs submitted ===")
-        
-    print("\nCheck status: client.batches.retrieve('<job_id>')")
+    print("\n=== all batch jobs submitted ===")

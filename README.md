@@ -111,3 +111,30 @@ Full data:
 ```bash
 python3 scripts/get_data.py --out_dir data/raw --run_ocr
 ```
+
+
+## General Info
+
+All of our experiments were run through Jupyter notebooks. They can be found in the `experiments/` directory. They each go through the steps of loading and splitting data, running inference, and then evaluating the inference. See each experiment notebook for more information. They depend on helper files and scripts we created. These are located in `scripts/`. 
+
+## Slides Tinder
+
+We used AI to create an app to help make curating the data easier. You can simply upload your PDFs, and then swipe left or right on each slide to add it to your dataset or not. To run it, simply install the requirements in `slides-tinder/requirements.txt` and run `python slides-tinder/app.py`.
+
+## Accessing Results
+
+All of our results are located in the `experiments/results/` directory. The directory is full of subdirectories for each of the 11 different experimental setups we ran. See the correspondence below:
+
+| Label | Experimental Setup | Results Directory |
+| :--- | :--- | :--- |
+| **A** | Baseline (no context) | `baseline_no_rag` |
+| **B** | Ideal OCR context | `baseline_ideal_rag_text` |
+| **C** | Ideal image context | `baseline_ideal_rag_image` |
+| **D** | RAG OCR | `ocr_rag` |
+| **E** | RAG Image | `image_rag` |
+| **F** | Ideal Finetuned | `finetuned_image_ideal` |
+| **G** | RAG Finetuned | `finetuned_image_rag` |
+| **H** | Custom Data Ideal Default | `custom_dataset` |
+| **I** | Custom Data Ideal Finetuned | `lecture_slides_finetuned` |
+| **J** | Custom Data RAG Default | `custom_data_rag_orig` |
+| **K** | Custom Data RAG Finetuned | `custom_data_rag_finetune` |

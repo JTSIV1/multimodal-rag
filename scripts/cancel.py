@@ -1,4 +1,3 @@
-# Docs for v1 can be found by changing the above selector ^
 from together import Together
 import os
 

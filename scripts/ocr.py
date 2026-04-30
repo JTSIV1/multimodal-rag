@@ -18,11 +18,6 @@ import numpy as np
 
 
 class OCRRetriever:
-    """Retriever that indexes OCR-extracted text files and performs vector search.
-
-    By default this tries to use `sentence-transformers` for embeddings and
-    falls back to `transformers` + mean pooling if not available.
-    """
 
     def __init__(
         self,
@@ -40,7 +35,6 @@ class OCRRetriever:
         else:
             self.device = device
 
-        # Default to saving embeddings inside the `scripts/` folder as requested
         if persist_dir is None:
             scripts_dir = Path(__file__).parent
             default_dir = scripts_dir / "embeddings_ocr"
@@ -50,7 +44,6 @@ class OCRRetriever:
 
         os.makedirs(self.persist_dir, exist_ok=True)
 
-        # initialize embedding backend
         if _HAS_SSBERT:
             try:
                 self.embedder = SentenceTransformer(self.model_name)
@@ -61,13 +54,11 @@ class OCRRetriever:
             self.embed_type = "transformers"
 
         if self.embed_type == "transformers":
-            # AutoModel fallback with mean pooling
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, use_fast=True)
             self.model = AutoModel.from_pretrained(self.model_name)
             self.model.to(self.device)
             self.model.eval()
 
-        # setup chromadb
         self.client = chromadb.PersistentClient(path=self.persist_dir)
         self.collection = self.client.get_or_create_collection(
             name="ocr_doc_patches",
@@ -84,7 +75,6 @@ class OCRRetriever:
             embs = self.embedder.encode(texts, convert_to_numpy=True, show_progress_bar=False)
             return embs
 
-        # transformers fallback
         all_embs = []
         for i in range(0, len(texts), batch_size):
             batch = texts[i : i + batch_size]
@@ -125,15 +115,12 @@ class OCRRetriever:
             img_rel = entry.get("image_path")
 
             text_path = None
-            # Try several strategies to resolve text file path
             if img_rel:
-                # absolute path candidate
                 if os.path.isabs(img_rel):
                     cand = img_rel + ".txt"
                     if os.path.exists(cand):
                         text_path = cand
                     else:
-                        # maybe image path already has extension, keep that and add .txt
                         cand2 = os.path.splitext(img_rel)[0] + os.path.splitext(img_rel)[1] + ".txt"
                         if os.path.exists(cand2):
                             text_path = cand2
@@ -158,7 +145,7 @@ class OCRRetriever:
                     if os.path.exists(cand):
                         text_path = cand
 
-            # fallback: try to locate by doc_id and page_number
+            # try to locate by doc_id and page_number
             if text_path is None:
                 doc_id = entry.get("doc_id")
                 page_no = entry.get("page_number")
@@ -168,7 +155,7 @@ class OCRRetriever:
                     if matches:
                         text_path = matches[0]
 
-            # as last resort, try basename search across pages_root
+            # try basename search across pages_root
             if text_path is None and img_rel:
                 basename = os.path.basename(img_rel)
                 matches = list(Path(pages_root).rglob(basename + "*.txt")) if os.path.exists(pages_root) else []
@@ -176,14 +163,14 @@ class OCRRetriever:
                     text_path = str(matches[0])
 
             if text_path is None or not os.path.exists(text_path):
-                print(f"  WARNING: Could not resolve text for entry {entry.get('example_index')} (doc {entry.get('doc_id')})")
+                print(f"  BAD: Could not resolve text for entry {entry.get('example_index')} (doc {entry.get('doc_id')})")
                 continue
 
             try:
                 with open(text_path, "r", encoding="utf-8", errors="ignore") as tf:
                     page_text = tf.read().strip()
             except Exception as e:
-                print(f"  ERROR opening text {text_path}: {e}")
+                print(f"  VERY BAD: opening text {text_path}: {e}")
                 continue
 
             if not page_text:
@@ -201,8 +188,6 @@ class OCRRetriever:
             else:
                 texts_to_index = [(0, page_text)]
 
-            # Prefix IDs with the dataset slug so entries from different datasets
-            # never collide in the shared ChromaDB collection.
             dataset_slug = str(entry.get("dataset", "unk")).split("/")[-1]
             ex_idx = entry.get('example_index', '0')
 
@@ -260,7 +245,6 @@ class OCRRetriever:
 
 
 if __name__ == "__main__":
-    # Discover datasets under repository's data/raw folder and ingest
     repo_root = Path(__file__).resolve().parents[1]
     data_root = repo_root / "data" / "raw" / "scripts"
     ocr = OCRRetriever()
@@ -268,7 +252,7 @@ if __name__ == "__main__":
     if not data_root.exists():
         print(f"data/raw not found at expected location: {data_root}")
     else:
-        print(f"Scanning {data_root} for datasets...")
+        print(f"scanning {data_root} for datasets...")
         for dataset_dir in sorted(data_root.iterdir()):
             if not dataset_dir.is_dir():
                 continue
@@ -277,8 +261,7 @@ if __name__ == "__main__":
                     continue
                 qas_path = split_dir / "qas.jsonl"
                 if qas_path.exists():
-                    print(f"Ingesting {qas_path}")
                     try:
                         ocr.ingest_dataset(str(qas_path))
                     except Exception as e:
-                        print(f"Failed to ingest {qas_path}: {e}")
+                        print(f"failed to ingest {qas_path}: {e}")
