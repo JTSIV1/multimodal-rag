@@ -1,6 +1,37 @@
 """
+Generates new (question, answer, image_path) triplets from your own PDF
+documents using the LOCAL Qwen3-VL-8B model (via the project's VLM class)
+as the teacher — no OpenAI API key required.
+
+Output format exactly mirrors the REAL-MM-RAG qas.jsonl produced by
+scripts/get_data.py, so MMRAGPipeline.ingest() and run_inference() work
+on custom data without any modification.
+
+Output structure (drop into data/raw/ like any other dataset):
+    <out_dir>/
+        pages/       ← rendered PNG per page
+        qas.jsonl    ← (question, answer, image_path, ...) records
+        pages.jsonl  ← page metadata
+
+Usage (run from repo root):
+    python scripts/generate_custom_data.py \\
+        --input_dir  ./my_pdfs \\
+        --out_dir    data/raw/CustomDocs/train \\
+        --doc_type   tech_slides \\
+        --num_questions 3 \\
+        --skip_first_pages 1
+
+    # Then plug in exactly like REAL-MM-RAG data:
+    #   pipeline.ingest("data/raw/CustomDocs/train/qas.jsonl")
+    #   pipeline.run_inference("data/raw/CustomDocs/train/qas.jsonl", ...)
+
+Requirements (in addition to existing requirements.txt):
+    pip install pymupdf
+"""
+
+from __future__ import annotations
+
 Custom Fine-tuning Data Generation Pipeline (Image/PNG Edition)
-===============================================================
 Generates new (question, answer, image_path) triplets from a folder of PNGs
 using a larger teacher model.
 
