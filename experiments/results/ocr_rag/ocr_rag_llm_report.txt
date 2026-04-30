@@ -1,0 +1,37 @@
+=========================================
+      LLM-AS-A-JUDGE EVALUATION REPORT
+=========================================
+
+--- OVERALL METRICS ---
+Total Samples: 701  (ok=682, errors=0, skipped=19)
+ACCURACY      : 2.9575 ± 1.8719 (95% CI: [2.8166, 3.0983])
+RELEVANCE     : 4.7663 ± 0.7601 (95% CI: [4.7060, 4.8267])
+GROUNDEDNESS  : 4.3871 ± 1.2770 (95% CI: [4.2863, 4.4879])
+FAITHFULNESS  : 4.5192 ± 1.1804 (95% CI: [4.4264, 4.6119])
+
+--- METRICS BY DATASET ---
+Dataset: FinancialReport (N=166)
+  ACCURACY      : 1.7530 ± 1.4539
+  RELEVANCE     : 4.8528 ± 0.5564
+  GROUNDEDNESS  : 4.1227 ± 1.5419
+  FAITHFULNESS  : 4.2432 ± 1.4733
+
+Dataset: TechReport (N=250)
+  ACCURACY      : 3.4760 ± 1.7937
+  RELEVANCE     : 4.6087 ± 0.9563
+  GROUNDEDNESS  : 4.3541 ± 1.2751
+  FAITHFULNESS  : 4.5427 ± 1.1399
+
+Dataset: TechSlides (N=266)
+  ACCURACY      : 3.2218 ± 1.8475
+  RELEVANCE     : 4.8430 ± 0.6619
+  GROUNDEDNESS  : 4.5887 ± 1.0279
+  FAITHFULNESS  : 4.6639 ± 0.9718
+
+--- SIGNIFICANCE TESTS (Performance Across Datasets) ---
+Using Kruskal-Wallis H-test (non-parametric ANOVA) to test if scores differ by dataset.
+ACCURACY: H-stat=96.3290, p-value=1.2090e-21 [***]
+RELEVANCE: H-stat=14.3831, p-value=7.5292e-04 [***]
+GROUNDEDNESS: H-stat=9.5274, p-value=8.5340e-03 [**]
+FAITHFULNESS: H-stat=8.9560, p-value=1.1356e-02 [*]
+(* p<0.05, ** p<0.01, *** p<0.001, ns = not significant)

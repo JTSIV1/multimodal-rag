@@ -1,0 +1,2983 @@
+[
+  {
+    "example_index": 3,
+    "dataset": "TechSlides",
+    "question": "What is the importance of robust testing for Controller APIs according to the IBM TechXchange document?",
+    "reference": "Robust testing is critically important to ensure that all Controller APIs work correctly across various Model permutations.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/3_3.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/3_3.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/3_3.png"
+    ]
+  },
+  {
+    "example_index": 4,
+    "dataset": "TechSlides",
+    "question": "What are the key points about metadata attributes and their impact on classification according to the IBM TechXchange document?",
+    "reference": "The IBM TechXchange document states that more metadata attributes lead to more permutations for classification.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/4_4.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/4_4.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/4_4.png"
+    ]
+  },
+  {
+    "example_index": 5,
+    "dataset": "TechSlides",
+    "question": "What is the recommended method for adding new content classifications according to IBM?",
+    "reference": "All new content classifications must be added to the taxonomy first.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/6_6.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/5_5.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/5_5.png"
+    ]
+  },
+  {
+    "example_index": 9,
+    "dataset": "TechSlides",
+    "question": "What does the IBM TechXchange document state about the nature of a taxonomy?",
+    "reference": "The IBM TechXchange document states that a taxonomy is a formalized, structured, and hierarchical system for classification.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/9_9.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/9_9.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/9_9.png"
+    ]
+  },
+  {
+    "example_index": 33,
+    "dataset": "TechSlides",
+    "question": "What are some limitations of Gen-AI embedded reporting tools compared to the watsonx BI Assistant?",
+    "reference": "Gen-AI embedded reporting tools can only address questions related to the data explicitly visualized in the report, whereas the watsonx BI Assistant can answer questions about any part of the data asset.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/36_36.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/33_33.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/34_34.png"
+    ]
+  },
+  {
+    "example_index": 34,
+    "dataset": "TechSlides",
+    "question": "How does the watsonx BI Assistant improve the ease of use for users?",
+    "reference": "The watsonx BI Assistant allows users to get answers to questions immediately without needing to first select a report, which is particularly useful when an organization has hundreds or thousands of reports.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/36_36.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/33_33.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/34_34.png"
+    ]
+  },
+  {
+    "example_index": 35,
+    "dataset": "TechSlides",
+    "question": "What are the benefits of using semantic modeling and a centralized metrics catalog with the watsonx BI Assistant?",
+    "reference": "The watsonx BI Assistant features advanced semantic modeling and a centralized metrics layer to ground answers in standardized metric definitions, minimizing the risk of errors when querying directly against data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/34_34.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/33_33.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/35_35.png"
+    ]
+  },
+  {
+    "example_index": 39,
+    "dataset": "TechSlides",
+    "question": "What is the focus of the 'Wait for help' approach in the context of data analytics?",
+    "reference": "The 'Wait for help' approach focuses on relying on the limited number of data analysts available to support business operations and ad hoc requests.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/39_39.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/785_785.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1336_1336.png"
+    ]
+  },
+  {
+    "example_index": 43,
+    "dataset": "TechSlides",
+    "question": "What is the projected market size of business intelligence software by 2027 according to IDC?",
+    "reference": "The projected market size of business intelligence software by 2027 is $27.9 billion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/43_43.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/40_40.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/41_41.png"
+    ]
+  },
+  {
+    "example_index": 44,
+    "dataset": "TechSlides",
+    "question": "What are the key components of Project Ripasso?",
+    "reference": "The key components of Project Ripasso are watsonx.data, Data Product Hub, watsonx Orchestrate, integration with Planning Analytics, and embedding in IBM data apps.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/44_44.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/31_31.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1_1.png"
+    ]
+  },
+  {
+    "example_index": 51,
+    "dataset": "TechSlides",
+    "question": "How does the FIPS Wall ensure secure communication between services and storage in IBM CP4BA?",
+    "reference": "The FIPS Wall ensures secure communication between services and storage in IBM CP4BA by using FIPS IPSec for encrypted data transmission and by configuring services and storage to adhere to FIPS standards.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/51_51.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/862_862.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/861_861.png"
+    ]
+  },
+  {
+    "example_index": 53,
+    "dataset": "TechSlides",
+    "question": "What types of services are included in the Cloud Pak foundational service?",
+    "reference": "The Cloud Pak foundational service includes CPFs, Zen, IAM, and BTS.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/51_51.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/53_53.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/52_52.png"
+    ]
+  },
+  {
+    "example_index": 55,
+    "dataset": "TechSlides",
+    "question": "What are the potential issues with setting upper and lower pod limits for PER SERVICE in HPA?",
+    "reference": "Setting upper and lower pod limits for PER SERVICE in HPA can be complex, especially when trying to maintain this at scale.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/55_55.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/58_58.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/56_56.png"
+    ]
+  },
+  {
+    "example_index": 56,
+    "dataset": "TechSlides",
+    "question": "What types of metrics can be used with the Horizontal Pod Autoscaler?",
+    "reference": "Common metrics include CPU or memory, while alternatives can be custom, multiple, or external metrics.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/58_58.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/57_57.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/56_56.png"
+    ]
+  },
+  {
+    "example_index": 57,
+    "dataset": "TechSlides",
+    "question": "What are the potential risks of using the Horizontal Pod Autoscaler?",
+    "reference": "Potential risks include performance degradation if additional replicas cannot be scheduled and the presence of pending pods.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/58_58.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/57_57.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/56_56.png"
+    ]
+  },
+  {
+    "example_index": 63,
+    "dataset": "TechSlides",
+    "question": "What is the main focus of VPA in Kubernetes management?",
+    "reference": "VPA focuses solely on pod sizing, unlike VMWare DRS and vROPS which work in isolation of each other.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/63_63.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/71_71.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/57_57.png"
+    ]
+  },
+  {
+    "example_index": 72,
+    "dataset": "TechSlides",
+    "question": "How does Turbonomic ensure that the service maintains optimal performance during scaling?",
+    "reference": "Turbonomic uses application-level SLO to ensure that the service maintains optimal performance during scaling.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/74_74.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/73_73.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/72_72.png"
+    ]
+  },
+  {
+    "example_index": 82,
+    "dataset": "TechSlides",
+    "question": "What does the 'Lift and Shift' migration strategy involve?",
+    "reference": "The 'Lift and Shift' migration strategy involves moving the entire system, including database, storage, compute, and text search, to the cloud as is.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/80_80.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/84_84.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/81_81.png"
+    ]
+  },
+  {
+    "example_index": 88,
+    "dataset": "TechSlides",
+    "question": "What is the importance of monitoring in the migration process according to the IBM Success Story?",
+    "reference": "Monitoring is crucial in the migration process to ensure that no issues go unnoticed, as the IBM Success Story advises to monitor everything and ensure there is no excessive visibility.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/87_87.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/90_90.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/88_88.png"
+    ]
+  },
+  {
+    "example_index": 90,
+    "dataset": "TechSlides",
+    "question": "What is the role of experience in selecting a migration partner according to the IBM Success Story?",
+    "reference": "Experience is a critical factor in selecting a migration partner, as the IBM Success Story advises that experience matters in the migration process.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/89_89.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/88_88.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/86_86.png"
+    ]
+  },
+  {
+    "example_index": 107,
+    "dataset": "TechSlides",
+    "question": "What are the key characteristics of the 'Manual' stage in IBM's manufacturing evolution?",
+    "reference": "The key characteristics of the 'Manual' stage in IBM's manufacturing evolution include highly manual, paper-based processes and offline/siloed production data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/106_106.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/108_108.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/107_107.png"
+    ]
+  },
+  {
+    "example_index": 109,
+    "dataset": "TechSlides",
+    "question": "How does IBM BAW for Batch define a systematic approach in the context of CAPAs?",
+    "reference": "IBM BAW for Batch defines a systematic approach as one that includes actions needed to correct, avoid recurrence, and eliminate the occurrence of a problem.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/110_110.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/109_109.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/119_119.png"
+    ]
+  },
+  {
+    "example_index": 112,
+    "dataset": "TechSlides",
+    "question": "What are the potential risks associated with data modification in the IBM BAW for Batch system?",
+    "reference": "The potential risks associated with data modification in the IBM BAW for Batch system include the possibility of data being altered inappropriately.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/112_112.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/111_111.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/117_117.png"
+    ]
+  },
+  {
+    "example_index": 116,
+    "dataset": "TechSlides",
+    "question": "What are the key features of BPM software according to IBM?",
+    "reference": "The key features of BPM software include the ability to model, deploy, and monitor business processes, offer traceability and control, integrate with operational systems, and incorporate business rules.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/116_116.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/115_115.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/914_914.png"
+    ]
+  },
+  {
+    "example_index": 125,
+    "dataset": "TechSlides",
+    "question": "What percentage of life sciences companies are at the 'Connected' stage of digital maturity?",
+    "reference": "35% of life sciences companies are at the 'Connected' stage of digital maturity.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/125_125.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/124_124.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/107_107.png"
+    ]
+  },
+  {
+    "example_index": 126,
+    "dataset": "TechSlides",
+    "question": "What is the significance of traceability in ensuring the safety and health of patients according to IBM?",
+    "reference": "Traceability is significant because it serves as the foundation of operations in the pharmaceutical industry, ensuring that all products meet the necessary safety and quality standards.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/127_127.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/126_126.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/459_459.png"
+    ]
+  },
+  {
+    "example_index": 131,
+    "dataset": "TechSlides",
+    "question": "What are the primary functions of IBM BAW for Batch in ensuring product quality?",
+    "reference": "The primary functions of IBM BAW for Batch in ensuring product quality are Product Quality Review and Quality Assurance Processes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/131_131.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/110_110.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/109_109.png"
+    ]
+  },
+  {
+    "example_index": 148,
+    "dataset": "TechSlides",
+    "question": "What is the role of the Application Process in the Instana monitoring system?",
+    "reference": "The Application Process hosts tracers that minimize impact on execution and latency, ensuring efficient monitoring without significant CPU usage.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/148_148.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/147_147.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/162_162.png"
+    ]
+  },
+  {
+    "example_index": 149,
+    "dataset": "TechSlides",
+    "question": "How does the use of a single tool simplify the onboarding process for users according to the Instana Story?",
+    "reference": "Using a single tool makes the user onboarding process easier.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/149_149.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/153_153.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/150_150.png"
+    ]
+  },
+  {
+    "example_index": 159,
+    "dataset": "TechSlides",
+    "question": "How quickly does Instana provide real-time impact analysis after data collection?",
+    "reference": "Instana provides real-time impact analysis within a few seconds, typically less than five seconds, after data collection.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/159_159.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/158_158.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/160_160.png"
+    ]
+  },
+  {
+    "example_index": 162,
+    "dataset": "TechSlides",
+    "question": "What is the role of the agent in the Instana architecture?",
+    "reference": "The agent in the Instana architecture performs discovery, loads sensors, and then acts as a data proxy.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/162_162.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/148_148.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/147_147.png"
+    ]
+  },
+  {
+    "example_index": 166,
+    "dataset": "TechSlides",
+    "question": "How does the Instana Story emphasize the importance of automation?",
+    "reference": "The Instana Story emphasizes the importance of automation by stating that automation in a distributed world is not optional, highlighting its critical role in addressing modern challenges.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/168_168.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/167_167.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/164_164.png"
+    ]
+  },
+  {
+    "example_index": 178,
+    "dataset": "TechSlides",
+    "question": "What percentage of organizations are in the 'Some dev & deploy is cloud native' stage of adopting cloud-native technologies?",
+    "reference": "43% of organizations are in the 'Some dev & deploy is cloud native' stage of adopting cloud-native technologies.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/174_174.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/179_179.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/177_177.png"
+    ]
+  },
+  {
+    "example_index": 183,
+    "dataset": "TechSlides",
+    "question": "How does the Red Hat AI InstructLab Aligned Model assess improvement in cadence?",
+    "reference": "The Red Hat AI InstructLab Aligned Model assesses improvement in cadence by analyzing the consistency of average cadence over time. It looks for a clear trend of improvement or decline in cadence values for each run.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/183_183.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/192_192.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/211_211.png"
+    ]
+  },
+  {
+    "example_index": 191,
+    "dataset": "TechSlides",
+    "question": "How many stages are involved in the methodology for large-scale alignment for chatBots according to IBM?",
+    "reference": "There are four stages involved in the methodology for large-scale alignment for chatBots according to IBM.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/191_191.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1104_1104.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/310_310.png"
+    ]
+  },
+  {
+    "example_index": 194,
+    "dataset": "TechSlides",
+    "question": "What compliance standards does IBM's Business-ready GenAI solution adhere to?",
+    "reference": "IBM's Business-ready GenAI solution adheres to compliance standards including ISO, PCI, HIPAA, and offers immutable storage options.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/194_194.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/193_193.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1249_1249.png"
+    ]
+  },
+  {
+    "example_index": 198,
+    "dataset": "TechSlides",
+    "question": "What are the key features of the Adidas Boston 12 running shoes?",
+    "reference": "Key features include more Lightstrike Pro in the forefoot, softer Lightstrike Pro 2.0 in the heel, a one-piece mesh upper, and a new Energyrod configuration.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/196_196.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/198_198.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/197_197.png"
+    ]
+  },
+  {
+    "example_index": 201,
+    "dataset": "TechSlides",
+    "question": "How does the Red Hat AI InstructLab service differ from the other two methods?",
+    "reference": "The Red Hat AI InstructLab service differs from the other two methods by featuring both RHEL AI and OpenShift AI distributed training delivered by IBM Cloud.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/200_200.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/199_199.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/201_201.png"
+    ]
+  },
+  {
+    "example_index": 203,
+    "dataset": "TechSlides",
+    "question": "How does the Business-ready GenAI document describe the use of labeled data in Prompt Tuning?",
+    "reference": "The Business-ready GenAI document describes Prompt Tuning as requiring a smaller set of labeled data, specifically between 200 to 1000 entries, and mentions that multi-shot prompting is not necessary.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/204_204.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/203_203.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/786_786.png"
+    ]
+  },
+  {
+    "example_index": 209,
+    "dataset": "TechSlides",
+    "question": "What is the importance of considering other factors besides weight when choosing running shoes according to Business-ready GenAI: Innovate with InstructLab?",
+    "reference": "Other factors such as cushioning, support, durability, and fit should also be taken into account when choosing running shoes, as weight is just one factor to consider.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/209_209.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/192_192.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/205_205.png"
+    ]
+  },
+  {
+    "example_index": 212,
+    "dataset": "TechSlides",
+    "question": "What kind of model does Red Hat AI InstructLab use to manage costs?",
+    "reference": "Red Hat AI InstructLab uses a pay-as-you-go model to manage costs, which helps in aligning expenses with actual usage and needs.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/213_213.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/212_212.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1244_1244.png"
+    ]
+  },
+  {
+    "example_index": 220,
+    "dataset": "TechSlides",
+    "question": "Which Brooks running shoe has a breathable upper?",
+    "reference": "The Brooks Launch 10 has a breathable upper.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/218_218.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/217_217.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/215_215.png"
+    ]
+  },
+  {
+    "example_index": 228,
+    "dataset": "TechSlides",
+    "question": "What capabilities does IBM Apptio provide for C-Suite?",
+    "reference": "IBM Apptio provides capabilities such as Capture Feedback, Budget and Forecast IT Spend, and Prioritize Investments for the C-Suite.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/227_227.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/226_226.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/228_228.png"
+    ]
+  },
+  {
+    "example_index": 231,
+    "dataset": "TechSlides",
+    "question": "How many locations does IBM Apptio have?",
+    "reference": "IBM Apptio has over 20 locations.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/233_233.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/232_232.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/231_231.png"
+    ]
+  },
+  {
+    "example_index": 233,
+    "dataset": "TechSlides",
+    "question": "How many customers does IBM Apptio serve?",
+    "reference": "IBM Apptio serves over 1800 customers.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/233_233.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/232_232.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/231_231.png"
+    ]
+  },
+  {
+    "example_index": 242,
+    "dataset": "TechSlides",
+    "question": "What is the growth rate of customers since 2018?",
+    "reference": "The company has experienced over 4 times growth in customers since 2018.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/246_246.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/245_245.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/243_243.png"
+    ]
+  },
+  {
+    "example_index": 244,
+    "dataset": "TechSlides",
+    "question": "What is the year-over-year (YoY) growth rate of monthly active users?",
+    "reference": "The company has seen a 25% YoY growth in monthly active users.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/245_245.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/244_244.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/242_242.png"
+    ]
+  },
+  {
+    "example_index": 248,
+    "dataset": "TechSlides",
+    "question": "What are the potential cost reductions for multi-cloud environments with faster migration decisions?",
+    "reference": "The potential cost reductions for multi-cloud environments with faster migration decisions are 15-30%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/248_248.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/253_253.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/251_251.png"
+    ]
+  },
+  {
+    "example_index": 253,
+    "dataset": "TechSlides",
+    "question": "How does Portfolio Resource Management improve time-to-market?",
+    "reference": "Portfolio Resource Management can reduce time-to-market by 50%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/248_248.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/253_253.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/251_251.png"
+    ]
+  },
+  {
+    "example_index": 259,
+    "dataset": "TechSlides",
+    "question": "What is the deployment time frame for Apptio compared to other tools?",
+    "reference": "Apptio offers a quick time-to-value with a 4-16 week configuration and 3-week training, whereas other tools may require customized services and training for IT planning and onboarding.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/257_257.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/260_260.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/261_261.png"
+    ]
+  },
+  {
+    "example_index": 266,
+    "dataset": "TechSlides",
+    "question": "How does Apptio use AI to optimize cloud and other technology spend?",
+    "reference": "Apptio uses AI to optimize cloud and other technology spend through advanced forecasting and cloud savings optimization and automation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/265_265.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/267_267.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/266_266.png"
+    ]
+  },
+  {
+    "example_index": 271,
+    "dataset": "TechSlides",
+    "question": "What technologies are used in ApptioOne Costing and ApptioOne Planning?",
+    "reference": "ApptioOne Costing and ApptioOne Planning both use Java technology.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/270_270.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/271_271.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/286_286.png"
+    ]
+  },
+  {
+    "example_index": 273,
+    "dataset": "TechSlides",
+    "question": "What are the primary questions IBM Apptio can answer regarding cloud cost control?",
+    "reference": "IBM Apptio can answer questions like how to get control of cost overages, how to consistently manage workloads and costs across multiple clouds, and how to best cut or redirect costs from addressable tech spend.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/273_273.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/275_275.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/274_274.png"
+    ]
+  },
+  {
+    "example_index": 275,
+    "dataset": "TechSlides",
+    "question": "What are the key questions related to cloud FinOps that IBM Apptio can address?",
+    "reference": "IBM Apptio can address questions such as how to get more transparency into cloud spend, how to migrate to the cloud with a comparison to on-prem footprint, how to get control of cost overages, and how to consistently manage workloads and costs across multiple clouds.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/275_275.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/274_274.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/273_273.png"
+    ]
+  },
+  {
+    "example_index": 284,
+    "dataset": "TechSlides",
+    "question": "What are the different technology spend areas that Apptio bridges?",
+    "reference": "Apptio bridges IT Technology Budget, Business Unit/Product Technology Spend, Digital Transformation/Marketing Tech Spend, and Shadow IT/Other Spend.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/284_284.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/232_232.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/233_233.png"
+    ]
+  },
+  {
+    "example_index": 289,
+    "dataset": "TechSlides",
+    "question": "How can type definitions be used in watsonx Orchestrate?",
+    "reference": "Type definitions can be verbalized to ensure that business rules are intelligible for domain experts.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/290_290.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/289_289.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/334_334.png"
+    ]
+  },
+  {
+    "example_index": 294,
+    "dataset": "TechSlides",
+    "question": "What are the key features of decision models in IBM Watson Orchestrate?",
+    "reference": "The key features of decision models in IBM Watson Orchestrate include logical decomposition, use of decision tables, business-friendly language, and interactive validation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/294_294.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/297_297.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/787_787.png"
+    ]
+  },
+  {
+    "example_index": 300,
+    "dataset": "TechSlides",
+    "question": "What are the main functionalities of the Document Extractor tool in watsonx Orchestrate?",
+    "reference": "The main functionalities include classifying, extracting, and reviewing documents, as well as configuring confidence thresholds and extraction rules.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/300_300.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/301_301.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/302_302.png"
+    ]
+  },
+  {
+    "example_index": 306,
+    "dataset": "TechSlides",
+    "question": "What is the primary objective of the AI assistant in the context of digital labor?",
+    "reference": "The primary objective of the AI assistant in the context of digital labor is to enable self-service for customers, employees, and knowledge workers through personalized and outcome-centric assistance.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/306_306.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/791_791.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/796_796.png"
+    ]
+  },
+  {
+    "example_index": 308,
+    "dataset": "TechSlides",
+    "question": "What are the three main types of conversations that can be created using the AI Assistant Builder?",
+    "reference": "The three main types of conversations that can be created using the AI Assistant Builder are AI-guided conversations, skill-based conversations, and custom-built conversations.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/308_308.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/309_309.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/310_310.png"
+    ]
+  },
+  {
+    "example_index": 309,
+    "dataset": "TechSlides",
+    "question": "What are the options available for building custom-built actions in the AI Assistant Builder?",
+    "reference": "For building custom-built actions in the AI Assistant Builder, you can design your own step-by-step conversation flow.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/308_308.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/309_309.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/288_288.png"
+    ]
+  },
+  {
+    "example_index": 310,
+    "dataset": "TechSlides",
+    "question": "What kind of tasks fall under the 'Nuanced informational tasks' category?",
+    "reference": "Nuanced informational tasks involve actions such as signing up for a new health plan.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/310_310.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/710_710.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1160_1160.png"
+    ]
+  },
+  {
+    "example_index": 312,
+    "dataset": "TechSlides",
+    "question": "What are the expected business impacts in the Customer Care department with AI Assistants?",
+    "reference": "The expected business impacts in the Customer Care department with AI Assistants include better resolution times, reduced cost to serve, higher CSAT, and higher agent retention.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/311_311.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/312_312.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/706_706.png"
+    ]
+  },
+  {
+    "example_index": 313,
+    "dataset": "TechSlides",
+    "question": "What is the focus of Digital Labor as described by IBM?",
+    "reference": "Digital Labor focuses on augmenting human value, inter-connectivity of tools, people, and processes, and reimagining business processes for efficiency in today's world of AI & automation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/314_314.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/313_313.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/791_791.png"
+    ]
+  },
+  {
+    "example_index": 319,
+    "dataset": "TechSlides",
+    "question": "How does IBM view the capability of generative AI in generating content?",
+    "reference": "IBM views generative AI as capable of generating written and visual content, but it advises that this content should be proofread.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1162_1162.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1230_1230.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1163_1163.png"
+    ]
+  },
+  {
+    "example_index": 325,
+    "dataset": "TechSlides",
+    "question": "What is ControlWORQ?",
+    "reference": "ControlWORQ provides controlled, auditable journal entries and automated intercompany eliminations for PA.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/322_322.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/321_321.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/325_325.png"
+    ]
+  },
+  {
+    "example_index": 327,
+    "dataset": "TechSlides",
+    "question": "What types of asset types can be saved in IBM Watsonx Prompt Lab?",
+    "reference": "In IBM Watsonx Prompt Lab, you can save your work by selecting from three types of assets: Prompt template, Prompt session, and Notebook.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/327_327.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1249_1249.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1251_1251.png"
+    ]
+  },
+  {
+    "example_index": 332,
+    "dataset": "TechSlides",
+    "question": "When and where is the IBM TechXchange event on No Code UI Automation taking place?",
+    "reference": "The IBM TechXchange event on No Code UI Automation is taking place from October 21-24, 2024, at the Mandalay Bay Convention Center in Las Vegas, Nevada.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/332_332.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/333_333.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/336_336.png"
+    ]
+  },
+  {
+    "example_index": 340,
+    "dataset": "TechSlides",
+    "question": "What does the myBiros platform offer in terms of document processing capabilities?",
+    "reference": "The myBiros platform offers the ability to process any document with no limitations in terms of formats, type, and languages.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1333_1333.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/340_340.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1332_1332.png"
+    ]
+  },
+  {
+    "example_index": 342,
+    "dataset": "TechSlides",
+    "question": "What are the main functionalities of GenAI as a data analysis partner?",
+    "reference": "The main functionalities of GenAI include analyzing large datasets, identifying trends, generating data summaries and reports, and supporting data-driven decision making.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/342_342.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/343_343.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1338_1338.png"
+    ]
+  },
+  {
+    "example_index": 346,
+    "dataset": "TechSlides",
+    "question": "What types of automation are involved in the cloud and data center automation step of the process?",
+    "reference": "The cloud and data center automation step involves local file system, Azure Blob and Data Lake Storage, and Google Cloud Storage.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/346_346.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/881_881.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/840_840.png"
+    ]
+  },
+  {
+    "example_index": 347,
+    "dataset": "TechSlides",
+    "question": "What are the main functionalities highlighted in the key features section of IBM AI Data Advisor (AIDA)?",
+    "reference": "The main functionalities highlighted in the key features section of IBM AI Data Advisor (AIDA) are historical data analysis, anomaly detection, and alerting.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/347_347.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/364_364.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/365_365.png"
+    ]
+  },
+  {
+    "example_index": 357,
+    "dataset": "TechSlides",
+    "question": "What is the initial step in the AI-assisted loan approval process according to IBM Workload Automation?",
+    "reference": "The initial step in the AI-assisted loan approval process is to open and evaluate the loan request.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/357_357.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1348_1348.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1345_1345.png"
+    ]
+  },
+  {
+    "example_index": 361,
+    "dataset": "TechSlides",
+    "question": "What types of documents are required for AI-driven workload optimization in the HR industry?",
+    "reference": "The documents required for AI-driven workload optimization in the HR industry include ID cards, passports, driver's licenses, health cards, receipts, and payrolls.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/359_359.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/361_361.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/360_360.png"
+    ]
+  },
+  {
+    "example_index": 364,
+    "dataset": "TechSlides",
+    "question": "What is the optional component in AIDA for managing security and user access?",
+    "reference": "The optional component in AIDA for managing security and user access is Keycloak.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/365_365.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/364_364.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1350_1350.png"
+    ]
+  },
+  {
+    "example_index": 367,
+    "dataset": "TechSlides",
+    "question": "What is the main role of GenAI in the context of IBM Workload Automation?",
+    "reference": "GenAI serves as a powerful tool for augmenting automation and enhancing human capabilities in the context of IBM Workload Automation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/348_348.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/352_352.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/353_353.png"
+    ]
+  },
+  {
+    "example_index": 368,
+    "dataset": "TechSlides",
+    "question": "What are the key attributes that make IBM Workload Automation stand out according to the Magic Quadrant?",
+    "reference": "IBM Workload Automation stands out due to its scalability for complex workloads, ability to deploy anywhere, AI-powered automation, hybrid cloud strategy, and strong global footprint and support.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1353_1353.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/368_368.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1283_1283.png"
+    ]
+  },
+  {
+    "example_index": 372,
+    "dataset": "TechSlides",
+    "question": "What percentage of businesses have seen accelerated product delivery and better alignment between IT and their top three objectives?",
+    "reference": "60% of businesses have seen accelerated product delivery and better alignment between IT and their top three objectives.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/372_372.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/371_371.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/369_369.png"
+    ]
+  },
+  {
+    "example_index": 374,
+    "dataset": "TechSlides",
+    "question": "What factors are considered when assessing resources in the resource management process?",
+    "reference": "When assessing resources, the factors considered include Skillset, Type, Bill Rate, and Time Zone.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/374_374.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/393_393.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/238_238.png"
+    ]
+  },
+  {
+    "example_index": 379,
+    "dataset": "TechSlides",
+    "question": "What is the main objective of the Enterprise level in the Enterprise Agile framework?",
+    "reference": "The main objective at the Enterprise level is to set and change the strategy confidently and quickly re-align to new priorities.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/380_380.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/379_379.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/381_381.png"
+    ]
+  },
+  {
+    "example_index": 382,
+    "dataset": "TechSlides",
+    "question": "What is the main objective of the Enterprise level in the context of Enterprise Agile?",
+    "reference": "The main objective of the Enterprise level is to set and change the strategy confidently and quickly re-align to new priorities.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/380_380.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/379_379.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/381_381.png"
+    ]
+  },
+  {
+    "example_index": 384,
+    "dataset": "TechSlides",
+    "question": "What are the benefits of moving towards continuous product development and delivery as suggested in the 'Enterprise Agile Made Easy' guide?",
+    "reference": "The benefits of moving towards continuous product development and delivery, as suggested in the 'Enterprise Agile Made Easy' guide, include faster response to customer needs and market opportunities, enabling more agile and effective operations.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/384_384.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/383_383.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/385_385.png"
+    ]
+  },
+  {
+    "example_index": 386,
+    "dataset": "TechSlides",
+    "question": "What are the main functionalities highlighted for IBM Apptio Targetprocess?",
+    "reference": "The main functionalities highlighted for IBM Apptio Targetprocess are achieving alignment across the business, maximizing productivity and efficiency, and accelerating decision making.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/386_386.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/385_385.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/278_278.png"
+    ]
+  },
+  {
+    "example_index": 390,
+    "dataset": "TechSlides",
+    "question": "How does Enterprise Agile Made Easy assist in reducing financial risks?",
+    "reference": "Enterprise Agile Made Easy reduces financial risks by improving the accuracy of capitalization tracking and providing end-to-end visibility.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/390_390.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/384_384.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/383_383.png"
+    ]
+  },
+  {
+    "example_index": 407,
+    "dataset": "TechSlides",
+    "question": "What steps are involved in the backbone of the AI lifecycle?",
+    "reference": "The steps involved are collecting, processing, and preparing quality data every time from finding data to deploying models.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/405_405.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/407_407.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/406_406.png"
+    ]
+  },
+  {
+    "example_index": 409,
+    "dataset": "TechSlides",
+    "question": "How did Netflix use AI to enhance user experiences?",
+    "reference": "Netflix used AI recommendations to give users personalized experiences.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/409_409.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/413_413.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/410_410.png"
+    ]
+  },
+  {
+    "example_index": 424,
+    "dataset": "TechSlides",
+    "question": "How many users were shortlisted for 1:1 interviews in the Unleash the Power of Your Decisions with AI v19B research?",
+    "reference": "14 users were shortlisted for 1:1 interviews.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/422_422.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/427_427.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/425_425.png"
+    ]
+  },
+  {
+    "example_index": 425,
+    "dataset": "TechSlides",
+    "question": "How many participants have taken the screener in the Unleash the Power of Your Decisions with AI v19B research?",
+    "reference": "634 participants have taken the screener.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/422_422.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/427_427.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/425_425.png"
+    ]
+  },
+  {
+    "example_index": 426,
+    "dataset": "TechSlides",
+    "question": "How many users expressed interest in participating in 1:1 interviews?",
+    "reference": "41 users expressed interest in participating in 1:1 interviews.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/422_422.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/427_427.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/425_425.png"
+    ]
+  },
+  {
+    "example_index": 433,
+    "dataset": "TechSlides",
+    "question": "What kind of support does IBM ODM 9.0 offer for machine learning models defined in IBM Cloud Pak for Data - Watson ML?",
+    "reference": "IBM ODM 9.0 offers support for models defined in IBM Cloud Pak for Data - Watson ML, with a sample provided in the ODM documentation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/433_433.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/432_432.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1070_1070.png"
+    ]
+  },
+  {
+    "example_index": 435,
+    "dataset": "TechSlides",
+    "question": "What percentage of users agree that the feedback loop adds value in improving business outcomes according to IBM's research?",
+    "reference": "About 85% of users agree that the feedback loop adds value in improving business outcomes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/438_438.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/437_437.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/435_435.png"
+    ]
+  },
+  {
+    "example_index": 436,
+    "dataset": "TechSlides",
+    "question": "What percentage of users rate generative AI in decisions highly according to IBM's research?",
+    "reference": "Approximately 72% of users rate generative AI in decisions highly.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/435_435.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/434_434.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/436_436.png"
+    ]
+  },
+  {
+    "example_index": 446,
+    "dataset": "TechSlides",
+    "question": "What was the annual savings achieved by Wolters Kluwer through cloud cost optimization?",
+    "reference": "Wolters Kluwer achieved annual savings of $16 million on cloud costs.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/444_444.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/443_443.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/445_445.png"
+    ]
+  },
+  {
+    "example_index": 449,
+    "dataset": "TechSlides",
+    "question": "What is the expected reduction in cloud unit costs with Cloudability?",
+    "reference": "Cloudability can help reduce cloud unit costs by 30% or more.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/450_450.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/449_449.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/448_448.png"
+    ]
+  },
+  {
+    "example_index": 458,
+    "dataset": "TechSlides",
+    "question": "What are the primary obstacles to achieving FinOps according to IBM?",
+    "reference": "The primary obstacles to achieving FinOps according to IBM include inconsistent tagging and costing across cloud providers, inability to detect cloud waste and idle resources, difficulty in comparing multi-cloud discount programs, inability to assign or reduce container costs, and challenges in determining cost drivers and allocating shared costs accurately.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/457_457.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/458_458.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/608_608.png"
+    ]
+  },
+  {
+    "example_index": 460,
+    "dataset": "TechSlides",
+    "question": "Which companies in the Financial Services sector are involved in cloud optimization?",
+    "reference": "The companies in the Financial Services sector involved in cloud optimization are Morgan Stanley, T. Rowe Price, Goldman Sachs, and Securian.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/461_461.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/460_460.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/459_459.png"
+    ]
+  },
+  {
+    "example_index": 473,
+    "dataset": "TechSlides",
+    "question": "What are the various stages of enhancements in the IBM SevOne application centric network observability journey?",
+    "reference": "The various stages of enhancements in the IBM SevOne application centric network observability journey include Service Profile Enrichment, Application Bandwidth Alerts, ASN Network Enrichment, Country Enrichment, Metric to Flow Improvements, Application ID & Resolution, SaaS Application Enrichment, Application Categories, Flow to Metric Workflows, Application Views, Application Report Variables, SaaS Application Enrichment, IPv6 support, Flow to Metric Chain Enhancement, Kubernetes monitoring via eBPF, visibility into K8s network traffic, and per conversation RTT/latency.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/473_473.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/482_482.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/495_495.png"
+    ]
+  },
+  {
+    "example_index": 480,
+    "dataset": "TechSlides",
+    "question": "What cloud services does IBM SevOne monitor for AWS?",
+    "reference": "IBM SevOne monitors AWS services such as EC2, S3, Transit Gateway, NAT Gateway, Network Load Balancers, Direct Connect, and EBS Volume.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/479_479.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/480_480.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/495_495.png"
+    ]
+  },
+  {
+    "example_index": 488,
+    "dataset": "TechSlides",
+    "question": "How many SaaS application fingerprints are included in the SevOne system?",
+    "reference": "The SevOne system includes nearly 5000 SaaS application fingerprints.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/490_490.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/489_489.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/491_491.png"
+    ]
+  },
+  {
+    "example_index": 498,
+    "dataset": "TechSlides",
+    "question": "What are the three main strategies IBM employs to continuously assure network performance?",
+    "reference": "The three main strategies IBM employs are automating network actions based on ML observations, reducing repetitive tasks through automation, and leveraging self-service API-based data extraction.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/496_496.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/498_498.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/497_497.png"
+    ]
+  },
+  {
+    "example_index": 510,
+    "dataset": "TechSlides",
+    "question": "What is the credit limit offered for the Platinum Credit Card by Banorte?",
+    "reference": "The credit limit offered for the Platinum Credit Card by Banorte is $133,000 MXN.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/512_512.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/511_511.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/510_510.png"
+    ]
+  },
+  {
+    "example_index": 511,
+    "dataset": "TechSlides",
+    "question": "What is the target age group for the Platinum Credit Card marketing campaign by Banorte?",
+    "reference": "The target age group for the Platinum Credit Card marketing campaign by Banorte is 55 years old.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/510_510.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/509_509.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/511_511.png"
+    ]
+  },
+  {
+    "example_index": 516,
+    "dataset": "TechSlides",
+    "question": "What awards has Banorte won in 2023?",
+    "reference": "Banorte has won the 'Best SME Bank Award' and 'Best Middle Market Bank' from Global Finance in 2023.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/517_517.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/516_516.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/518_518.png"
+    ]
+  },
+  {
+    "example_index": 521,
+    "dataset": "TechSlides",
+    "question": "What is the projected mobile banking usage percentage for the European Union in 2024?",
+    "reference": "The projected mobile banking usage percentage for the European Union in 2024 is 79%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/525_525.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/524_524.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/522_522.png"
+    ]
+  },
+  {
+    "example_index": 526,
+    "dataset": "TechSlides",
+    "question": "What is the projected number of Banorte POS terminals for 2024?",
+    "reference": "The projected number of Banorte POS terminals for 2024 is 219,586.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/527_527.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/526_526.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/524_524.png"
+    ]
+  },
+  {
+    "example_index": 530,
+    "dataset": "TechSlides",
+    "question": "Why is it beneficial to use AI agents in marketing according to the information provided?",
+    "reference": "AI agents can decrease manual quality assessments, write messages for multiple channels, provide data access through Banorte tools, maintain long-term memory for follow-ups, and collect customer interaction data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/532_532.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/531_531.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/530_530.png"
+    ]
+  },
+  {
+    "example_index": 533,
+    "dataset": "TechSlides",
+    "question": "What is the projected value of the AI Agents market by 2030?",
+    "reference": "The AI Agents market is projected to reach $47.1 billion by 2030.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/535_535.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/534_534.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/533_533.png"
+    ]
+  },
+  {
+    "example_index": 534,
+    "dataset": "TechSlides",
+    "question": "What is the projected market size of AI Agents in billions by 2030?",
+    "reference": "The projected market size of AI Agents by 2030 is $47.1 billion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/535_535.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/534_534.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/533_533.png"
+    ]
+  },
+  {
+    "example_index": 540,
+    "dataset": "TechSlides",
+    "question": "What is the name of the virtual assistant that Banorte developed with the help of AI?",
+    "reference": "The name of the virtual assistant that Banorte developed with the help of AI is Maya.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/539_539.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/538_538.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/540_540.png"
+    ]
+  },
+  {
+    "example_index": 541,
+    "dataset": "TechSlides",
+    "question": "What is the percentage of respondents who want their bank to be an important part of their regular routine, like a gym?",
+    "reference": "29% of respondents want their bank to be an important part of their regular routine, like a gym.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/542_542.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/545_545.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/543_543.png"
+    ]
+  },
+  {
+    "example_index": 559,
+    "dataset": "TechSlides",
+    "question": "What is the purpose of the data translation layer in the IBM Cloud Sync process?",
+    "reference": "The data translation layer in IBM Cloud Sync harmonizes configuration settings between different cloud environments.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/555_555.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/558_558.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/556_556.png"
+    ]
+  },
+  {
+    "example_index": 562,
+    "dataset": "TechSlides",
+    "question": "What benefits are offered to participants in the IBM Cloud Sync design partner program?",
+    "reference": "Participants in the IBM Cloud Sync design partner program receive early access to innovative capabilities, the ability to guide the IBM Cloud Sync roadmap, and access to current IBM NS1 Connect customers as well as businesses without an existing IBM footprint.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/562_562.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/561_561.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/560_560.png"
+    ]
+  },
+  {
+    "example_index": 564,
+    "dataset": "TechSlides",
+    "question": "Which trend is associated with the term 'Low Code/No Code' in the Sippli v3 report?",
+    "reference": "The trend associated with the term 'Low Code/No Code' in the Sippli v3 report is related to reducing the need for extensive coding in operations.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/564_564.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/582_582.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/581_581.png"
+    ]
+  },
+  {
+    "example_index": 569,
+    "dataset": "TechSlides",
+    "question": "What does the term HyperAutomation imply according to the given definitions?",
+    "reference": "The term HyperAutomation implies a comprehensive approach to automating all possible processes within an organization using a combination of advanced technologies.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/570_570.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/569_569.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/568_568.png"
+    ]
+  },
+  {
+    "example_index": 579,
+    "dataset": "TechSlides",
+    "question": "Which university is Aidan N. Gomez affiliated with?",
+    "reference": "Aidan N. Gomez is affiliated with the University of Toronto.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/578_578.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/577_577.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/579_579.png"
+    ]
+  },
+  {
+    "example_index": 580,
+    "dataset": "TechSlides",
+    "question": "What is the name of the new simple network architecture proposed in the abstract?",
+    "reference": "The new simple network architecture proposed in the abstract is called the Transformer.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/579_579.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/580_580.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/577_577.png"
+    ]
+  },
+  {
+    "example_index": 585,
+    "dataset": "TechSlides",
+    "question": "What types of data can be collected using OpenTelemetry?",
+    "reference": "OpenTelemetry can collect telemetry data including traces, metrics, and logs.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1330_1330.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1329_1329.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/585_585.png"
+    ]
+  },
+  {
+    "example_index": 593,
+    "dataset": "TechSlides",
+    "question": "How does the number of open-source foundation models compare to limited and no-license models in 2023?",
+    "reference": "In 2023, 48 open-source foundation models were released, compared to 38 limited and 28 no-license models.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/595_595.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/594_594.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/592_592.png"
+    ]
+  },
+  {
+    "example_index": 597,
+    "dataset": "TechSlides",
+    "question": "How many closed issues are there for the 'open-telemetry' project?",
+    "reference": "There are 126 closed issues for the 'open-telemetry' project in the given timeframe.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/597_597.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/585_585.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/584_584.png"
+    ]
+  },
+  {
+    "example_index": 599,
+    "dataset": "TechSlides",
+    "question": "How many virtual memory optimizations were conducted as part of Vivo's efficiency journey?",
+    "reference": "3673 virtual memory optimizations were conducted.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/599_599.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/601_601.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/604_604.png"
+    ]
+  },
+  {
+    "example_index": 604,
+    "dataset": "TechSlides",
+    "question": "What are the main drivers for reducing investment costs in Vivo's efficiency journey?",
+    "reference": "The main drivers for reducing investment costs in Vivo's efficiency journey are the purchase of hardware and supporting green growth.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/604_604.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/602_602.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/603_603.png"
+    ]
+  },
+  {
+    "example_index": 605,
+    "dataset": "TechSlides",
+    "question": "How does the term FinOps combine different disciplines?",
+    "reference": "The term FinOps combines Finance and DevOps, emphasizing the collaboration between business and operations teams.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/607_607.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/606_606.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/605_605.png"
+    ]
+  },
+  {
+    "example_index": 606,
+    "dataset": "TechSlides",
+    "question": "What role does the FinOps team play in infrastructure changes?",
+    "reference": "The FinOps team plays a role in managing infrastructure changes as depicted by the arrows pointing from the team to the cloud providers (AWS, Azure, Google Cloud).",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/607_607.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/606_606.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/605_605.png"
+    ]
+  },
+  {
+    "example_index": 611,
+    "dataset": "TechSlides",
+    "question": "What are the benefits of using IBM Turbonomic for infrastructure utilization?",
+    "reference": "IBM Turbonomic benefits infrastructure utilization by eliminating performance degradation issues and avoiding overprovisioning.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/612_612.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/611_611.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/466_466.png"
+    ]
+  },
+  {
+    "example_index": 612,
+    "dataset": "TechSlides",
+    "question": "What are the main objectives of using IBM Turbonomic for IT staff productivity?",
+    "reference": "The main objectives of using IBM Turbonomic for IT staff productivity include simplifying tasks, automating decisions, and gaining time for innovation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/612_612.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/611_611.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/66_66.png"
+    ]
+  },
+  {
+    "example_index": 614,
+    "dataset": "TechSlides",
+    "question": "How many organizations have a multicloud strategy according to the information provided?",
+    "reference": "93% of organizations have a multicloud strategy.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/614_614.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/616_616.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/615_615.png"
+    ]
+  },
+  {
+    "example_index": 616,
+    "dataset": "TechSlides",
+    "question": "What percentage of mission-critical apps are expected to be hosted in the public cloud by 2024?",
+    "reference": "50% of mission-critical apps will be hosted in the public cloud by 2024.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/616_616.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/614_614.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/615_615.png"
+    ]
+  },
+  {
+    "example_index": 617,
+    "dataset": "TechSlides",
+    "question": "What type of management is shown to handle virtual machines?",
+    "reference": "Virtual Machine Management is shown to handle virtual machines.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/617_617.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1296_1296.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/661_661.png"
+    ]
+  },
+  {
+    "example_index": 622,
+    "dataset": "TechSlides",
+    "question": "What is the return on investment timeframe mentioned for cloud elasticity improvements?",
+    "reference": "The return on investment in less than six months.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/622_622.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/621_621.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/620_620.png"
+    ]
+  },
+  {
+    "example_index": 627,
+    "dataset": "TechSlides",
+    "question": "What type of interface does the Athena Owl Agent Framework support for tool calling?",
+    "reference": "The Athena Owl Agent Framework supports a conversational interface with tool calling.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/627_627.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/646_646.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/649_649.png"
+    ]
+  },
+  {
+    "example_index": 631,
+    "dataset": "TechSlides",
+    "question": "What are the main components of the Athena Core in the Athena Solution Stack?",
+    "reference": "The main components of Athena Core are Athena Wisdom Forge and Athena OwlAgent.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/630_630.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/629_629.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/631_631.png"
+    ]
+  },
+  {
+    "example_index": 634,
+    "dataset": "TechSlides",
+    "question": "How does the Pure Gen AI approach handle customer messages?",
+    "reference": "In the Pure Gen AI approach, the LLM analyzes customer messages to extract intent and context.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/636_636.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/635_635.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/637_637.png"
+    ]
+  },
+  {
+    "example_index": 635,
+    "dataset": "TechSlides",
+    "question": "How does the Hybrid AI approach differ in handling business rules?",
+    "reference": "The Hybrid AI approach uses Business Rules to outline complaint management policies and interpret policies to determine the right course of action.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/634_634.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/637_637.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/636_636.png"
+    ]
+  },
+  {
+    "example_index": 637,
+    "dataset": "TechSlides",
+    "question": "What is the primary difference between the two AI approaches in terms of their use of business rules?",
+    "reference": "The primary difference is that the Pure Gen AI approach uses RAG for corporate documentation, whereas the Hybrid AI approach uses Business Rules to outline and interpret policies.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/634_634.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/638_638.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/635_635.png"
+    ]
+  },
+  {
+    "example_index": 639,
+    "dataset": "TechSlides",
+    "question": "What is the expertise of Jerome Boyer, Principal at Athena Decision Systems?",
+    "reference": "Jerome Boyer has 30+ years in intelligent automation, cloud, and AI system development.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/644_644.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/643_643.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/640_640.png"
+    ]
+  },
+  {
+    "example_index": 647,
+    "dataset": "TechSlides",
+    "question": "What are the main components of the Athena OwlAgent Framework?",
+    "reference": "The main components of the Athena OwlAgent Framework are Tools, Agents, and Prompts.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/649_649.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/648_648.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/646_646.png"
+    ]
+  },
+  {
+    "example_index": 659,
+    "dataset": "TechSlides",
+    "question": "What are the benefits of using IBM Planning Analytics for supplier incentive and bonus plans?",
+    "reference": "The benefits include simulating and calculating the consequences of new agreements, ensuring correct compensation from suppliers, getting an overview of all agreements and their value, securing scalability by decentralizing, automating alerts and reporting, automatically identifying optimization opportunities, and providing insights and observation lists for responsible parties.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/660_660.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/659_659.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/661_661.png"
+    ]
+  },
+  {
+    "example_index": 663,
+    "dataset": "TechSlides",
+    "question": "What sub-phases are included in the Development phase of the CogniTechs project model?",
+    "reference": "The sub-phases included in the Development phase of the CogniTechs project model are Evaluate, Design, Test, and Build.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/662_662.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/663_663.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/721_721.png"
+    ]
+  },
+  {
+    "example_index": 664,
+    "dataset": "TechSlides",
+    "question": "What are the different types of bonus agreements mentioned in the context of IBM Planning Analytics?",
+    "reference": "The different types of bonus agreements mentioned are step-wise bouses (scale), volume bonuses, campaign bonuses, and marketing bonuses.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/664_664.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/665_665.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/661_661.png"
+    ]
+  },
+  {
+    "example_index": 665,
+    "dataset": "TechSlides",
+    "question": "What are the specific examples of bonus agreements mentioned in the context of IBM Planning Analytics?",
+    "reference": "The specific examples of bonus agreements mentioned are step-wise bouses (scale), volume bonuses, campaign bonuses, and marketing bonuses.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/665_665.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/664_664.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/661_661.png"
+    ]
+  },
+  {
+    "example_index": 678,
+    "dataset": "TechSlides",
+    "question": "What are the key benefits of using Cognos, Planning Analytics, and Process Mining as described on the page?",
+    "reference": "The key benefits of using Cognos, Planning Analytics, and Process Mining include access to existing data, holistic process visibility, root cause analysis, identification of process bottlenecks, enhanced compliance management, conformance monitoring, and simulation and impact analysis.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/676_676.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/678_678.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/688_688.png"
+    ]
+  },
+  {
+    "example_index": 679,
+    "dataset": "TechSlides",
+    "question": "What is the average achievement level of successful digital transformation initiatives?",
+    "reference": "Successful digital transformation initiatives, on average, achieve only 10% of the overall objectives.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/681_681.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/679_679.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/680_680.png"
+    ]
+  },
+  {
+    "example_index": 682,
+    "dataset": "TechSlides",
+    "question": "What kind of analysis does Cognos provide when data is uploaded?",
+    "reference": "Cognos provides a complete automatic analysis highlighting issues, recommended actions, and expected benefits in natural language.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/682_682.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/683_683.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/675_675.png"
+    ]
+  },
+  {
+    "example_index": 684,
+    "dataset": "TechSlides",
+    "question": "What engine is IBM's Planning Analytics built on?",
+    "reference": "IBM's Planning Analytics is built on the powerful TM1 engine.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/684_684.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/685_685.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/784_784.png"
+    ]
+  },
+  {
+    "example_index": 687,
+    "dataset": "TechSlides",
+    "question": "What does the term 'Acceleration' refer to in the context of IBM Planning Analytics?",
+    "reference": "Acceleration in IBM Planning Analytics refers to reducing planning, forecasting, and analysis cycles to get real-time insights and make more informed decisions.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/688_688.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/687_687.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/689_689.png"
+    ]
+  },
+  {
+    "example_index": 689,
+    "dataset": "TechSlides",
+    "question": "How does IBM Planning Analytics help in adjusting plans and forecasts in real-time?",
+    "reference": "IBM Planning Analytics allows for easy adjustment of plans and forecasts in real-time to anticipate or adapt to changing business strategies and conditions, providing agility.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/687_687.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/689_689.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/688_688.png"
+    ]
+  },
+  {
+    "example_index": 695,
+    "dataset": "TechSlides",
+    "question": "What are the key elements of IBM's DevOps and Observability services?",
+    "reference": "The key elements of IBM's DevOps and Observability services include Docker image repository, classic deployment pipelines, and log analysis.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/695_695.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/694_694.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/841_841.png"
+    ]
+  },
+  {
+    "example_index": 706,
+    "dataset": "TechSlides",
+    "question": "What are the tools for improving business performance with AI-powered automation according to the BA Spotlight page?",
+    "reference": "The tools for improving business performance with AI-powered automation according to the BA Spotlight page are process mining, decision management, process and case management, content services, robotic process automation, and operational intelligence.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/706_706.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/713_713.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1261_1261.png"
+    ]
+  },
+  {
+    "example_index": 707,
+    "dataset": "TechSlides",
+    "question": "What are the expected improvements in financial processes due to AI according to the IBM TechXchange report?",
+    "reference": "Adoption of AI assistant technology reduces uncollectable balances by 43% and cuts monthly close cycle time by 33%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/707_707.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/709_709.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/708_708.png"
+    ]
+  },
+  {
+    "example_index": 708,
+    "dataset": "TechSlides",
+    "question": "What is the expected impact of AI on customer experience and sales forecast errors according to the IBM TechXchange report?",
+    "reference": "AI will interact directly with customers in the next two years and reduce sales forecast errors by 57%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/707_707.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/708_708.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/709_709.png"
+    ]
+  },
+  {
+    "example_index": 710,
+    "dataset": "TechSlides",
+    "question": "What are the key capabilities of 'Agents' as outlined in the IBM TextXchange BA Spotlight page?",
+    "reference": "Agents are capable of multistep processes, autonomous action taking, and self-correcting.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/710_710.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/714_714.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/715_715.png"
+    ]
+  },
+  {
+    "example_index": 724,
+    "dataset": "TechSlides",
+    "question": "What types of data are included in the upstream data layer for Teradata?",
+    "reference": "The types of data included in the upstream data layer for Teradata are client data, accounts (e.g., loans, mortgage, investments), transactions, credit bureau data, and data from retail and small business clients.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/725_725.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/724_724.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/721_721.png"
+    ]
+  },
+  {
+    "example_index": 725,
+    "dataset": "TechSlides",
+    "question": "What are the main tools and platforms used in the Cloud Pak for Data (CP4D) stage?",
+    "reference": "The main tools and platforms used in the Cloud Pak for Data (CP4D) stage include Watson Knowledge Catalog, Watson Studio Local, Watson Machine Learning, Watson OpenScale, and Red Hat OpenShift Container Platform.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/724_724.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/725_725.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1277_1277.png"
+    ]
+  },
+  {
+    "example_index": 727,
+    "dataset": "TechSlides",
+    "question": "How many types of strategy refresh processes are there according to the IBM TechXchange document?",
+    "reference": "According to the IBM TechXchange document, there are three types of strategy refresh processes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/727_727.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/728_728.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/730_730.png"
+    ]
+  },
+  {
+    "example_index": 739,
+    "dataset": "TechSlides",
+    "question": "What kind of recognition capabilities does IBM AIOps provide?",
+    "reference": "IBM AIOps provides capabilities for incident and pattern recognition.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/739_739.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/744_744.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/743_743.png"
+    ]
+  },
+  {
+    "example_index": 740,
+    "dataset": "TechSlides",
+    "question": "What types of data sources are used to detect anomalies in the incident lifecycle according to the diagram?",
+    "reference": "The types of data sources used to detect anomalies in the incident lifecycle include leading indicator data sources such as change requests, logs, metrics, and toadology.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/740_740.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/741_741.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1280_1280.png"
+    ]
+  },
+  {
+    "example_index": 741,
+    "dataset": "TechSlides",
+    "question": "What are the lagging indicator data sources used for anomaly detection in the incident lifecycle?",
+    "reference": "The lagging indicator data sources used for anomaly detection in the incident lifecycle include events/alerts and incidents.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/740_740.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/741_741.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1296_1296.png"
+    ]
+  },
+  {
+    "example_index": 745,
+    "dataset": "TechSlides",
+    "question": "How does anomaly detection contribute to early issue detection in IBM's solution?",
+    "reference": "Anomaly detection in IBM's solution helps by identifying log and metric anomalies in real-time, facilitating early detection of issues.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/581_581.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/583_583.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/582_582.png"
+    ]
+  },
+  {
+    "example_index": 748,
+    "dataset": "TechSlides",
+    "question": "What types of automation levels are recommended by the system for issue remediation?",
+    "reference": "The system recommends three levels of automation for issue remediation: manual step-by-step guidance, semi-automated guidance, and full auto-triggered automation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/748_748.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1287_1287.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1288_1288.png"
+    ]
+  },
+  {
+    "example_index": 753,
+    "dataset": "TechSlides",
+    "question": "What is the typical time frame for the detection stage in incident management?",
+    "reference": "The typical time frame for the detection stage is 50 minutes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/753_753.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/752_752.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/161_161.png"
+    ]
+  },
+  {
+    "example_index": 757,
+    "dataset": "TechSlides",
+    "question": "What is the compounded annual growth rate (CAGR) of the IDP market from 2023 to 2028?",
+    "reference": "The compounded annual growth rate (CAGR) of the IDP market from 2023 to 2028 is 35%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/756_756.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/759_759.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/760_760.png"
+    ]
+  },
+  {
+    "example_index": 758,
+    "dataset": "TechSlides",
+    "question": "What is the projected market size of the IDP market by 2028 according to IBM TechXchange?",
+    "reference": "The projected market size of the IDP market by 2028 is 10 billion US dollars.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/757_757.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/756_756.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/760_760.png"
+    ]
+  },
+  {
+    "example_index": 772,
+    "dataset": "TechSlides",
+    "question": "What is one of the key opportunities mentioned in the Better Business Automation AI Journey & Roadmap?",
+    "reference": "One of the key opportunities mentioned in the Better Business Automation AI Journey & Roadmap is the availability of lots of data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/772_772.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/773_773.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/774_774.png"
+    ]
+  },
+  {
+    "example_index": 777,
+    "dataset": "TechSlides",
+    "question": "What was the primary tool used for data accreditation in the past?",
+    "reference": "The primary tool used for data accreditation in the past was Excel.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/777_777.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/774_774.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/891_891.png"
+    ]
+  },
+  {
+    "example_index": 778,
+    "dataset": "TechSlides",
+    "question": "What are the tools listed for enhancing Customer Support?",
+    "reference": "The tools listed for enhancing Customer Support are watsonx assistant, IBM Cloud Pak for Data, watsonx.ai, watsonx Orchestrator, and IBM Concert.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/778_778.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1195_1195.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1194_1194.png"
+    ]
+  },
+  {
+    "example_index": 779,
+    "dataset": "TechSlides",
+    "question": "What are the main aspects IBM considers for building a talented team?",
+    "reference": "IBM considers deep expertise in technical and soft skills, global teams, simplified team structure, direct to SME, and eliminating complexity with simple workflows for building a talented team.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/779_779.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/703_703.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/287_287.png"
+    ]
+  },
+  {
+    "example_index": 780,
+    "dataset": "TechSlides",
+    "question": "How many support cases are handled by IBM Watson each year?",
+    "reference": "IBM Watson assists in 2.9 million support cases per year.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/782_782.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/781_781.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/780_780.png"
+    ]
+  },
+  {
+    "example_index": 793,
+    "dataset": "TechSlides",
+    "question": "What are the initial offerings mentioned for managing documents in IBM's FileNet system?",
+    "reference": "The initial offerings mentioned for managing documents in IBM's FileNet system include IBM FileNet Content Manager, IBM Business Automation Workflow, and IBM Cloud Pak for Business Automation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/794_794.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/793_793.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/792_792.png"
+    ]
+  },
+  {
+    "example_index": 797,
+    "dataset": "TechSlides",
+    "question": "What types of skills can be trained and published to the skills catalog?",
+    "reference": "The skills catalog can train automations as new skills and publish them to the skills catalog.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/797_797.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/292_292.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/706_706.png"
+    ]
+  },
+  {
+    "example_index": 802,
+    "dataset": "TechSlides",
+    "question": "What are the examples of tasks performed by Predictive AI according to the IBM Decisions page?",
+    "reference": "Predictive AI is trained with a series of examples, such as identifying pictures of triangles.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1018_1018.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1019_1019.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/802_802.png"
+    ]
+  },
+  {
+    "example_index": 809,
+    "dataset": "TechSlides",
+    "question": "What are the key benefits of using AI for task prioritization in business automation?",
+    "reference": "The key benefits include integrating information, processes, and users to achieve a 360\u00b0 work perspective, higher employee satisfaction, better overall performance, doing more with less, improving customer experience, and optimizing operational performance.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/809_809.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/808_808.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1161_1161.png"
+    ]
+  },
+  {
+    "example_index": 811,
+    "dataset": "TechSlides",
+    "question": "What are some ways AI can drive growth and retention according to the page?",
+    "reference": "AI can drive growth and retention by leveraging each client touchpoint to provide superior experiences.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/811_811.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/812_812.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/397_397.png"
+    ]
+  },
+  {
+    "example_index": 815,
+    "dataset": "TechSlides",
+    "question": "How does the adoption rate of customer success functions relate to the perception of service as a value center?",
+    "reference": "The adoption rate of customer success functions is 80% higher in businesses that view service as a value center.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/816_816.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/815_815.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/814_814.png"
+    ]
+  },
+  {
+    "example_index": 817,
+    "dataset": "TechSlides",
+    "question": "What is the proportion of companies that fully commit to service as a value center according to Enhance CX with watsonx Orchestrate?",
+    "reference": "Only 20% of companies fully commit to service as a value center, which enhances customer relationships and drives sustainable growth.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/820_820.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/819_819.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/817_817.png"
+    ]
+  },
+  {
+    "example_index": 820,
+    "dataset": "TechSlides",
+    "question": "What is the difference in revenue growth between companies with different service views?",
+    "reference": "Companies that view service as a value center see 3.5 times more revenue growth than those that view it as a cost center.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/820_820.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/819_819.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/817_817.png"
+    ]
+  },
+  {
+    "example_index": 823,
+    "dataset": "TechSlides",
+    "question": "What percentage of B2B and B2C customers indicate that proactive service solutions are important?",
+    "reference": "78% of B2B and 65% of B2C customers indicate that proactive service solutions are important.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/823_823.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/822_822.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/821_821.png"
+    ]
+  },
+  {
+    "example_index": 824,
+    "dataset": "TechSlides",
+    "question": "What is the significance of proactive service solutions for B2B customers?",
+    "reference": "Proactive service solutions are important for 78% of B2B customers.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/822_822.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/821_821.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/823_823.png"
+    ]
+  },
+  {
+    "example_index": 834,
+    "dataset": "TechSlides",
+    "question": "What are the different types of failures mentioned in the IT Automation Technical Roadmap?",
+    "reference": "The different types of failures mentioned in the IT Automation Technical Roadmap are 'The Hard Failure', 'The Human Failure', and 'The Preventable Failure'.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/833_833.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/829_829.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/834_834.png"
+    ]
+  },
+  {
+    "example_index": 837,
+    "dataset": "TechSlides",
+    "question": "What are the specific capabilities related to planning and forecasting in the Apptio Platform?",
+    "reference": "The specific capabilities related to planning and forecasting in the Apptio Platform include planning and forecasting.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/838_838.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/837_837.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/839_839.png"
+    ]
+  },
+  {
+    "example_index": 849,
+    "dataset": "TechSlides",
+    "question": "How do carriers benefit from partnering with Claims Connection Group?",
+    "reference": "Carriers gain access to Claims Connection Group's software solutions, which reduce no-pay claims and overhead costs.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/845_845.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/844_844.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/849_849.png"
+    ]
+  },
+  {
+    "example_index": 850,
+    "dataset": "TechSlides",
+    "question": "What is the name of the software solution provided by Claims Connection Group (CCG) for insurance claims?",
+    "reference": "The software solution provided by Claims Connection Group (CCG) for insurance claims is the CCG Software Solution.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/850_850.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/846_846.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/847_847.png"
+    ]
+  },
+  {
+    "example_index": 853,
+    "dataset": "TechSlides",
+    "question": "How does the system's capacity scale with the number of users?",
+    "reference": "The system's capacity scales linearly with the number of users, increasing by 288 for each additional user.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/853_853.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/851_851.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/852_852.png"
+    ]
+  },
+  {
+    "example_index": 865,
+    "dataset": "TechSlides",
+    "question": "How many new features and enhancements are mentioned in the announcement?",
+    "reference": "The announcement mentions 60+ new features and enhancements.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/865_865.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/864_864.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1255_1255.png"
+    ]
+  },
+  {
+    "example_index": 869,
+    "dataset": "TechSlides",
+    "question": "What are the key advantages of using PostgreSQL in production environments according to IBM?",
+    "reference": "According to IBM, the key advantages include enhanced performance and reliability, seamless integration, improved deployment efficiency, and scalability and flexibility.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/869_869.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1265_1265.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/53_53.png"
+    ]
+  },
+  {
+    "example_index": 872,
+    "dataset": "TechSlides",
+    "question": "Which Red Hat OpenShift versions are expected to be supported until the Cloud Pak version is no longer within base support?",
+    "reference": "Future versions of Red Hat OpenShift are expected to be supported until the Cloud Pak for Business Automation version is no longer within base support.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/870_870.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/873_873.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/872_872.png"
+    ]
+  },
+  {
+    "example_index": 877,
+    "dataset": "TechSlides",
+    "question": "What are the enhancements made to the out-of-box configuration for improving memory management in IBM's CP4BA?",
+    "reference": "The enhancements include Huge Page Support to optimize memory management and improve application performance.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/877_877.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/876_876.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/869_869.png"
+    ]
+  },
+  {
+    "example_index": 878,
+    "dataset": "TechSlides",
+    "question": "What are the key components of the 'Evolve' phase in IBM's business automation strategy?",
+    "reference": "The key components of the 'Evolve' phase include evolving watsonx to agentic assistants, evolving Workflow to Agentic Process/Case capability, enhancing Content Services with advanced analytics, and evolving Process Mining & Blueworks Live to a cohesive Automation Planning offering.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/879_879.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/878_878.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1259_1259.png"
+    ]
+  },
+  {
+    "example_index": 881,
+    "dataset": "TechSlides",
+    "question": "What are the different levels of management IBM offers for its cloud solutions?",
+    "reference": "IBM offers three levels of management for its cloud solutions: Software, System as a Service, and fully managed by IBM/Vendor, catering to different client needs.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/881_881.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/798_798.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/617_617.png"
+    ]
+  },
+  {
+    "example_index": 890,
+    "dataset": "TechSlides",
+    "question": "How does the Watson Assistant facilitate interactions with the BDC database at USAA?",
+    "reference": "The Watson Assistant, in conjunction with Watsonx.ai, is used to facilitate interactions with the BDC database by providing a predictable format for answers and additional context.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/890_890.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/901_901.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/884_884.png"
+    ]
+  },
+  {
+    "example_index": 893,
+    "dataset": "TechSlides",
+    "question": "What types of decisions related to accounts have been deployed by USAA in February 2024?",
+    "reference": "Decisions related to accounts deployed by USAA in February 2024 include identifying account holders' likelihood, changing the payload for account holder data, and determining account holder daily limits.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/894_894.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/893_893.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/892_892.png"
+    ]
+  },
+  {
+    "example_index": 899,
+    "dataset": "TechSlides",
+    "question": "What actions can a Data Administrator perform on decision information in the BDC Database at USAA?",
+    "reference": "A Data Administrator at USAA can add, delete, and update decision information in the BDC Database using the Data Management Tool.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/896_896.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/895_895.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/900_900.png"
+    ]
+  },
+  {
+    "example_index": 901,
+    "dataset": "TechSlides",
+    "question": "How does the Watson AI interact with the BDC database?",
+    "reference": "Watson generates SQL queries and sends them to the BDC database to retrieve information, such as the number of decisions.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/890_890.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/901_901.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/896_896.png"
+    ]
+  },
+  {
+    "example_index": 902,
+    "dataset": "TechSlides",
+    "question": "What was the initial activity in the pilot engagement process at USAA?",
+    "reference": "The initial activity in the pilot engagement process at USAA was a discovery workshop held in February 2024.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/903_903.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/902_902.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/99_99.png"
+    ]
+  },
+  {
+    "example_index": 905,
+    "dataset": "TechSlides",
+    "question": "What kind of interface is used to connect IBM Automation Decision Services with the workflow?",
+    "reference": "A discoverable REST interface is used to connect IBM Automation Decision Services with the workflow.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/905_905.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/904_904.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/810_810.png"
+    ]
+  },
+  {
+    "example_index": 907,
+    "dataset": "TechSlides",
+    "question": "What are the best practices to follow when upgrading CP4BA according to the suggested best practices?",
+    "reference": "The best practices to follow when upgrading CP4BA include watching the CP4BA Upgrade - IBM Automation Community Session, performing upgrade planning, understanding your install topology, using rolling upgrades, and utilizing CP4BA upgrade documentation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/907_907.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/54_54.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/972_972.png"
+    ]
+  },
+  {
+    "example_index": 909,
+    "dataset": "TechSlides",
+    "question": "What specific considerations are required for successful instance migration in IBM BAW?",
+    "reference": "Process design considerations are required for successful instance migration documentation, including understanding how application artifacts are handled during migration to avoid migration failure.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/909_909.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/908_908.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/972_972.png"
+    ]
+  },
+  {
+    "example_index": 920,
+    "dataset": "TechSlides",
+    "question": "What are the best practices for designing toolkits in IBM BAW Implementation?",
+    "reference": "The best practices include reducing the number and sizes of toolkits, combining granular toolkits, avoiding deeply nested toolkit hierarchies, creating toolkits per logical domains, and ensuring all toolkits are in the same supported version.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/921_921.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/920_920.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/929_929.png"
+    ]
+  },
+  {
+    "example_index": 923,
+    "dataset": "TechSlides",
+    "question": "What is the advantage of using API-based data transfer in IBM Business Automation?",
+    "reference": "The advantage of using API-based data transfer in IBM Business Automation is that it avoids costly manual data preparation and import of process data into IBM Process Mining.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/923_923.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/346_346.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/497_497.png"
+    ]
+  },
+  {
+    "example_index": 928,
+    "dataset": "TechSlides",
+    "question": "What is the recommended frequency for defining a policy on handling failed tasks in IBM BAW?",
+    "reference": "A clear policy on how to deal with failed or suspended tasks should be defined and can be done daily, weekly, or monthly depending on the specific needs and policy.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/927_927.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/928_928.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/915_915.png"
+    ]
+  },
+  {
+    "example_index": 930,
+    "dataset": "TechSlides",
+    "question": "How can I ask a question within the IBM Business Automation Community?",
+    "reference": "You can ask a question by clicking on the 'Ask a question' button on the IBM Business Automation Community page.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/930_930.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/931_931.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/493_493.png"
+    ]
+  },
+  {
+    "example_index": 936,
+    "dataset": "TechSlides",
+    "question": "How many hours is the Business Automation Workshop 23.0.2 Advanced course?",
+    "reference": "The Business Automation Workshop 23.0.2 Advanced course is 16 hours long.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/936_936.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/983_983.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/985_985.png"
+    ]
+  },
+  {
+    "example_index": 937,
+    "dataset": "TechSlides",
+    "question": "What are the roles and their corresponding permissions in IBM BAW Workflow Center?",
+    "reference": "In IBM BAW Workflow Center, the roles are Developer, Admin, and Viewer, and their corresponding permissions are Read, Edit, and Admin.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/938_938.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/937_937.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/855_855.png"
+    ]
+  },
+  {
+    "example_index": 940,
+    "dataset": "TechSlides",
+    "question": "What environments does the IBM BPM runtime and database tuning apply to?",
+    "reference": "The IBM BPM runtime and database tuning apply to the Workflow Server running in both WAS and CP4BA environments.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/939_939.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/940_940.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/941_941.png"
+    ]
+  },
+  {
+    "example_index": 941,
+    "dataset": "TechSlides",
+    "question": "What are the primary resources for best practices in IBM Business Process Manager?",
+    "reference": "The primary resources for best practices in IBM Business Process Manager are the Operations Guide and the V8.5 Performance Tuning and Best Practices guide.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/940_940.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/939_939.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/941_941.png"
+    ]
+  },
+  {
+    "example_index": 961,
+    "dataset": "TechSlides",
+    "question": "What are the benefits of using IBM Business Automation Insights for operational teams?",
+    "reference": "Using IBM Business Automation Insights, operational teams can gain actionable insights from business operations running across the automation platform.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/962_962.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/961_961.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/880_880.png"
+    ]
+  },
+  {
+    "example_index": 971,
+    "dataset": "TechSlides",
+    "question": "What are the benefits of using the CP4BA Container-based form factor of BAW according to IBM?",
+    "reference": "The CP4BA Container-based form factor of BAW is favored because container-based offerings are the future, and IBM is investing in new features for this form factor.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/970_970.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/969_969.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/968_968.png"
+    ]
+  },
+  {
+    "example_index": 976,
+    "dataset": "TechSlides",
+    "question": "What are the recommended practices for designing APIs to handle integration errors?",
+    "reference": "The recommended practices for designing APIs include knowing how the API signals integration errors, using HTTP status codes instead of exceptions, and testing the API to see how it raises integration errors.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/979_979.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/978_978.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/976_976.png"
+    ]
+  },
+  {
+    "example_index": 988,
+    "dataset": "TechSlides",
+    "question": "What potential impact does the static analysis highlight for repeating content in IBM BAW?",
+    "reference": "The static analysis shows the potential impact of repeating content with a large number of repeating items.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/988_988.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/948_948.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/921_921.png"
+    ]
+  },
+  {
+    "example_index": 997,
+    "dataset": "TechSlides",
+    "question": "What are some methods to broaden the inputs to rules using IBM Decisions and genAI?",
+    "reference": "Methods include writing new rules against email content, identifying keywords in narratives, and using genAI to determine the materiality and relevance of text.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/997_997.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/996_996.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/989_989.png"
+    ]
+  },
+  {
+    "example_index": 1000,
+    "dataset": "TechSlides",
+    "question": "What is the usefulness rating of generative models in segmentation/classification?",
+    "reference": "The usefulness rating of generative models in segmentation/classification is medium.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1001_1001.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1000_1000.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/998_998.png"
+    ]
+  },
+  {
+    "example_index": 1005,
+    "dataset": "TechSlides",
+    "question": "What is the final decision-making step in the automated churn prevention process?",
+    "reference": "The final decision-making step is to decide on an offer that makes sense given the customer's value and the risk of churn.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1005_1005.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/398_398.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/397_397.png"
+    ]
+  },
+  {
+    "example_index": 1017,
+    "dataset": "TechSlides",
+    "question": "What is the expected productivity gain across various classes of knowledge workers and creative tasks?",
+    "reference": "The image indicates that there will be an 80% productivity gain across classes of knowledge workers and creative tasks.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1017_1017.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1016_1016.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1015_1015.png"
+    ]
+  },
+  {
+    "example_index": 1024,
+    "dataset": "TechSlides",
+    "question": "How does the 'Black Box' nature of ML and AI models affect trust according to the image?",
+    "reference": "The 'Black Box' nature of ML and AI models affects trust by making it difficult for users to understand how conclusions are reached, which eliminates the need for transparency.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1024_1024.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/684_684.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/685_685.png"
+    ]
+  },
+  {
+    "example_index": 1035,
+    "dataset": "TechSlides",
+    "question": "What role does real-time data integration play in enhancing compliance efficiency according to IBM?",
+    "reference": "According to IBM, real-time data integration, specifically vessel and container tracking with continuous blacklist updates, provides accurate, timely data to enhance risk assessments and compliance efficiency.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1035_1035.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1036_1036.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1037_1037.png"
+    ]
+  },
+  {
+    "example_index": 1043,
+    "dataset": "TechSlides",
+    "question": "What are the operational fabric challenges highlighted in the trade finance process?",
+    "reference": "The challenges include the inability to offer new products, scale the business due to manual processes, and fragmented processes with manual interventions.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1038_1038.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1039_1039.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1043_1043.png"
+    ]
+  },
+  {
+    "example_index": 1046,
+    "dataset": "TechSlides",
+    "question": "How does the prevalence of fraudulent documents affect financial institutions according to IBM?",
+    "reference": "The prevalence of fraudulent trade documents, altered terms, and duplicate invoices makes it crucial for financial institutions to implement robust trade detection systems to validate document authenticity effectively, as highlighted by IBM TechExchange.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1046_1046.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1047_1047.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1035_1035.png"
+    ]
+  },
+  {
+    "example_index": 1053,
+    "dataset": "TechSlides",
+    "question": "What is the final step before a job offer is made in the interview process?",
+    "reference": "The final step before a job offer is made is the 'Final Interview' stage, where the candidate meets with key stakeholders to assess their fit for the role.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1053_1053.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1052_1052.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/813_813.png"
+    ]
+  },
+  {
+    "example_index": 1056,
+    "dataset": "TechSlides",
+    "question": "How does the Decision Service interact with different types of applications?",
+    "reference": "The Decision Service interacts with various applications including legacy systems, websites, business processes, enterprise applications, and mobile applications by making decisions and taking actions based on the decision model.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1158_1158.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1023_1023.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1147_1147.png"
+    ]
+  },
+  {
+    "example_index": 1058,
+    "dataset": "TechSlides",
+    "question": "What is the focus of the Python AI Toolkit for IBM z/OS in terms of development?",
+    "reference": "The Python AI Toolkit for IBM z/OS focuses on delivering industry-leading AI Python packages to enable a familiar, flexible, and agile delivery experience.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1059_1059.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1058_1058.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1057_1057.png"
+    ]
+  },
+  {
+    "example_index": 1069,
+    "dataset": "TechSlides",
+    "question": "How does the usage of COBOL compare to other programming languages in terms of the percentage of businesses and governments using it?",
+    "reference": "COBOL is used significantly more than other programming languages, with 48% of businesses and governments reporting its extensive use.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1068_1068.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1067_1067.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1066_1066.png"
+    ]
+  },
+  {
+    "example_index": 1070,
+    "dataset": "TechSlides",
+    "question": "What are the supported environments for deploying the machine learning models?",
+    "reference": "The supported environments for deploying the machine learning models are Machine Learning for z/OS and IBM Cloud Pak for Data - Watson ML.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1070_1070.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1077_1077.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1078_1078.png"
+    ]
+  },
+  {
+    "example_index": 1074,
+    "dataset": "TechSlides",
+    "question": "What percentage of Fortune 500 companies use Mainframes?",
+    "reference": "71% of Fortune 500 companies use Mainframes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1072_1072.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1071_1071.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1074_1074.png"
+    ]
+  },
+  {
+    "example_index": 1076,
+    "dataset": "TechSlides",
+    "question": "Which components are involved in the deployment of AI models on IBM z/OS?",
+    "reference": "The components involved in the deployment of AI models on IBM z/OS include the AI Model, Data Prep, Model Training, Model Import, and Off-platform AI Model Deployment.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1078_1078.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1077_1077.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1075_1075.png"
+    ]
+  },
+  {
+    "example_index": 1079,
+    "dataset": "TechSlides",
+    "question": "How does the number of Google searches per second compare to the number of transactions on IBM Z mainframes per second?",
+    "reference": "The number of transactions on IBM Z mainframes is significantly higher, at 1.3 million per second, compared to 68,500 Google searches per second.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1083_1083.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1082_1082.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1079_1079.png"
+    ]
+  },
+  {
+    "example_index": 1080,
+    "dataset": "TechSlides",
+    "question": "What percentage of global IT workloads are processed by mainframes?",
+    "reference": "According to the page, mainframes process 60% of global IT workloads.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1082_1082.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1081_1081.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1079_1079.png"
+    ]
+  },
+  {
+    "example_index": 1094,
+    "dataset": "TechSlides",
+    "question": "What is the total amount of assets managed by Protecci\u00f3n?",
+    "reference": "$21.98 billion",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1094_1094.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1093_1093.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1095_1095.png"
+    ]
+  },
+  {
+    "example_index": 1101,
+    "dataset": "TechSlides",
+    "question": "What is the focus of ethical compliance in AI governance as per IBM?",
+    "reference": "The focus of ethical compliance in AI governance as per IBM is to ensure adherence to ethical and corporate principles, promoting responsible AI practice.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1101_1101.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1097_1097.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1224_1224.png"
+    ]
+  },
+  {
+    "example_index": 1102,
+    "dataset": "TechSlides",
+    "question": "What are the core components that support the AI assistants on the IBM Watsonx platform?",
+    "reference": "The core components that support the AI assistants on the IBM Watsonx platform are watsonx.ai, watsonx governance, and watsonx.data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1103_1103.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1102_1102.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/27_27.png"
+    ]
+  },
+  {
+    "example_index": 1104,
+    "dataset": "TechSlides",
+    "question": "Which company provides the 'llama-2-70b-chat' model?",
+    "reference": "Meta provides the 'llama-2-70b-chat' model.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1104_1104.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/291_291.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/184_184.png"
+    ]
+  },
+  {
+    "example_index": 1112,
+    "dataset": "TechSlides",
+    "question": "What is the expenditure on Generative AI for business users in the United Kingdom?",
+    "reference": "The expenditure on Generative AI for business users in the United Kingdom is $4.2 trillion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1117_1117.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1116_1116.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1114_1114.png"
+    ]
+  },
+  {
+    "example_index": 1117,
+    "dataset": "TechSlides",
+    "question": "What is the investment in generative AI for business users in China?",
+    "reference": "The investment in generative AI for business users in China is $24.3 trillion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1117_1117.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1116_1116.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1114_1114.png"
+    ]
+  },
+  {
+    "example_index": 1127,
+    "dataset": "TechSlides",
+    "question": "What does IBM emphasize regarding the flexibility of Kogito?",
+    "reference": "IBM emphasizes that Kogito offers greater cloud flexibility.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1128_1128.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1127_1127.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1131_1131.png"
+    ]
+  },
+  {
+    "example_index": 1138,
+    "dataset": "TechSlides",
+    "question": "What is the role of business process changes according to the IBM TechXchange presentation?",
+    "reference": "According to the IBM TechXchange presentation, the role of business process changes is to dissolve end-to-end processes into domain processes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1138_1138.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1139_1139.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1155_1155.png"
+    ]
+  },
+  {
+    "example_index": 1164,
+    "dataset": "TechSlides",
+    "question": "How does watsonx Orchestrate facilitate the integration of various business automation capabilities?",
+    "reference": "watsonx Orchestrate provides a common NL interface to all business automation capabilities, enabling the integration and utilization of these capabilities to power AI assistants.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/307_307.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/787_787.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/797_797.png"
+    ]
+  },
+  {
+    "example_index": 1174,
+    "dataset": "TechSlides",
+    "question": "How does IBM Business Automation Workflow help in improving productivity?",
+    "reference": "IBM Business Automation Workflow improves productivity by providing users with the right information at the right time, based on their roles.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1174_1174.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1173_1173.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1171_1171.png"
+    ]
+  },
+  {
+    "example_index": 1178,
+    "dataset": "TechSlides",
+    "question": "What are the key capabilities of Converge Technology Solutions?",
+    "reference": "The key capabilities of Converge Technology Solutions include specialized expertise, comprehensive capabilities, tailored innovation, and global reach with local support.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1176_1176.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1175_1175.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1177_1177.png"
+    ]
+  },
+  {
+    "example_index": 1180,
+    "dataset": "TechSlides",
+    "question": "What are the performance metrics evaluated for agents in the Smart Contact Center Solution with watsonx?",
+    "reference": "The performance metrics evaluated for agents include performance score, customer service skills, listening, tone, proactive, clarity, greeting, problem-solving skills, confirmation, call back, hold, topic performance, and performance trends.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1180_1180.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1179_1179.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1197_1197.png"
+    ]
+  },
+  {
+    "example_index": 1191,
+    "dataset": "TechSlides",
+    "question": "What is the year-over-year (YoY) trend for hold time according to Converge Technology Solutions?",
+    "reference": "The hold time has increased by 78.8% according to the YoY trends.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1188_1188.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1189_1189.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1193_1193.png"
+    ]
+  },
+  {
+    "example_index": 1193,
+    "dataset": "TechSlides",
+    "question": "What is the average number of service calls handled by these agents daily?",
+    "reference": "These agents handle approximately 250 million service calls per day.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1192_1192.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1191_1191.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1188_1188.png"
+    ]
+  },
+  {
+    "example_index": 1202,
+    "dataset": "TechSlides",
+    "question": "What does the Core Concert feature provide according to the IT Automation Spotlight?",
+    "reference": "The Core Concert feature provides a 360-degree view of applications to lower operational costs (TCO) across app management for application risk use cases.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1202_1202.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1210_1210.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1211_1211.png"
+    ]
+  },
+  {
+    "example_index": 1203,
+    "dataset": "TechSlides",
+    "question": "What are the dates and times for the sessions on risk-based vulnerability assessment with IBM Concert?",
+    "reference": "The sessions on risk-based vulnerability assessment with IBM Concert are scheduled for Wednesday, October 23 from 11:30 AM - 12:30 PM PDT and 1:00 PM - 4:00 PM PDT in South, Palm B, Level 3.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1205_1205.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1204_1204.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1203_1203.png"
+    ]
+  },
+  {
+    "example_index": 1206,
+    "dataset": "TechSlides",
+    "question": "What is the name of the company that focuses on a modernization journey with zero downtime?",
+    "reference": "The name of the company that focuses on a modernization journey with zero downtime is CAREY International.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1206_1206.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/289_289.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/689_689.png"
+    ]
+  },
+  {
+    "example_index": 1212,
+    "dataset": "TechSlides",
+    "question": "What type of improvements does IBM Turbonomic aim to achieve in AI workloads?",
+    "reference": "IBM Turbonomic aims to achieve performance optimization, ensuring faster response times and smoother experiences for AI workloads.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1213_1213.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1212_1212.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1201_1201.png"
+    ]
+  },
+  {
+    "example_index": 1217,
+    "dataset": "TechSlides",
+    "question": "What is the expected availability date for Red Hat OpenShift AI on IBM Cloud?",
+    "reference": "Red Hat OpenShift AI on IBM Cloud is expected to be available by the end of September.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1217_1217.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/201_201.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/202_202.png"
+    ]
+  },
+  {
+    "example_index": 1219,
+    "dataset": "TechSlides",
+    "question": "What is the expected impact of Generative AI on business processes over the next three years?",
+    "reference": "The page suggests that 80% of enterprises will have incorporated Generative AI into their business processes over the next three years.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1016_1016.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1015_1015.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1017_1017.png"
+    ]
+  },
+  {
+    "example_index": 1236,
+    "dataset": "TechSlides",
+    "question": "What is the URL for more information on the adoption of Intel Corporation Gaudi 3 AI accelerators by IBM Cloud?",
+    "reference": "More information can be found at https://ibm.biz/Gaudi-3.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1236_1236.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1017_1017.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/995_995.png"
+    ]
+  },
+  {
+    "example_index": 1239,
+    "dataset": "TechSlides",
+    "question": "What is the topic of the lab or session titled 'Automated generative AI deployments on IBM Cloud - Deployable Architecture'?",
+    "reference": "The lab or session titled 'Automated generative AI deployments on IBM Cloud - Deployable Architecture' focuses on automated generative AI deployments.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1240_1240.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1239_1239.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1227_1227.png"
+    ]
+  },
+  {
+    "example_index": 1247,
+    "dataset": "TechSlides",
+    "question": "What type of platform is being discussed for AI builders in the context of WatsonX?",
+    "reference": "The platform discussed for AI builders, including WatsonX, involves data and WatsonX governance.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1247_1247.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1248_1248.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1233_1233.png"
+    ]
+  },
+  {
+    "example_index": 1250,
+    "dataset": "TechSlides",
+    "question": "Who puts the asset into production in Watson's governance flow?",
+    "reference": "The MLOps Engineer is responsible for deploying the asset into production in Watson's governance flow.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1249_1249.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1251_1251.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1250_1250.png"
+    ]
+  },
+  {
+    "example_index": 1253,
+    "dataset": "TechSlides",
+    "question": "Where can I find more information about the IBM Cloud Pak for Business Automation in the IBM Cloud catalog?",
+    "reference": "You can find more information about the IBM Cloud Pak for Business Automation in the Azure Marketplace & IBM Cloud catalog under the Roadmap.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1253_1253.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/875_875.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/864_864.png"
+    ]
+  },
+  {
+    "example_index": 1258,
+    "dataset": "TechSlides",
+    "question": "What are the key steps outlined in IBM's Business Automation Strategy?",
+    "reference": "The key steps outlined in IBM's Business Automation Strategy are Extend, Expand, and Evolve.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/790_790.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/789_789.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/788_788.png"
+    ]
+  },
+  {
+    "example_index": 1259,
+    "dataset": "TechSlides",
+    "question": "What are the key capabilities that Decision capabilities expands to according to the Expand strategy?",
+    "reference": "According to the Expand strategy, Decision capabilities expand to a market-leading Decision Intelligence platform.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1258_1258.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/879_879.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/878_878.png"
+    ]
+  },
+  {
+    "example_index": 1265,
+    "dataset": "TechSlides",
+    "question": "What are the benefits of using PostgreSQL with Cloud Pak for Business Automation?",
+    "reference": "The benefits include enhanced performance and reliability, seamless integration with the Cloud Pak platform, improved deployment efficiency, and scalability and flexibility to meet growing business demands.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/869_869.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1265_1265.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/53_53.png"
+    ]
+  },
+  {
+    "example_index": 1267,
+    "dataset": "TechSlides",
+    "question": "What types of views does the IBM Cloud Pak for AIOps provide for incident management?",
+    "reference": "The IBM Cloud Pak for AIOps provides Incident View, Alert/Event Views, and Curated, Enriched Issue Views for incident management.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1281_1281.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1266_1266.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1267_1267.png"
+    ]
+  },
+  {
+    "example_index": 1268,
+    "dataset": "TechSlides",
+    "question": "What is the number of automation practitioners compared to the number of bots, runtime scripts, and automata deployed by IBM?",
+    "reference": "There are over 17,000 automation practitioners compared to 3,800 bots, runtime scripts, and automata deployed by IBM.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1269_1269.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1268_1268.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1270_1270.png"
+    ]
+  },
+  {
+    "example_index": 1270,
+    "dataset": "TechSlides",
+    "question": "How many automation clients does IBM serve compared to the number of patents it holds?",
+    "reference": "IBM serves over 5,000 automation clients compared to holding 8,682 U.S. patents in 2021.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1274_1274.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1273_1273.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1271_1271.png"
+    ]
+  },
+  {
+    "example_index": 1271,
+    "dataset": "TechSlides",
+    "question": "How many industry and domain heatmaps does IBM have expertise in compared to the number of patents it holds?",
+    "reference": "IBM has expertise in over 15 industry and domain heatmaps compared to holding 8,682 U.S. patents in 2021.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1272_1272.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1271_1271.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1269_1269.png"
+    ]
+  },
+  {
+    "example_index": 1280,
+    "dataset": "TechSlides",
+    "question": "How does IBM AIOps help in the detection of incidents?",
+    "reference": "IBM AIOps helps in the detection of incidents through automated device monitoring, automated pattern detection, and anomaly detection.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1280_1280.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/732_732.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1291_1291.png"
+    ]
+  },
+  {
+    "example_index": 1300,
+    "dataset": "TechSlides",
+    "question": "What percentage of users state they lack time to dedicate towards data stories in the context of using multiple BI tools?",
+    "reference": "47%",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1301_1301.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1304_1304.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1302_1302.png"
+    ]
+  },
+  {
+    "example_index": 1315,
+    "dataset": "TechSlides",
+    "question": "What is the combined percentage of respondents who consider OpenTelemetry support to be either required or very important?",
+    "reference": "82%",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1316_1316.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1315_1315.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1313_1313.png"
+    ]
+  },
+  {
+    "example_index": 1316,
+    "dataset": "TechSlides",
+    "question": "What is the percentage of respondents who are not using OpenTelemetry and have no plans to use it?",
+    "reference": "9%",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1316_1316.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1315_1315.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1313_1313.png"
+    ]
+  },
+  {
+    "example_index": 1317,
+    "dataset": "TechSlides",
+    "question": "What is the percentage of respondents who consider OpenTelemetry support to be very important in an observability solution?",
+    "reference": "50%",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1316_1316.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1315_1315.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1313_1313.png"
+    ]
+  },
+  {
+    "example_index": 1326,
+    "dataset": "TechSlides",
+    "question": "How does OpenTelemetry plan to handle data fragmentation?",
+    "reference": "OpenTelemetry aims to eliminate data fragmentation by implementing a single standard that collects all required observability data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1327_1327.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1326_1326.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1324_1324.png"
+    ]
+  },
+  {
+    "example_index": 1334,
+    "dataset": "TechSlides",
+    "question": "How does the system help in preventing issues and limiting their impact?",
+    "reference": "The system helps by enabling users to investigate and resolve issues before they have a critical impact, thus preventing issues and limiting their impact.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1334_1334.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1337_1337.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1335_1335.png"
+    ]
+  },
+  {
+    "example_index": 1336,
+    "dataset": "TechSlides",
+    "question": "What are the key features of the anomaly detection process in IBM Concert?",
+    "reference": "The key features include AI/ML analysis, alerting through email and DWC, and historical data analysis.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1337_1337.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1336_1336.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1334_1334.png"
+    ]
+  },
+  {
+    "example_index": 1341,
+    "dataset": "TechSlides",
+    "question": "What does the AIDA system enable users to do?",
+    "reference": "The AIDA system enables users to understand the root cause and resolve issues before they have an impact.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1352_1352.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1342_1342.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1341_1341.png"
+    ]
+  },
+  {
+    "example_index": 1343,
+    "dataset": "TechSlides",
+    "question": "What are some specific applications of IBM Concert's GenAI in creative content generation?",
+    "reference": "GenAI can generate poems, code, scripts, musical pieces, emails, and letters.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1343_1343.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1344_1344.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/349_349.png"
+    ]
+  },
+  {
+    "example_index": 1344,
+    "dataset": "TechSlides",
+    "question": "What is the role of machine learning in GenAI?",
+    "reference": "Machine learning algorithms are used in GenAI to learn patterns from existing data and create new content.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/356_356.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1344_1344.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1007_1007.png"
+    ]
+  },
+  {
+    "example_index": 1345,
+    "dataset": "TechSlides",
+    "question": "What is the initial step in the AI-assisted loan approval process as depicted by IBM Concert?",
+    "reference": "The initial step in the AI-assisted loan approval process is the 'OPEN EVALUATE LOAN REQUEST' task.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1345_1345.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1348_1348.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/357_357.png"
+    ]
+  },
+  {
+    "example_index": 1347,
+    "dataset": "TechSlides",
+    "question": "How does IBM Concert's AI Data Advisor define an anomaly in the KPI data?",
+    "reference": "An anomaly is defined as an unexpected KPI data point that falls outside the expected range of values, which is statistically defined based on historical KPI data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1347_1347.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1350_1350.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/364_364.png"
+    ]
+  },
+  {
+    "example_index": 1351,
+    "dataset": "TechSlides",
+    "question": "What are the two main paths for workload automation as described by IBM Concert?",
+    "reference": "The two main paths for workload automation as described by IBM Concert are Smart Workflows and AI-Assisted Interfaces.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1351_1351.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1353_1353.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/1348_1348.png"
+    ]
+  }
+]

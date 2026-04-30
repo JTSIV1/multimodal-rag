@@ -1,0 +1,1883 @@
+[
+  {
+    "example_index": 0,
+    "dataset": "FinancialReport",
+    "question": "What was the purchase price for the Candle Corporation acquisition by IBM in 2004?",
+    "reference": "The purchase price for the Candle Corporation acquisition by IBM in 2004 was $431 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/doc_0.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/doc_0.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/doc_0.png"
+    ]
+  },
+  {
+    "example_index": 3,
+    "dataset": "FinancialReport",
+    "question": "What was the dividend increase percentage announced by IBM in April 2006?",
+    "reference": "IBM announced a 50-percent increase in its quarterly dividend in April 2006.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/2_2.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/1_1.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/2_2.png"
+    ]
+  },
+  {
+    "example_index": 4,
+    "dataset": "FinancialReport",
+    "question": "What was the purchase price for the acquisition of Internet Security Systems (ISS) by IBM?",
+    "reference": "The purchase price for the acquisition of Internet Security Systems (ISS) by IBM was $137 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/4_4.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/4_4.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/4_4.png"
+    ]
+  },
+  {
+    "example_index": 5,
+    "dataset": "FinancialReport",
+    "question": "How did the number of employees in the U.S. change from 2005 to 2006?",
+    "reference": "The number of employees in the U.S. increased modestly by approximately 12.78% from 2005 to 2006.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/349_349.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/5_5.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/5_5.png"
+    ]
+  },
+  {
+    "example_index": 19,
+    "dataset": "FinancialReport",
+    "question": "What was the weighted-average exercise price of the options outstanding at IBM in 2006?",
+    "reference": "The weighted-average exercise price of the options outstanding at IBM in 2006 was $77 per share.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/18_18.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/17_17.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/19_19.png"
+    ]
+  },
+  {
+    "example_index": 29,
+    "dataset": "FinancialReport",
+    "question": "What was the percentage increase in IBM's microelectronics revenue in 2005 compared to 2004?",
+    "reference": "IBM's microelectronics revenue increased by 15.6 percent in 2005 compared to 2004.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/29_29.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/353_353.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/352_352.png"
+    ]
+  },
+  {
+    "example_index": 32,
+    "dataset": "FinancialReport",
+    "question": "What was the interest rate for IBM's commercial paper at the end of 2006?",
+    "reference": "The weighted-average interest rate for IBM's commercial paper at the end of 2006 was 3.3 percent.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/33_33.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/32_32.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/345_345.png"
+    ]
+  },
+  {
+    "example_index": 39,
+    "dataset": "FinancialReport",
+    "question": "What was the total amount of capitalized software IBM acquired in 2007?",
+    "reference": "The total amount of capitalized software IBM acquired in 2007 was $658 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/345_345.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/39_39.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/365_365.png"
+    ]
+  },
+  {
+    "example_index": 44,
+    "dataset": "FinancialReport",
+    "question": "How much of the 2012 contribution by IBM to its non-pension postretirement benefit plans was advanced funding for future benefit payments?",
+    "reference": "The 2012 contribution of $693 million by IBM to its non-pension postretirement benefit plans included $400 million as advanced funding for future benefit payments.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/44_44.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/363_363.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/546_546.png"
+    ]
+  },
+  {
+    "example_index": 51,
+    "dataset": "FinancialReport",
+    "question": "What was the residual value guarantee program's impact on revenue for IBM in 2013?",
+    "reference": "The residual value guarantee program resulted in IBM recognizing approximately $462 million of revenue that would otherwise have been recognized in future periods as operating lease revenue.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/589_589.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/797_797.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/51_51.png"
+    ]
+  },
+  {
+    "example_index": 52,
+    "dataset": "FinancialReport",
+    "question": "What were the tax-related challenges IBM faced in Brazil in 2013?",
+    "reference": "IBM faced challenges with Brazilian authorities regarding non-income tax assessments and non-income tax litigation matters, including claims for taxes on the importation of computer software. In November 2008, IBM won a significant case in the Superior Chamber of the federal administrative tax court in Brazil, and in late July 2009, the company received written confirmation regarding this decision.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/52_52.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/809_809.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/808_808.png"
+    ]
+  },
+  {
+    "example_index": 53,
+    "dataset": "FinancialReport",
+    "question": "What was the total revenue for IBM's Microelectronics OEM in 2013?",
+    "reference": "The total revenue for IBM's Microelectronics OEM in 2013 was $1,483 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/53_53.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/804_804.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/45_45.png"
+    ]
+  },
+  {
+    "example_index": 55,
+    "dataset": "FinancialReport",
+    "question": "What specific products did IBM invest in for core mobile enterprise capabilities in 2013?",
+    "reference": "IBM invested in core mobile enterprise capabilities such as IBM Worklight and IBM Rational in 2013.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/55_55.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/60_60.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/59_59.png"
+    ]
+  },
+  {
+    "example_index": 63,
+    "dataset": "FinancialReport",
+    "question": "How many stock options were canceled or expired at IBM in 2013?",
+    "reference": "IBM canceled or expired 86 stock options in 2013.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/64_64.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/63_63.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/153_153.png"
+    ]
+  },
+  {
+    "example_index": 70,
+    "dataset": "FinancialReport",
+    "question": "What were the two divestitures IBM completed in the fourth quarter of 2013?",
+    "reference": "The two divestitures were the Appocation (Content) business and the Cognos Application Development Tools (ADT) business.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/70_70.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/139_139.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/698_698.png"
+    ]
+  },
+  {
+    "example_index": 77,
+    "dataset": "FinancialReport",
+    "question": "How many Connections communities were established by employees for various projects or interests?",
+    "reference": "200,000 Connections communities were established by employees for projects, areas of expertise, or general interests.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/75_75.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/76_76.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/80_80.png"
+    ]
+  },
+  {
+    "example_index": 80,
+    "dataset": "FinancialReport",
+    "question": "How many employees collaborated in an online Jam to shape nine practices that distinguish IBMers?",
+    "reference": "250,000 employees collaborated in an online Jam to shape nine practices that distinguish IBMers.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/75_75.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/78_78.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/79_79.png"
+    ]
+  },
+  {
+    "example_index": 88,
+    "dataset": "FinancialReport",
+    "question": "How many security labs and security operations centers does IBM have globally?",
+    "reference": "IBM has 25 security labs globally and 10 security operations centers globally according to the financial report of 2013.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/88_88.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/563_563.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/562_562.png"
+    ]
+  },
+  {
+    "example_index": 93,
+    "dataset": "FinancialReport",
+    "question": "What was the total backlog for IBM's Global Services at the end of 2013?",
+    "reference": "The total backlog for IBM's Global Services at the end of 2013 was $142 billion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/92_92.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/93_93.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/91_91.png"
+    ]
+  },
+  {
+    "example_index": 107,
+    "dataset": "FinancialReport",
+    "question": "What is the focus of IBM's Enterprise Transformation strategy?",
+    "reference": "The focus of IBM's Enterprise Transformation strategy is to become a Smarter Enterprise, built on the foundation of internal transformation undertaken in the recent past where IBM standardized business processes and drove enterprise-wide improvements.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/108_108.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/107_107.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/807_807.png"
+    ]
+  },
+  {
+    "example_index": 112,
+    "dataset": "FinancialReport",
+    "question": "What was the total amount of gains or losses recognized in earnings from all derivative instruments in 2013?",
+    "reference": "The total amount of gains or losses recognized in earnings from all derivative instruments in 2013 was $947 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/567_567.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/568_568.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/112_112.png"
+    ]
+  },
+  {
+    "example_index": 114,
+    "dataset": "FinancialReport",
+    "question": "What factors contributed to the 0.3 point decrease in IBM's as-reported effective tax rate in 2012?",
+    "reference": "The 0.3 point decrease in IBM's as-reported effective tax rate in 2012 was primarily driven by a more favorable geographic mix of pre-tax earnings and a one-time benefit in the first quarter associated with a tax restructuring in Latin America.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/114_114.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/810_810.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/116_116.png"
+    ]
+  },
+  {
+    "example_index": 116,
+    "dataset": "FinancialReport",
+    "question": "How did the non-operating retirement-related cost change for IBM from 2012 to 2013?",
+    "reference": "The non-operating retirement-related cost increased by $524 million for IBM from 2012 to 2013.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/86_86.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/116_116.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/115_115.png"
+    ]
+  },
+  {
+    "example_index": 125,
+    "dataset": "FinancialReport",
+    "question": "What types of bonds did IBM issue in February 2016?",
+    "reference": "IBM issued $5.0 billion in bonds, including $3.0 billion of 10-year floating-rate bonds, $1.2 billion of 7-year fixed-rate bonds with a 1.5 percent coupon, $900 million of 7-year fixed-rate bonds with a 2.25 percent coupon, $1.35 billion of 10-year fixed-rate bonds with a 3.45 percent coupon, and $650 million of 30-year fixed-rate bonds with a 4.7 percent coupon.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/125_125.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/53_53.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/588_588.png"
+    ]
+  },
+  {
+    "example_index": 126,
+    "dataset": "FinancialReport",
+    "question": "What was the impact of the divestiture of the Microelectronics business on IBM's net income in 2015?",
+    "reference": "The divestiture of the Microelectronics business resulted in a net loss of $174 million in 2015, impacting IBM's net income.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/126_126.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/277_277.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/129_129.png"
+    ]
+  },
+  {
+    "example_index": 131,
+    "dataset": "FinancialReport",
+    "question": "Which companies has IBM Watson partnered with to expand client access to data?",
+    "reference": "IBM Watson has partnered with companies such as Twitter and Box, and acquired assets from The Weather Company to expand client access to data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/131_131.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/130_130.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/630_630.png"
+    ]
+  },
+  {
+    "example_index": 162,
+    "dataset": "FinancialReport",
+    "question": "How many current assets were acquired by IBM in 2014?",
+    "reference": "IBM acquired $56 million in current assets in 2014.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/162_162.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/65_65.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/708_708.png"
+    ]
+  },
+  {
+    "example_index": 167,
+    "dataset": "FinancialReport",
+    "question": "How are IBM's digital learning tools helping college professors manage their workload?",
+    "reference": "IBM's digital learning tools are helping professors work smarter by deploying AI teaching assistants to answer questions and provide guidance to students, allowing professors to focus on other tasks.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/169_169.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/168_168.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/167_167.png"
+    ]
+  },
+  {
+    "example_index": 169,
+    "dataset": "FinancialReport",
+    "question": "What is the role of Watson in assisting farmers with their crops?",
+    "reference": "Watson's natural language query capabilities enable law firms to sift through millions of legal documents, while farmers use Watson's predictive models to make more accurate decisions about managing their resources and costs.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/169_169.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/168_168.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/167_167.png"
+    ]
+  },
+  {
+    "example_index": 182,
+    "dataset": "FinancialReport",
+    "question": "Which cities besides Beijing have adopted IBM's air quality technologies?",
+    "reference": "Deli and Johannesburg have also adopted IBM's air quality technologies to address clean air initiatives.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/180_180.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/179_179.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/181_181.png"
+    ]
+  },
+  {
+    "example_index": 183,
+    "dataset": "FinancialReport",
+    "question": "What was the consolidated debt-to-capitalization ratio of IBM at the end of 2016?",
+    "reference": "The consolidated debt-to-capitalization ratio of IBM at the end of 2016 was 69.6 percent.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/265_265.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/183_183.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/140_140.png"
+    ]
+  },
+  {
+    "example_index": 188,
+    "dataset": "FinancialReport",
+    "question": "How did the EMEA (Europe, Middle East, and Africa) region perform for IBM in 2016?",
+    "reference": "The EMEA region saw a revenue decrease of 15.1% in 2016 compared to 2015.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/187_187.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/188_188.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/233_233.png"
+    ]
+  },
+  {
+    "example_index": 191,
+    "dataset": "FinancialReport",
+    "question": "What was the revenue from Transaction Processing Software in 2015?",
+    "reference": "The revenue from Transaction Processing Software in 2015 was $5,819 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/191_191.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/452_452.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/453_453.png"
+    ]
+  },
+  {
+    "example_index": 194,
+    "dataset": "FinancialReport",
+    "question": "What is the accuracy rate of Watson in predicting hypoglycemic incidents?",
+    "reference": "Watson can predict hypoglycemic incidents with nearly 90 percent accuracy within a 2- to 3-hour window.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/194_194.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/193_193.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/195_195.png"
+    ]
+  },
+  {
+    "example_index": 198,
+    "dataset": "FinancialReport",
+    "question": "What services does IBM offer to help clients assess their risk and compliance against industry guidelines?",
+    "reference": "IBM offers analytics to help clients assess their risk and compliance against industry guidelines, using a cognitive approach to provide deeper and faster findings.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/198_198.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/617_617.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/616_616.png"
+    ]
+  },
+  {
+    "example_index": 201,
+    "dataset": "FinancialReport",
+    "question": "What was the current ratio of IBM at December 31, 2016?",
+    "reference": "The current ratio of IBM at December 31, 2016, was 1.21:1.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/240_240.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/201_201.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/200_200.png"
+    ]
+  },
+  {
+    "example_index": 203,
+    "dataset": "FinancialReport",
+    "question": "What percentage of the world's largest banks use IBM products to run their systems?",
+    "reference": "97%",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/205_205.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/204_204.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/203_203.png"
+    ]
+  },
+  {
+    "example_index": 212,
+    "dataset": "FinancialReport",
+    "question": "How much were the fully reserved financing receivables in major markets for IBM in 2016?",
+    "reference": "The fully reserved financing receivables in major markets for IBM in 2016 were $11 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/212_212.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/211_211.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/227_227.png"
+    ]
+  },
+  {
+    "example_index": 215,
+    "dataset": "FinancialReport",
+    "question": "What is the gross realized loss IBM recorded in the first quarter of 2016 related to the sale of the System x business?",
+    "reference": "IBM recorded a gross realized loss of $37 million in the first quarter of 2016 related to the sale of the System x business.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/462_462.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/215_215.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/135_135.png"
+    ]
+  },
+  {
+    "example_index": 220,
+    "dataset": "FinancialReport",
+    "question": "What was the intercompany activity debt for IBM in 2016?",
+    "reference": "The intercompany activity debt for IBM in 2016 was $(3,925) million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/556_556.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/518_518.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/220_220.png"
+    ]
+  },
+  {
+    "example_index": 228,
+    "dataset": "FinancialReport",
+    "question": "What was the external gross profit margin for Technology Services & Cloud Platforms in 2016 for IBM?",
+    "reference": "The external gross profit margin for Technology Services & Cloud Platforms in 2016 for IBM was 42.7%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/228_228.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/172_172.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/173_173.png"
+    ]
+  },
+  {
+    "example_index": 231,
+    "dataset": "FinancialReport",
+    "question": "Which hospital in New York has trained Watson for a significant number of hours?",
+    "reference": "Watson has been trained for 15,000 hours by specialists at Memorial Sloan Kettering Cancer Center in New York.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/230_230.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/229_229.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/231_231.png"
+    ]
+  },
+  {
+    "example_index": 233,
+    "dataset": "FinancialReport",
+    "question": "What was the total allowance for credit losses for IBM in 2017?",
+    "reference": "The total allowance for credit losses for IBM in 2017 was $410 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/233_233.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/240_240.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/526_526.png"
+    ]
+  },
+  {
+    "example_index": 243,
+    "dataset": "FinancialReport",
+    "question": "What is the role of blockchain technology in sustainability efforts?",
+    "reference": "Blockchain technology plays a role in sustainability by turning trust into sustainability, allowing communities to earn credits, which can help eliminate poverty and reduce ocean waste, as described in the context about Plastic Bank.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/243_243.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/460_460.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/459_459.png"
+    ]
+  },
+  {
+    "example_index": 244,
+    "dataset": "FinancialReport",
+    "question": "What is the primary identity IBM reaffirms in 2017?",
+    "reference": "IBM reaffirms its essential identity as an enterprise technology company delivering services with the simplicity, speed, and delight of the best consumer products and services.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/244_244.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/245_245.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/442_442.png"
+    ]
+  },
+  {
+    "example_index": 246,
+    "dataset": "FinancialReport",
+    "question": "What is the expected free cash flow for IBM in 2018?",
+    "reference": "The company expects free cash flow to be approximately $12 billion in 2018.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/264_264.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/246_246.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/725_725.png"
+    ]
+  },
+  {
+    "example_index": 247,
+    "dataset": "FinancialReport",
+    "question": "How many shares of treasury stock were purchased by IBM in 2017?",
+    "reference": "IBM purchased 27,237,179 shares of treasury stock in 2017.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/247_247.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/653_653.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/652_652.png"
+    ]
+  },
+  {
+    "example_index": 251,
+    "dataset": "FinancialReport",
+    "question": "What is the average rate of IBM's floating-rate debt as of 2017?",
+    "reference": "The average rate of IBM's floating-rate debt in 2017 was 2.10%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/252_252.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/251_251.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/61_61.png"
+    ]
+  },
+  {
+    "example_index": 259,
+    "dataset": "FinancialReport",
+    "question": "How many artificial intelligence patents did IBM receive in 2017?",
+    "reference": "IBM received over 1,400+ artificial intelligence patents in 2017.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/259_259.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/261_261.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/260_260.png"
+    ]
+  },
+  {
+    "example_index": 266,
+    "dataset": "FinancialReport",
+    "question": "How did the geographic revenue of IBM change from 2016 to 2017?",
+    "reference": "The geographic revenue of IBM decreased by 1.0% from 2016 to 2017.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/266_266.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/456_456.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/269_269.png"
+    ]
+  },
+  {
+    "example_index": 273,
+    "dataset": "FinancialReport",
+    "question": "How many stock options were canceled or expired by IBM in 2017?",
+    "reference": "IBM canceled or expired 103 stock options in 2017.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/465_465.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/467_467.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/466_466.png"
+    ]
+  },
+  {
+    "example_index": 275,
+    "dataset": "FinancialReport",
+    "question": "What is the role of Jacqueline Pessoa Ferreira at Banco Bradesco?",
+    "reference": "Jacqueline Pessoa Ferreira is a Digital Channels Analyst and Trainer at Banco Bradesco.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/275_275.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/274_274.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/555_555.png"
+    ]
+  },
+  {
+    "example_index": 277,
+    "dataset": "FinancialReport",
+    "question": "What was the total amount of income taxes paid by IBM in 2017?",
+    "reference": "The total amount of income taxes paid by IBM in 2017 was $1,897 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/277_277.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/248_248.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/474_474.png"
+    ]
+  },
+  {
+    "example_index": 281,
+    "dataset": "FinancialReport",
+    "question": "What is the impact of the COVID-19 pandemic on IBM's estimates and assumptions?",
+    "reference": "The COVID-19 pandemic has had a significant impact on IBM's estimates and assumptions, particularly regarding revenue, costs, and valuation of assets.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/281_281.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/619_619.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/620_620.png"
+    ]
+  },
+  {
+    "example_index": 284,
+    "dataset": "FinancialReport",
+    "question": "What was the total number of PSUs granted by IBM in 2021?",
+    "reference": "IBM granted a total of 126 PSUs in 2021.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/665_665.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/284_284.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/285_285.png"
+    ]
+  },
+  {
+    "example_index": 291,
+    "dataset": "FinancialReport",
+    "question": "How much did IBM's long-term debt decrease in 2021?",
+    "reference": "IBM's long-term debt decreased by $9,300 million in 2021.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/292_292.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/291_291.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/440_440.png"
+    ]
+  },
+  {
+    "example_index": 294,
+    "dataset": "FinancialReport",
+    "question": "What was the change in Application Operations revenue for IBM from 2019 to 2020?",
+    "reference": "The Application Operations revenue for IBM decreased by 9.4% in 2020 compared to 2019.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/293_293.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/294_294.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/371_371.png"
+    ]
+  },
+  {
+    "example_index": 306,
+    "dataset": "FinancialReport",
+    "question": "What is the primary reason for using derivatives in the Qualified PPP portfolio?",
+    "reference": "The primary reason for using derivatives is fixed income management, including duration, interest rate management, and credit exposure.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/306_306.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/206_206.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/769_769.png"
+    ]
+  },
+  {
+    "example_index": 308,
+    "dataset": "FinancialReport",
+    "question": "How did the number of less-than-wholly-owned subsidiaries at IBM change from 2009 to 2010?",
+    "reference": "The number of less-than-wholly-owned subsidiaries at IBM increased by 19.3% from 11,432 in 2009 to 9,394 in 2010.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/308_308.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/309_309.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/310_310.png"
+    ]
+  },
+  {
+    "example_index": 309,
+    "dataset": "FinancialReport",
+    "question": "How did the number of employees at IBM's wholly-owned subsidiaries change from 2009 to 2010?",
+    "reference": "The number of employees at IBM's wholly-owned subsidiaries increased by 0.2% from 399,409 in 2009 to 428,751 in 2010.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/310_310.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/312_312.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/308_308.png"
+    ]
+  },
+  {
+    "example_index": 312,
+    "dataset": "FinancialReport",
+    "question": "What was the market capitalization of IBM at the end of 2010?",
+    "reference": "The market capitalization of IBM at the end of 2010 was $180,220 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/312_312.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/314_314.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/350_350.png"
+    ]
+  },
+  {
+    "example_index": 313,
+    "dataset": "FinancialReport",
+    "question": "What is the expected growth in global data volumes according to IDC's prediction?",
+    "reference": "IDC predicts that global data volumes will increase by 29 times over the next 10 years, reaching 35 zettabytes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/313_313.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/302_302.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/803_803.png"
+    ]
+  },
+  {
+    "example_index": 315,
+    "dataset": "FinancialReport",
+    "question": "What is the date and time of the IBM Annual Meeting of Stockholders in 2011?",
+    "reference": "The IBM Annual Meeting of Stockholders in 2011 was held on Tuesday, April 26, 2011, at 10 a.m. in the Majestic Ballroom, Renaissance St. Louis Hotel, St. Louis, Missouri.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/315_315.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/375_375.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/678_678.png"
+    ]
+  },
+  {
+    "example_index": 325,
+    "dataset": "FinancialReport",
+    "question": "How much was the debt-to-capitalization ratio of IBM in December 2010?",
+    "reference": "The debt-to-capitalization ratio of IBM in December 2010 was 55.3 percent.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/325_325.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/799_799.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/140_140.png"
+    ]
+  },
+  {
+    "example_index": 327,
+    "dataset": "FinancialReport",
+    "question": "What was the total revenue from outsourcing signings for IBM in 2010?",
+    "reference": "The total revenue from outsourcing signings for IBM in 2010 was $33,084 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/328_328.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/327_327.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/323_323.png"
+    ]
+  },
+  {
+    "example_index": 330,
+    "dataset": "FinancialReport",
+    "question": "What was the total amount of unused lines of credit available to IBM at December 31, 2010?",
+    "reference": "The total amount of unused lines of credit available to IBM at December 31, 2010 was $21,388 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/330_330.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/831_831.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/512_512.png"
+    ]
+  },
+  {
+    "example_index": 332,
+    "dataset": "FinancialReport",
+    "question": "What are some specific achievements of IBM in the aviation industry?",
+    "reference": "IBM created the Sabre airline reservation system for American Airlines in 1962, which was a precursor to modern travel management systems. They also helped New Delhi's international airport manage growth in air travel from 28 million passengers in 2010 to an expected 150 million passengers in 2020.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/728_728.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/331_331.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/332_332.png"
+    ]
+  },
+  {
+    "example_index": 335,
+    "dataset": "FinancialReport",
+    "question": "How did IBM's software spending change from 2006 to 2007?",
+    "reference": "IBM's software spending increased by $39 million from 2006 to 2007.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/768_768.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/348_348.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/335_335.png"
+    ]
+  },
+  {
+    "example_index": 339,
+    "dataset": "FinancialReport",
+    "question": "What was the impact of the third-party investments on Lenovo's equity repurchase in 2005?",
+    "reference": "As a result of the third-party investments, Lenovo was required to repurchase the first equity tranche at a significantly higher share price.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/339_339.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/840_840.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/839_839.png"
+    ]
+  },
+  {
+    "example_index": 340,
+    "dataset": "FinancialReport",
+    "question": "Why is IBM establishing a new Growth Markets organization?",
+    "reference": "IBM is establishing a new Growth Markets organization to ensure that smaller markets with great upslide potential receive the talent, investment, and attention they need to keep growing, as their needs tend to be overshadowed when grouped with larger markets.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/340_340.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/743_743.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/798_798.png"
+    ]
+  },
+  {
+    "example_index": 342,
+    "dataset": "FinancialReport",
+    "question": "What was the impact of IBM's operational cash flow on its capital expenditures in 2007?",
+    "reference": "In 2007, IBM's operational cash flow less capital expenditures was viewed as the free cash flow available for investment and distribution to shareholders.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/15_15.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/746_746.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/350_350.png"
+    ]
+  },
+  {
+    "example_index": 345,
+    "dataset": "FinancialReport",
+    "question": "What was the total short-term debt for IBM at the end of 2007?",
+    "reference": "The total short-term debt for IBM at the end of 2007 was $12,235 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/345_345.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/33_33.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/32_32.png"
+    ]
+  },
+  {
+    "example_index": 354,
+    "dataset": "FinancialReport",
+    "question": "What was the total revenue for IBM's Printing Systems segment in 2007?",
+    "reference": "The total revenue for IBM's Printing Systems segment was $88 million in 2007.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/352_352.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/353_353.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/354_354.png"
+    ]
+  },
+  {
+    "example_index": 358,
+    "dataset": "FinancialReport",
+    "question": "What was the revenue backlog for IBM's Global Services business in 2008?",
+    "reference": "The revenue backlog for IBM's Global Services business in 2008 was $118 billion, an increase of $2 billion from the prior year.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/358_358.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/834_834.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/755_755.png"
+    ]
+  },
+  {
+    "example_index": 364,
+    "dataset": "FinancialReport",
+    "question": "How did IBM's net cash used in investing activities change from 2006 to 2007?",
+    "reference": "IBM's net cash used in investing activities decreased by $6,874 million in 2007 compared to 2006.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/364_364.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/366_366.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/365_365.png"
+    ]
+  },
+  {
+    "example_index": 367,
+    "dataset": "FinancialReport",
+    "question": "How does IBM handle deferred amounts paid to clients in excess of the fair value of acquired assets?",
+    "reference": "Deferred amounts paid to clients in excess of the fair value of acquired assets are recorded as an offset to revenue and are amortized over the term of the contract, with amounts estimated at December 31, 2007, to be $37 million in 2008, $34 million in 2009, $28 million in 2010, $25 million in 2011, and $22 million thereafter.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/367_367.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/531_531.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/708_708.png"
+    ]
+  },
+  {
+    "example_index": 369,
+    "dataset": "FinancialReport",
+    "question": "How many stock options were outstanding at IBM at the end of 2022?",
+    "reference": "There were 0.4 million stock options outstanding at IBM at the end of 2022.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/369_369.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/665_665.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/465_465.png"
+    ]
+  },
+  {
+    "example_index": 370,
+    "dataset": "FinancialReport",
+    "question": "Which software company did IBM acquire in the second quarter to provide a proactive data observability platform?",
+    "reference": "IBM acquired Databand.ai in the second quarter to provide a proactive data observability platform.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/528_528.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/527_527.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/529_529.png"
+    ]
+  },
+  {
+    "example_index": 372,
+    "dataset": "FinancialReport",
+    "question": "How much revenue did IBM generate from its Total Cloud offerings in 2022?",
+    "reference": "IBM generated $19,407 million in revenue from its Total Cloud offerings in 2022.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/420_420.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/421_421.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/621_621.png"
+    ]
+  },
+  {
+    "example_index": 374,
+    "dataset": "FinancialReport",
+    "question": "What changes were made to IBM's management structure in the first quarter of 2022?",
+    "reference": "In the first quarter of 2022, IBM realigned its management structure to reflect the planned divestiture of its software assets which was completed in the second quarter of 2022.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/523_523.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/395_395.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/541_541.png"
+    ]
+  },
+  {
+    "example_index": 379,
+    "dataset": "FinancialReport",
+    "question": "How much did IBM spend on land and land improvements in 2022?",
+    "reference": "IBM spent $213 million on land and land improvements in 2022.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/380_380.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/379_379.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/211_211.png"
+    ]
+  },
+  {
+    "example_index": 382,
+    "dataset": "FinancialReport",
+    "question": "How much did IBM pay in cash dividends per share in 2022?",
+    "reference": "IBM paid $6.59 in cash dividends per share in 2022.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/382_382.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/381_381.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/638_638.png"
+    ]
+  },
+  {
+    "example_index": 390,
+    "dataset": "FinancialReport",
+    "question": "What is the expected financial impact of every $1 spent on IBM's hybrid cloud platform?",
+    "reference": "Every $1 spent on IBM's hybrid cloud platform is expected to result in $1 to $5 of software revenue, $6 to $8 of services, and $1 to $2 of enterprise infrastructure.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/390_390.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/614_614.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/289_289.png"
+    ]
+  },
+  {
+    "example_index": 393,
+    "dataset": "FinancialReport",
+    "question": "How did IBM change the estimated useful lives of its server and network equipment in 2022?",
+    "reference": "In 2022, IBM increased the estimated useful lives of its server and network equipment from five to six years for new assets and from three to four years for used assets.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/393_393.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/534_534.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/388_388.png"
+    ]
+  },
+  {
+    "example_index": 396,
+    "dataset": "FinancialReport",
+    "question": "What specific software does IBM offer for data-driven agendas by infusing AI throughout the enterprise?",
+    "reference": "IBM offers Data & AI capabilities for data-driven agendas by infusing AI throughout the enterprise.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/297_297.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/396_396.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/289_289.png"
+    ]
+  },
+  {
+    "example_index": 403,
+    "dataset": "FinancialReport",
+    "question": "How did the revenue in the BRIC countries perform for IBM in the fourth quarter of 2009?",
+    "reference": "The BRIC countries' revenue was up 18.4 percent for IBM in the fourth quarter of 2009.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/403_403.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/519_519.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/319_319.png"
+    ]
+  },
+  {
+    "example_index": 409,
+    "dataset": "FinancialReport",
+    "question": "What was the percentage of IBM's segment profit from software, services, and financing in 2009?",
+    "reference": "More than 90 percent of IBM's segment profit in 2009 was from software, services, and financing.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/409_409.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/490_490.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/832_832.png"
+    ]
+  },
+  {
+    "example_index": 413,
+    "dataset": "FinancialReport",
+    "question": "How did IBM's total GTS signings compare between 2008 and 2009?",
+    "reference": "IBM's total GTS signings decreased by 3 percent in 2009 compared to 2008.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/413_413.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/755_755.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/756_756.png"
+    ]
+  },
+  {
+    "example_index": 416,
+    "dataset": "FinancialReport",
+    "question": "What was the weighted-average interest rate for short-term loans for IBM in 2009?",
+    "reference": "The weighted-average interest rate for short-term loans for IBM in 2009 was 1.8 percent.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/345_345.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/416_416.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/636_636.png"
+    ]
+  },
+  {
+    "example_index": 426,
+    "dataset": "FinancialReport",
+    "question": "What was the total estimated services backlog for IBM at the end of 2018?",
+    "reference": "The total estimated services backlog for IBM at the end of 2018 was $116 billion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/426_426.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/722_722.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/723_723.png"
+    ]
+  },
+  {
+    "example_index": 433,
+    "dataset": "FinancialReport",
+    "question": "How did IBM's average global financing equity change from 2017 to 2018?",
+    "reference": "IBM's average global financing equity decreased from $1,393 million in 2017 to $1,460 million in 2018.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/433_433.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/256_256.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/255_255.png"
+    ]
+  },
+  {
+    "example_index": 435,
+    "dataset": "FinancialReport",
+    "question": "What was the growth rate of IBM's mobile revenue in 2017 compared to 2016?",
+    "reference": "IBM's mobile revenue increased by 39 percent as reported and adjusted for currency in 2017 compared to 2016.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/263_263.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/152_152.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/151_151.png"
+    ]
+  },
+  {
+    "example_index": 438,
+    "dataset": "FinancialReport",
+    "question": "What is the role of predictive intelligence in Hydro One's operations?",
+    "reference": "Predictive intelligence helps Hydro One create new options for managing extreme weather, making it more manageable and less disruptive by enabling quicker restoration of power and more effective communication with customers.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/438_438.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/437_437.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/516_516.png"
+    ]
+  },
+  {
+    "example_index": 440,
+    "dataset": "FinancialReport",
+    "question": "How much was the bad debt expense for Global Financing at IBM in 2018?",
+    "reference": "The bad debt expense for Global Financing at IBM in 2018 was $14 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/440_440.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/155_155.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/265_265.png"
+    ]
+  },
+  {
+    "example_index": 446,
+    "dataset": "FinancialReport",
+    "question": "How much are IBM's money-market funds worth as of December 31, 2018?",
+    "reference": "IBM's money-market funds are worth $7,704 million as of December 31, 2018.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/446_446.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/389_389.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/546_546.png"
+    ]
+  },
+  {
+    "example_index": 449,
+    "dataset": "FinancialReport",
+    "question": "What is KMD using IBM Services for?",
+    "reference": "KMD, Denmark\u2019s largest technology company, is using IBM Services to help its clients adopt the latest technologies.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/451_451.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/450_450.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/449_449.png"
+    ]
+  },
+  {
+    "example_index": 458,
+    "dataset": "FinancialReport",
+    "question": "What was the pre-tax income margin for IBM's Systems Hardware in 2017?",
+    "reference": "The pre-tax income margin for IBM's Systems Hardware in 2017 was 12.6%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/458_458.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/257_257.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/160_160.png"
+    ]
+  },
+  {
+    "example_index": 462,
+    "dataset": "FinancialReport",
+    "question": "What is the aggregate fair value of derivative instruments IBM reported in 2018?",
+    "reference": "The aggregate fair value of derivative instruments IBM reported in 2018 was $741 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/462_462.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/316_316.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/805_805.png"
+    ]
+  },
+  {
+    "example_index": 465,
+    "dataset": "FinancialReport",
+    "question": "What was the total number of stock options canceled or expired for IBM in 2017?",
+    "reference": "IBM canceled or expired a total of 103 stock options in 2017.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/465_465.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/467_467.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/466_466.png"
+    ]
+  },
+  {
+    "example_index": 467,
+    "dataset": "FinancialReport",
+    "question": "What was the weighted-average exercise price of stock options for IBM in 2018?",
+    "reference": "The weighted-average exercise price of stock options for IBM in 2018 was $140.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/465_465.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/665_665.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/466_466.png"
+    ]
+  },
+  {
+    "example_index": 474,
+    "dataset": "FinancialReport",
+    "question": "How much income tax did IBM's non-U.S. operations pay in 2018?",
+    "reference": "IBM's non-U.S. operations paid $10.716 million in income taxes in 2018.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/635_635.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/731_731.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/474_474.png"
+    ]
+  },
+  {
+    "example_index": 475,
+    "dataset": "FinancialReport",
+    "question": "What are the total contractual payments IBM expects to make for minimum defined benefit plan pension funding in 2019?",
+    "reference": "IBM expects to make total contractual payments of $1,800 million for minimum defined benefit plan pension funding in 2019.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/475_475.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/363_363.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/44_44.png"
+    ]
+  },
+  {
+    "example_index": 487,
+    "dataset": "FinancialReport",
+    "question": "What was the percentage increase in IBM's Information Management revenue from 2009 to 2010?",
+    "reference": "IBM's Information Management revenue increased by 8.6 percent from 2009 to 2010.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/483_483.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/482_482.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/487_487.png"
+    ]
+  },
+  {
+    "example_index": 488,
+    "dataset": "FinancialReport",
+    "question": "What was the percentage change in IBM's Other middleware revenue from 2009 to 2010?",
+    "reference": "IBM's Other middleware revenue decreased by 10.6 percent from 2009 to 2010.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/488_488.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/487_487.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/327_327.png"
+    ]
+  },
+  {
+    "example_index": 491,
+    "dataset": "FinancialReport",
+    "question": "How many employees did IBM have in 2011?",
+    "reference": "IBM had 433,362 employees in 2011.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/491_491.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/508_508.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/287_287.png"
+    ]
+  },
+  {
+    "example_index": 500,
+    "dataset": "FinancialReport",
+    "question": "How did the Application Outsourcing revenue of IBM perform in the fourth quarter of 2011?",
+    "reference": "IBM's Application Outsourcing revenue increased by 4.7 percent (4 percent adjusted for currency) in the fourth quarter of 2011, led by strong performance in the growth markets.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/500_500.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/499_499.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/501_501.png"
+    ]
+  },
+  {
+    "example_index": 510,
+    "dataset": "FinancialReport",
+    "question": "What are the core technologies used in IBM's servers?",
+    "reference": "IBM's servers primarily use IBM and non-IBM microprocessor technology and operating systems, with all servers running Linux, a key open-source operating system.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/510_510.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/399_399.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/618_618.png"
+    ]
+  },
+  {
+    "example_index": 516,
+    "dataset": "FinancialReport",
+    "question": "How did IBM's solutions contribute to the efficiency of the San Francisco Public Utilities Commission?",
+    "reference": "IBM's solutions helped the San Francisco Public Utilities Commission reduce downtime and pollution in its sewer systems by integrating asset management and geographic information software.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/514_514.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/517_517.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/515_515.png"
+    ]
+  },
+  {
+    "example_index": 521,
+    "dataset": "FinancialReport",
+    "question": "What types of debt did IBM issue in the first quarter of 2023?",
+    "reference": "In the first quarter of 2023, IBM issued various types of debt including Japanese yen floating-rate syndicated bank loans, Euro fixed-rate notes, French fixed-rate notes, and U.S. dollar fixed-rate notes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/521_521.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/520_520.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/735_735.png"
+    ]
+  },
+  {
+    "example_index": 530,
+    "dataset": "FinancialReport",
+    "question": "Which company did IBM acquire in the fourth quarter of 2022 to enhance its consulting services?",
+    "reference": "IBM acquired Dialexa in the fourth quarter of 2022 to enhance its consulting services.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/527_527.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/530_530.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/528_528.png"
+    ]
+  },
+  {
+    "example_index": 534,
+    "dataset": "FinancialReport",
+    "question": "What actions did IBM take in 2023 to address remaining stranded costs from portfolio actions over the last couple of years?",
+    "reference": "In 2023, IBM executed workforce realigning actions to address remaining stranded costs from portfolio actions over the last couple of years, resulting in charges to pre-tax income from continuing operations of $438 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/534_534.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/290_290.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/541_541.png"
+    ]
+  },
+  {
+    "example_index": 540,
+    "dataset": "FinancialReport",
+    "question": "What is the revenue from IBM's Infrastructure Maintenance services in 2023?",
+    "reference": "The revenue from IBM's Infrastructure Maintenance services in 2023 is $4,138 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/540_540.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/398_398.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/555_555.png"
+    ]
+  },
+  {
+    "example_index": 556,
+    "dataset": "FinancialReport",
+    "question": "How does IBM manage credit risk in its Global Financing segment?",
+    "reference": "IBM manages credit risk through rigorous credit policies applied to both new business and existing portfolios, and by maintaining residual value risk through insight into the company's product cycle.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/556_556.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/557_557.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/156_156.png"
+    ]
+  },
+  {
+    "example_index": 558,
+    "dataset": "FinancialReport",
+    "question": "What was the total revenue for IBM's Systems and Technology excluding Retail Store Solutions in 2013?",
+    "reference": "The total revenue for IBM's Systems and Technology excluding Retail Store Solutions was $12,088 million in 2013.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/45_45.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/558_558.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/53_53.png"
+    ]
+  },
+  {
+    "example_index": 575,
+    "dataset": "FinancialReport",
+    "question": "What was the High Court in London ruling regarding IBM UK Pensions Trust in 2010?",
+    "reference": "The High Court in London ruled that IBM UK Pensions Trust acted lawfully in changing the UK defined benefit plans to future accrual for most participants.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/87_87.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/808_808.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/809_809.png"
+    ]
+  },
+  {
+    "example_index": 579,
+    "dataset": "FinancialReport",
+    "question": "Which geographic region had the highest revenue for IBM in 2014?",
+    "reference": "The Americas had the highest revenue for IBM in 2014, with $41,410 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/611_611.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/187_187.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/188_188.png"
+    ]
+  },
+  {
+    "example_index": 585,
+    "dataset": "FinancialReport",
+    "question": "What was the impact of currency movements on IBM's revenue and earnings per share in 2014?",
+    "reference": "Currency movements impacted IBM's year-to-year revenue and earnings per share growth in 2014, with total revenue decreasing by 5.7 percent as reported and 4.0 percent at constant currency versus 2013.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/584_584.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/583_583.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/585_585.png"
+    ]
+  },
+  {
+    "example_index": 593,
+    "dataset": "FinancialReport",
+    "question": "What was the constant currency year-to-year growth rate for IBM's Storage segment in 2014?",
+    "reference": "The constant currency year-to-year growth rate for IBM's Storage segment was sequential improvement in the year-to-year growth rate over the last three quarters of 2014.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/481_481.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/601_601.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/592_592.png"
+    ]
+  },
+  {
+    "example_index": 597,
+    "dataset": "FinancialReport",
+    "question": "How many PSUs were granted at target by IBM in 2013?",
+    "reference": "IBM granted 105,000 PSUs at target in 2013.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/598_598.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/597_597.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/153_153.png"
+    ]
+  },
+  {
+    "example_index": 605,
+    "dataset": "FinancialReport",
+    "question": "What is the name of the hospital in Bangkok that uses IBM Watson for Oncology?",
+    "reference": "The hospital in Bangkok that uses IBM Watson for Oncology is Bumrungrad International Hospital.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/607_607.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/606_606.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/604_604.png"
+    ]
+  },
+  {
+    "example_index": 606,
+    "dataset": "FinancialReport",
+    "question": "How many business partners are part of IBM's analytics ecosystem?",
+    "reference": "IBM's analytics ecosystem includes more than 6,000 business partners.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/605_605.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/604_604.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/606_606.png"
+    ]
+  },
+  {
+    "example_index": 609,
+    "dataset": "FinancialReport",
+    "question": "What was the total amount of loan receivables for IBM at the end of 2014?",
+    "reference": "The total amount of loan receivables for IBM at the end of 2014 was $10,049 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/609_609.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/122_122.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/121_121.png"
+    ]
+  },
+  {
+    "example_index": 611,
+    "dataset": "FinancialReport",
+    "question": "How much revenue did IBM generate from Japan in 2014?",
+    "reference": "IBM generated $8,382 million in revenue from Japan in 2014.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/611_611.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/456_456.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/242_242.png"
+    ]
+  },
+  {
+    "example_index": 612,
+    "dataset": "FinancialReport",
+    "question": "What is the average interest rate on IBM's fixed-rate debt for 2014?",
+    "reference": "The average interest rate on IBM's fixed-rate debt for 2014 was 3.09%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/185_185.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/612_612.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/186_186.png"
+    ]
+  },
+  {
+    "example_index": 614,
+    "dataset": "FinancialReport",
+    "question": "What is the market opportunity for business transformation and hybrid cloud services according to IBM?",
+    "reference": "The market opportunity for business transformation and hybrid cloud services is $300 billion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/614_614.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/289_289.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/390_390.png"
+    ]
+  },
+  {
+    "example_index": 616,
+    "dataset": "FinancialReport",
+    "question": "How many partners were added to IBM's telecommunications ecosystem in 2020?",
+    "reference": "IBM added 35 partners to their telecommunications ecosystem in 2020.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/616_616.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/617_617.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/662_662.png"
+    ]
+  },
+  {
+    "example_index": 617,
+    "dataset": "FinancialReport",
+    "question": "What strategic partnership did IBM expand in 2020 regarding 5G technology?",
+    "reference": "IBM expanded their strategic partnership with Samsung on 5G technology in 2020.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/616_616.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/617_617.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/693_693.png"
+    ]
+  },
+  {
+    "example_index": 618,
+    "dataset": "FinancialReport",
+    "question": "What does IBM's Global Technology Services offer in terms of support services?",
+    "reference": "IBM's Global Technology Services offers comprehensive support services to maintain and improve the availability of clients' IT infrastructures.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/618_618.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/193_193.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/192_192.png"
+    ]
+  },
+  {
+    "example_index": 619,
+    "dataset": "FinancialReport",
+    "question": "What was the overall global asset return for IBM in 2020?",
+    "reference": "The overall global asset returns were 9.6 percent for IBM in 2020.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/620_620.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/619_619.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/114_114.png"
+    ]
+  },
+  {
+    "example_index": 621,
+    "dataset": "FinancialReport",
+    "question": "What was the percentage of IBM's annual revenue from recurring revenue streams in 2020?",
+    "reference": "Approximately 60 percent of IBM's annual revenue was in recurring revenue streams in 2020.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/621_621.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/554_554.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/555_555.png"
+    ]
+  },
+  {
+    "example_index": 622,
+    "dataset": "FinancialReport",
+    "question": "What is the market opportunity for IBM's open hybrid cloud platform?",
+    "reference": "The market opportunity for IBM's open hybrid cloud platform is $1 trillion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/622_622.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/640_640.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/641_641.png"
+    ]
+  },
+  {
+    "example_index": 634,
+    "dataset": "FinancialReport",
+    "question": "Which telecommunications provider is transforming its network into an open hybrid cloud platform using IBM's Watson AI and Red Hat Ansible Automation Platform?",
+    "reference": "Vodafone Idea is the telecommunications provider transforming its network into an open hybrid cloud platform using IBM's Watson AI and Red Hat Ansible Automation Platform.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/634_634.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/691_691.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/692_692.png"
+    ]
+  },
+  {
+    "example_index": 636,
+    "dataset": "FinancialReport",
+    "question": "What were the interest rates for commercial paper and short-term loans for IBM in 2019 and 2020?",
+    "reference": "The weighted-average interest rate for commercial paper was 1.6 percent in 2019. For short-term loans, the rates were 5.7 percent in 2020 and 6.1 percent in 2019.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/636_636.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/792_792.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/345_345.png"
+    ]
+  },
+  {
+    "example_index": 639,
+    "dataset": "FinancialReport",
+    "question": "What were the proceeds from new debt for IBM in 2020?",
+    "reference": "The proceeds from new debt for IBM in 2020 were $10,504 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/639_639.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/111_111.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/277_277.png"
+    ]
+  },
+  {
+    "example_index": 663,
+    "dataset": "FinancialReport",
+    "question": "Which company's technology was used in the winning application of the 2020 Call for Code competition?",
+    "reference": "The winning application from Agrolly was built on IBM Cloud Object Storage, IBM Watson Studio, and IBM Watson Assistant.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/662_662.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/664_664.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/663_663.png"
+    ]
+  },
+  {
+    "example_index": 664,
+    "dataset": "FinancialReport",
+    "question": "What was the focus of the 2020 Call for Code competition?",
+    "reference": "The 2020 Call for Code competition focused on managing the effects of climate change and fighting COVID-19.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/662_662.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/664_664.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/663_663.png"
+    ]
+  },
+  {
+    "example_index": 665,
+    "dataset": "FinancialReport",
+    "question": "How many stock options did IBM vest in 2020?",
+    "reference": "IBM vested 478 stock options in 2020.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/665_665.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/285_285.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/284_284.png"
+    ]
+  },
+  {
+    "example_index": 671,
+    "dataset": "FinancialReport",
+    "question": "What percentage of IBM's global workforce was transitioned to remote work in early 2020?",
+    "reference": "95 percent of IBM's global workforce was transitioned to remote work in early 2020.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/671_671.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/658_658.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/657_657.png"
+    ]
+  },
+  {
+    "example_index": 676,
+    "dataset": "FinancialReport",
+    "question": "What were the diluted operating earnings per share for IBM in the first quarter of 2018?",
+    "reference": "IBM's diluted operating earnings per share in the first quarter of 2018 were $2.25 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/455_455.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/676_676.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/477_477.png"
+    ]
+  },
+  {
+    "example_index": 678,
+    "dataset": "FinancialReport",
+    "question": "What is the date and location of the IBM Annual Meeting of Stockholders in 2020?",
+    "reference": "The IBM Annual Meeting of Stockholders will be held on Tuesday, April 28, 2020, at 10 a.m. at the Louisville Marriott Downtown Hotel, 280 W. Jefferson Street, Louisville, Kentucky.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/678_678.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/375_375.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/315_315.png"
+    ]
+  },
+  {
+    "example_index": 682,
+    "dataset": "FinancialReport",
+    "question": "What was the percentage increase in IBM's research, development, and engineering expense in 2019 compared to 2018?",
+    "reference": "IBM's research, development, and engineering expense increased by 11.3 percent in 2019 compared to 2018.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/681_681.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/655_655.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/654_654.png"
+    ]
+  },
+  {
+    "example_index": 695,
+    "dataset": "FinancialReport",
+    "question": "What changes did IBM make to its organizational structure and management system in the first quarter of 2019?",
+    "reference": "In the first quarter of 2019, IBM made several changes to its organizational structure and management system, which led to a revision of its reportable segments.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/523_523.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/541_541.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/281_281.png"
+    ]
+  },
+  {
+    "example_index": 703,
+    "dataset": "FinancialReport",
+    "question": "What is the IBM Garage and how has it been utilized in 2019?",
+    "reference": "The IBM Garage is a physical space where clients work side by side with IBMers to co-create solutions using IBM Design Thinking and agile methods. In 2019, IBM conducted approximately 600 engagements in these garages.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/703_703.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/702_702.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/644_644.png"
+    ]
+  },
+  {
+    "example_index": 707,
+    "dataset": "FinancialReport",
+    "question": "What were the principal considerations for the valuation of intangible assets in the acquisition of Red Hat, Inc. by IBM?",
+    "reference": "The principal considerations for the valuation of intangible assets included a high degree of judgment, significant audit effort, and the use of professionals with specialized skills.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/706_706.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/707_707.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/739_739.png"
+    ]
+  },
+  {
+    "example_index": 708,
+    "dataset": "FinancialReport",
+    "question": "What was the total purchase price of the acquisitions made by IBM in 2017, excluding interest expenses?",
+    "reference": "The total purchase price of the acquisitions made by IBM in 2017, excluding interest expenses, was $134 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/708_708.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/464_464.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/752_752.png"
+    ]
+  },
+  {
+    "example_index": 710,
+    "dataset": "FinancialReport",
+    "question": "What kind of training does the P-TECH model integrate?",
+    "reference": "It integrates high school, college, and career readiness training.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/712_712.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/711_711.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/709_709.png"
+    ]
+  },
+  {
+    "example_index": 727,
+    "dataset": "FinancialReport",
+    "question": "How many clients were using Red Hat and IBM's hybrid cloud platform in 2019?",
+    "reference": "Over 2,000 clients were using Red Hat and IBM's hybrid cloud platform in 2019.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/727_727.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/726_726.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/280_280.png"
+    ]
+  },
+  {
+    "example_index": 730,
+    "dataset": "FinancialReport",
+    "question": "How much did IBM's long-term debt increase in 2019?",
+    "reference": "IBM's long-term debt increased by $18,497 million in 2019, rising from $18,550 million in 2018 to $36,497 million in 2019.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/525_525.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/730_730.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/729_729.png"
+    ]
+  },
+  {
+    "example_index": 733,
+    "dataset": "FinancialReport",
+    "question": "What types of financial instruments are classified as Level 3 in IBM's fair value hierarchy?",
+    "reference": "Accounts payable, other accrued expenses and short-term debt, and loans and long-term receivables are classified as Level 3 in IBM's fair value hierarchy.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/742_742.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/215_215.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/446_446.png"
+    ]
+  },
+  {
+    "example_index": 734,
+    "dataset": "FinancialReport",
+    "question": "What is the significance of the procedural status of legal matters for IBM?",
+    "reference": "The procedural status, court rulings, and/or the strength of the opposing party can significantly impact the likelihood of material loss for IBM.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/734_734.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/786_786.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/376_376.png"
+    ]
+  },
+  {
+    "example_index": 757,
+    "dataset": "FinancialReport",
+    "question": "What was the impact of acquisitions and divestments on IBM's R&D expenses in 2008?",
+    "reference": "Acquisitions and divestments accounted for 3 points of the increase in IBM's R&D expenses in 2008.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/758_758.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/757_757.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/768_768.png"
+    ]
+  },
+  {
+    "example_index": 758,
+    "dataset": "FinancialReport",
+    "question": "How did IBM's advertising and promotional expenses change from 2007 to 2008?",
+    "reference": "IBM's advertising and promotional expenses increased by 1.4% from 2007 to 2008.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/758_758.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/757_757.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/468_468.png"
+    ]
+  },
+  {
+    "example_index": 772,
+    "dataset": "FinancialReport",
+    "question": "What method does IBM use to recognize revenue from application management services and Web hosting arrangements?",
+    "reference": "Revenue from application management services and Web hosting arrangements is recognized on a straight-line basis over the term of the contracts.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/772_772.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/646_646.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/715_715.png"
+    ]
+  },
+  {
+    "example_index": 777,
+    "dataset": "FinancialReport",
+    "question": "What is the gross unrealized loss on available-for-sale equity securities for IBM in 2011?",
+    "reference": "The gross unrealized loss on available-for-sale equity securities for IBM in 2011 was $232 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/494_494.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/777_777.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/66_66.png"
+    ]
+  },
+  {
+    "example_index": 778,
+    "dataset": "FinancialReport",
+    "question": "What was the total annual revenue IBM divested over the past decade?",
+    "reference": "IBM divested almost $15 billion of annual revenue over the past decade.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/778_778.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/141_141.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/699_699.png"
+    ]
+  },
+  {
+    "example_index": 779,
+    "dataset": "FinancialReport",
+    "question": "How does IBM assist in cancer treatment?",
+    "reference": "IBM assists in cancer treatment by using cognitive computing capabilities to help doctors make evidence-based cancer treatment decisions, leveraging Memorial Sloan-Kettering Cancer Center's data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/232_232.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/229_229.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/230_230.png"
+    ]
+  },
+  {
+    "example_index": 780,
+    "dataset": "FinancialReport",
+    "question": "Which geographic region saw the highest revenue increase for IBM in 2011?",
+    "reference": "The Asia-Pacific region saw the highest revenue increase for IBM in 2011, with a 9.2 percent increase.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/498_498.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/506_506.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/519_519.png"
+    ]
+  },
+  {
+    "example_index": 782,
+    "dataset": "FinancialReport",
+    "question": "How did the bad debt expense for IBM's global financing change from 2011 to 2012?",
+    "reference": "The bad debt expense for IBM's global financing increased by $226 million from 2011 to 2012.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/782_782.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/440_440.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/155_155.png"
+    ]
+  },
+  {
+    "example_index": 783,
+    "dataset": "FinancialReport",
+    "question": "What was the increase in diluted earnings per share for IBM in the fourth quarter of 2012 compared to the same period in 2011?",
+    "reference": "The diluted earnings per share for IBM increased by $0.51 or 11.0 percent in the fourth quarter of 2012 compared to the same period in 2011.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/783_783.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/815_815.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/814_814.png"
+    ]
+  },
+  {
+    "example_index": 798,
+    "dataset": "FinancialReport",
+    "question": "Where are IBM's Analytics research centers located?",
+    "reference": "IBM's Analytics research centers are located in Columbus, Ohio and Halifax, Nova Scotia.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/798_798.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/606_606.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/607_607.png"
+    ]
+  },
+  {
+    "example_index": 804,
+    "dataset": "FinancialReport",
+    "question": "What was the revenue from Microelectronics OEM in 2012?",
+    "reference": "The revenue from Microelectronics OEM in 2012 was $1,372 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/53_53.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/804_804.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/45_45.png"
+    ]
+  },
+  {
+    "example_index": 807,
+    "dataset": "FinancialReport",
+    "question": "What are the key elements of IBM's Enterprise Transformation strategy?",
+    "reference": "A key element of IBM's Enterprise Transformation strategy has been focused on becoming the premier globally integrated enterprise by implementing a consistent set of processes and standards worldwide.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/107_107.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/108_108.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/807_807.png"
+    ]
+  },
+  {
+    "example_index": 808,
+    "dataset": "FinancialReport",
+    "question": "What legal actions was IBM involved in regarding environmental issues in New York?",
+    "reference": "IBM is a defendant in numerous actions filed after January 1, 2008 in the Supreme Court for the State of New York, county of Broome, on behalf of hundreds of plaintiffs. The complaints allege numerous and different causes of action, including for negligence and recklessness, private nuisance and trespass.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/809_809.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/808_808.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/87_87.png"
+    ]
+  },
+  {
+    "example_index": 810,
+    "dataset": "FinancialReport",
+    "question": "How much did IBM's total debt increase due to bond issuances in 2011?",
+    "reference": "IBM's total debt increased by $4,850 million due to bond issuances in 2011.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/114_114.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/248_248.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/265_265.png"
+    ]
+  },
+  {
+    "example_index": 817,
+    "dataset": "FinancialReport",
+    "question": "What is the nature of the investigation by the SEC regarding IBM's disclosures in 2005?",
+    "reference": "The SEC is investigating potential violations of securities laws related to IBM's disclosures concerning first-quarter 2005 earnings and the company's restatement of earnings for 2003.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/816_816.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/817_817.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/87_87.png"
+    ]
+  },
+  {
+    "example_index": 819,
+    "dataset": "FinancialReport",
+    "question": "How many IBMers were involved in innovation and marketplace execution in 2005?",
+    "reference": "More than 329,000 IBMers around the world were involved in innovation and marketplace execution in 2005.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/819_819.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/846_846.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/850_850.png"
+    ]
+  },
+  {
+    "example_index": 833,
+    "dataset": "FinancialReport",
+    "question": "What is the date and time of the IBM Annual Meeting of Stockholders in 2005?",
+    "reference": "The IBM Annual Meeting of Stockholders in 2005 is held on Tuesday, April 26, 2005, at 10 am in the Roosevelt Hotel in New Orleans, Louisiana.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/833_833.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/375_375.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/678_678.png"
+    ]
+  },
+  {
+    "example_index": 834,
+    "dataset": "FinancialReport",
+    "question": "Which specific segment within IBM's WebSphere middleware family saw the highest growth rate in 2005?",
+    "reference": "The Application Servers and Portals segment within IBM's WebSphere middleware family saw the highest growth rate, growing by 15 percent in 2005.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/834_834.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/352_352.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/353_353.png"
+    ]
+  },
+  {
+    "example_index": 842,
+    "dataset": "FinancialReport",
+    "question": "What was the net investment in long-term investments in foreign subsidiaries by IBM at the end of 2004?",
+    "reference": "The net investment in long-term investments in foreign subsidiaries by IBM at the end of 2004 was $(496) million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/843_843.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/842_842.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/845_845.png"
+    ]
+  },
+  {
+    "example_index": 845,
+    "dataset": "FinancialReport",
+    "question": "What was the non-hedge other value for debt risk management in 2005?",
+    "reference": "The non-hedge other value for debt risk management in 2005 was $109 million.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/844_844.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/843_843.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/842_842.png"
+    ]
+  },
+  {
+    "example_index": 851,
+    "dataset": "FinancialReport",
+    "question": "Who is the Vice President and Treasurer of IBM in 2005?",
+    "reference": "Jesse J. Greene, Jr. is the Vice President and Treasurer of IBM in 2005.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/851_851.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/852_852.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/537_537.png"
+    ]
+  }
+]

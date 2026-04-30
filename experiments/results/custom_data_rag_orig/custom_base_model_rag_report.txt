@@ -1,0 +1,23 @@
+=========================================
+      MODEL EVALUATION REPORT
+=========================================
+
+--- OVERALL METRICS ---
+Total Samples: 671
+BLEU      : 0.2982 ± 0.2209 (95% CI: [0.2815, 0.3149])
+ROUGE1    : 0.6688 ± 0.1588 (95% CI: [0.6568, 0.6808])
+ROUGE2    : 0.4751 ± 0.2111 (95% CI: [0.4591, 0.4910])
+ROUGEL    : 0.5848 ± 0.1890 (95% CI: [0.5705, 0.5991])
+BERT_F1   : 0.9297 ± 0.0339 (95% CI: [0.9272, 0.9323])
+
+--- METRICS BY DATASET ---
+Dataset: LectureSlides (N=671)
+  BLEU      : 0.2982 ± 0.2209
+  ROUGE1    : 0.6688 ± 0.1588
+  ROUGE2    : 0.4751 ± 0.2111
+  ROUGEL    : 0.5848 ± 0.1890
+  BERT_F1   : 0.9297 ± 0.0339
+
+--- SIGNIFICANCE TESTS (Performance Across Datasets) ---
+Using Kruskal-Wallis H-test (non-parametric ANOVA) to test if scores differ by dataset.
+Only one dataset found. Skipping across-dataset significance tests.

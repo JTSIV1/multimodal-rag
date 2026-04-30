@@ -3,9 +3,14 @@ data/
 .env
 /scripts/embeddings/
 /scripts/embeddings_ocr/
+scripts/embeddings_numpy/
 .DS_Store
 Qwen3-VL-8B-Instruct/
 Qwen3-VL-2B-Instruct/
 /scripts/__pycache__/
 /results/
 */__pycache__/
+*/tensor_cache
+finetuned_qwen_adapter/
+*/batches
+accepted/

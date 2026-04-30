@@ -1,0 +1,2851 @@
+[
+  {
+    "example_index": 3,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the Cyber Resiliency Assessment Tool according to the guide?",
+    "reference": "The Cyber Resiliency Assessment Tool (CRAT) provides a bridge mechanism to evaluate the current data protection state of an organization, identify gaps, strengths, weaknesses, and provides recommendations to build an effective cyber resiliency plan.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/3_3.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/3_3.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/3_3.png"
+    ]
+  },
+  {
+    "example_index": 4,
+    "dataset": "TechReport",
+    "question": "What is the recommended approach for auditing in IBM Copy Services Manager?",
+    "reference": "It is recommended that you create a new Administrator user to configure the Safeguarded Copy function for auditing purposes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/4_4.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/4_4.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/4_4.png"
+    ]
+  },
+  {
+    "example_index": 5,
+    "dataset": "TechReport",
+    "question": "What does a Safeguarded backup policy control in IBM FlashSystem?",
+    "reference": "A Safeguarded backup policy in IBM FlashSystem controls the creation, retention, and expiration of Safeguarded backup copies of source volumes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/6_6.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/5_5.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/5_5.png"
+    ]
+  },
+  {
+    "example_index": 9,
+    "dataset": "TechReport",
+    "question": "What steps are involved in restoring from a safeguarded copy according to the guide?",
+    "reference": "Restoring from a safeguarded copy involves overwriting the source volume to the original host, as described in section 4.2 of the guide.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/9_9.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/9_9.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/9_9.png"
+    ]
+  },
+  {
+    "example_index": 33,
+    "dataset": "TechReport",
+    "question": "What are the advantages of using flash memory in IBM FlashSystem 840 for SAP workloads?",
+    "reference": "IBM FlashSystem 840 enables a small, cost-effective pool of flash memory to deliver performance improvements, supports a phased approach to HANA adoption without requiring re-architecture, and provides the lowest latency for time-sensitive workloads with IBM MicroLatency.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/31_31.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/34_34.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/32_32.png"
+    ]
+  },
+  {
+    "example_index": 34,
+    "dataset": "TechReport",
+    "question": "How does the integration of IBM FlashSystem 840 with SAN Volume Controller enhance virtualized environments?",
+    "reference": "The integration enhances virtualized environments by virtualizing databases without performance loss, eliminating I/O density and hot-spot issues, controlling and mitigating 'log on' or 'boot' storm performance issues, and delivering storage consolidation without sacrificing performance.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/31_31.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/34_34.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/32_32.png"
+    ]
+  },
+  {
+    "example_index": 35,
+    "dataset": "TechReport",
+    "question": "What specific issues does IBM FlashSystem 840 help in mitigating for virtualized environments?",
+    "reference": "IBM FlashSystem 840 helps in mitigating I/O density and hot-spot issues, controls and mitigates 'log on' or 'boot' storm performance issues, and delivers storage consolidation without sacrificing performance in virtualized environments.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/31_31.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/34_34.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/32_32.png"
+    ]
+  },
+  {
+    "example_index": 39,
+    "dataset": "TechReport",
+    "question": "How many MDisks per SAN Volume Controller cluster are supported for IBM FlashSystem 840?",
+    "reference": "The maximum number of MDisks per SAN Volume Controller cluster is 4096.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/40_40.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/41_41.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/38_38.png"
+    ]
+  },
+  {
+    "example_index": 43,
+    "dataset": "TechReport",
+    "question": "How many remote copy port groups does an IBM Spectrum Virtualize based system support?",
+    "reference": "An IBM Spectrum Virtualize based system supports three remote copy port groups: 0, 1, and 2.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/44_44.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/43_43.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/45_45.png"
+    ]
+  },
+  {
+    "example_index": 44,
+    "dataset": "TechReport",
+    "question": "What is the maximum IP replication throughput per node for the IBM FlashSystem 9100 using hardware acceleration?",
+    "reference": "The maximum IP replication throughput per node for the IBM FlashSystem 9100 using hardware acceleration is 500 MB/s.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/44_44.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/43_43.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/45_45.png"
+    ]
+  },
+  {
+    "example_index": 51,
+    "dataset": "TechReport",
+    "question": "What is the relationship between the background copy rate value and the data rate per second for IBM FlashSystem 9200 and 9100?",
+    "reference": "The background copy rate value directly correlates with the amount of data copied per second. For example, a value of 1-10 corresponds to 128 KB per second, while a value of 141-160 corresponds to 2048 MB per second.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/51_51.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/746_746.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/747_747.png"
+    ]
+  },
+  {
+    "example_index": 53,
+    "dataset": "TechReport",
+    "question": "What should be considered when mixing tape and disk traffic on the same Fibre Channel HBA with IBM FlashSystem 9100?",
+    "reference": "Tape and disk traffic should not be put on the same Fibre Channel HBA. Modern tape devices have high-bandwidth requirements, and placing them on different switches can prevent SAN congestion over the ISL between the switches.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/54_54.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/53_53.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/52_52.png"
+    ]
+  },
+  {
+    "example_index": 55,
+    "dataset": "TechReport",
+    "question": "What types of devices does the IBM w3 Connections community provide up-to-date procedures for?",
+    "reference": "The IBM w3 Connections community provides up-to-date procedures for several kinds of devices, including hosts, storage, and SAN.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/56_56.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/55_55.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/931_931.png"
+    ]
+  },
+  {
+    "example_index": 56,
+    "dataset": "TechReport",
+    "question": "What types of devices does the IBM w3 Connections community provide up-to-date procedures for?",
+    "reference": "The IBM w3 Connections community provides up-to-date procedures for several kinds of devices, including hosts, storage, and SAN.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/56_56.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/55_55.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/931_931.png"
+    ]
+  },
+  {
+    "example_index": 57,
+    "dataset": "TechReport",
+    "question": "How can I automatically upload a support package to the IBM support center using the GUI?",
+    "reference": "To automatically upload a support package using the GUI, navigate to the panel 'Settings -> Support -> Support Package' and click the 'Upload Support Package' button. Then, enter the PMR number and the type of support package in the pop-up screen.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/57_57.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/71_71.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/649_649.png"
+    ]
+  },
+  {
+    "example_index": 63,
+    "dataset": "TechReport",
+    "question": "What should be done to avoid IBM Spectrum Virtualize or Storage trying to encrypt self-encrypted virtualized external MDisks in IBM FlashSystem 9100?",
+    "reference": "Self-encrypted virtualized external MDisks should be declared/identified using the `-encrypt yes` option with the `childsk` command to avoid IBM Spectrum Virtualize or Storage trying to encrypt them again.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/63_63.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/694_694.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/227_227.png"
+    ]
+  },
+  {
+    "example_index": 72,
+    "dataset": "TechReport",
+    "question": "Which command is used to check whether volumes are online and working correctly in IBM FlashSystem 9100?",
+    "reference": "The command used to check whether volumes are online and working correctly in IBM FlashSystem 9100 is 'lsvdisk <vdisk_1d_or_name>'.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/74_74.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/73_73.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/72_72.png"
+    ]
+  },
+  {
+    "example_index": 82,
+    "dataset": "TechReport",
+    "question": "What is the capacity of a volume in IBM FlashSystem, and what does it include?",
+    "reference": "The capacity of a compressed or thin-provisioned volume includes the sum of the allocated and the unallocated space, and if the disks for the pool aren\u2019t formatted, it might include the overhead space.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/83_83.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/82_82.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/892_892.png"
+    ]
+  },
+  {
+    "example_index": 88,
+    "dataset": "TechReport",
+    "question": "What is the role of the secondary change volume in IBM's Remote Copy Consistency Protection feature?",
+    "reference": "In IBM's Remote Copy Consistency Protection feature, the secondary change volume is used to automatically copy the previous consistent state of the secondary volume, ensuring data consistency during resynchronization.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/88_88.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/87_87.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/89_89.png"
+    ]
+  },
+  {
+    "example_index": 90,
+    "dataset": "TechReport",
+    "question": "What are the specific packet sizes used in IBM's analysis of transmission times?",
+    "reference": "IBM uses three specific packet sizes in their analysis: 64 bytes (the size of the common ping packet), 1500 bytes (the size of the standard TCP/IP packet), and 2148 bytes (the size of an FC frame).",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/87_87.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/90_90.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/88_88.png"
+    ]
+  },
+  {
+    "example_index": 107,
+    "dataset": "TechReport",
+    "question": "What is SAN partitioning according to the IBM FlashSystem guidelines?",
+    "reference": "SAN partitioning is a hardware-level feature that allows SAN switches to share hardware resources by partitioning its hardware into different and isolated virtual switches.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/288_288.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/108_108.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/107_107.png"
+    ]
+  },
+  {
+    "example_index": 109,
+    "dataset": "TechReport",
+    "question": "What is the range of severity levels indicated for tickets in the IBM FlashSystem 9200 and 9100 Best Practices and Performance Guidelines?",
+    "reference": "The severity levels for tickets range from 1 to 4, with 1 being the most critical and 4 being the least critical.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/109_109.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/110_110.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/343_343.png"
+    ]
+  },
+  {
+    "example_index": 112,
+    "dataset": "TechReport",
+    "question": "How does the proportion of bad writes to good writes affect the sample period in IBM's Global Mirror?",
+    "reference": "In IBM's Global Mirror, if at least one third of the writes are identified as bad, the sample period is defined as a bad period. This proportion is calculated within each 10-second sample period.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/114_114.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/113_113.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/112_112.png"
+    ]
+  },
+  {
+    "example_index": 116,
+    "dataset": "TechReport",
+    "question": "What is the impact of changing VLAN settings on ISCSI and IP replication traffic in IBM FlashSystem 9200 and 9100?",
+    "reference": "Changes to VLAN settings disrupt ISCSI and IP replication traffic to and from the partnerships.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/116_116.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/180_180.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/181_181.png"
+    ]
+  },
+  {
+    "example_index": 125,
+    "dataset": "TechReport",
+    "question": "How many paths can be configured per volume according to the IBM FlashSystem guidelines?",
+    "reference": "Up to 32 paths can be configured to each volume according to the guidelines.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/125_125.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/205_205.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/675_675.png"
+    ]
+  },
+  {
+    "example_index": 126,
+    "dataset": "TechReport",
+    "question": "What happens if a thin-provisioned volume does not have enough real capacity for a write operation in IBM FlashSystem?",
+    "reference": "If a thin-provisioned volume does not have enough real capacity for a write operation, the volume is taken offline and an error is logged (error code 1865, event ID 060001). Access to the volume is restored by increasing the real capacity or the size of the storage pool on which it is allocated.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/126_126.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/294_294.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/279_279.png"
+    ]
+  },
+  {
+    "example_index": 131,
+    "dataset": "TechReport",
+    "question": "What specific issues are addressed by Type 3 log packages in IBM FlashSystem 9200 and 9100?",
+    "reference": "Type 3 log packages are used for 1195 and 1196 node errors and 2030 software restart errors in IBM FlashSystem 9200 and 9100.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/131_131.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/130_130.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/57_57.png"
+    ]
+  },
+  {
+    "example_index": 148,
+    "dataset": "TechReport",
+    "question": "How long does it take for an FCM to format in IBM FlashSystem 9200 and 9100?",
+    "reference": "An FCM is expected to format in under 70 seconds.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/147_147.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/148_148.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1142_1142.png"
+    ]
+  },
+  {
+    "example_index": 149,
+    "dataset": "TechReport",
+    "question": "What tips are provided for pre-zoning in IBM FlashSystem 9100?",
+    "reference": "Several tips and shortcuts are available for FlashSystem 9100 zoning. You should have a defined naming convention and zoning scheme to avoid difficulties in understanding and maintaining the zoning configuration.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/149_149.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/404_404.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/129_129.png"
+    ]
+  },
+  {
+    "example_index": 159,
+    "dataset": "TechReport",
+    "question": "What is the benefit of using the auto-log collection capability in IBM Storage Insights?",
+    "reference": "The auto-log collection capability in IBM Storage Insights allows you to collect logs and send them to IBM before support starts looking into the problem, which can save as much as 50% of the time to resolve the case.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/159_159.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1162_1162.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/715_715.png"
+    ]
+  },
+  {
+    "example_index": 162,
+    "dataset": "TechReport",
+    "question": "What is the recommended resync allowance if the network is unused at night for IBM FlashSystem 9200 and 9100?",
+    "reference": "A much higher resync allowance, such as 100 percent, is recommended if the network is unused at night.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/163_163.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/162_162.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/523_523.png"
+    ]
+  },
+  {
+    "example_index": 166,
+    "dataset": "TechReport",
+    "question": "What is the role of intersystem connectivity in IBM FlashSystem networks?",
+    "reference": "Intersystem connectivity supports mirrored foreground and background I/O, and a dedicated amount of the link bandwidth is required for the exchange of heartbeat messages and the initial configuration of intersystem partnerships.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/166_166.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/171_171.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/376_376.png"
+    ]
+  },
+  {
+    "example_index": 178,
+    "dataset": "TechReport",
+    "question": "What tool can be used to create support tickets and attach snap data in the IBM FlashSystem environment?",
+    "reference": "IBM Storage Insights (SI) can be used to create support tickets and attach snap data to the record from within the SI GUI.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/178_178.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/179_179.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1072_1072.png"
+    ]
+  },
+  {
+    "example_index": 183,
+    "dataset": "TechReport",
+    "question": "What are the different settings for port usage in the GUI of an IBM FlashSystem 9100?",
+    "reference": "In the GUI of an IBM FlashSystem 9100, you can set a port to 'none' for only host and storage traffic, 'local' for node-to-node traffic, or 'remote' for replication traffic.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/183_183.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/387_387.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/617_617.png"
+    ]
+  },
+  {
+    "example_index": 191,
+    "dataset": "TechReport",
+    "question": "What is the maximum final size limit for expanding a volume in IBM FlashSystem?",
+    "reference": "The maximum final size limit for expanding a volume in IBM FlashSystem is 131,072.00 GiB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/191_191.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/100_100.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/99_99.png"
+    ]
+  },
+  {
+    "example_index": 194,
+    "dataset": "TechReport",
+    "question": "What should be considered when determining the storage pool layout in IBM FlashSystem 9100?",
+    "reference": "When determining the storage pool layout, you must consider application boundaries and dependencies to identify any availability benefits that one configuration might have over another.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/194_194.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/699_699.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/696_696.png"
+    ]
+  },
+  {
+    "example_index": 198,
+    "dataset": "TechReport",
+    "question": "What are the considerations for using encryption on IBM FlashSystem 9100?",
+    "reference": "IBM FlashSystem 9100 systems support optional encryption of data at rest, which protects against exposure of sensitive user data. An encryption license is required for every control enclosure that supports encryption, and valid encryption keys must be present during system operations such as power-on, restart, and recovery.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/198_198.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/694_694.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/63_63.png"
+    ]
+  },
+  {
+    "example_index": 201,
+    "dataset": "TechReport",
+    "question": "What is the minimum recommended pool size for a single volume in IBM FlashSystem 9200 and 9100 with one I/O group?",
+    "reference": "The minimum recommended pool size for a single volume with one I/O group is 255 GB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/199_199.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/200_200.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/204_204.png"
+    ]
+  },
+  {
+    "example_index": 203,
+    "dataset": "TechReport",
+    "question": "What is the maximum size of a pool with an extent size of 8192 and four I/O groups in IBM FlashSystem 9200 and 9100?",
+    "reference": "The maximum size of a pool with an extent size of 8192 and four I/O groups is 4096 TB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/200_200.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/199_199.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/203_203.png"
+    ]
+  },
+  {
+    "example_index": 209,
+    "dataset": "TechReport",
+    "question": "What is the importance of cross-checking the version of IBM FlashSystem 9100 with the versions of SAN environment components?",
+    "reference": "Cross-checking the version of IBM FlashSystem 9100 with the versions of SAN environment components helps determine which component to update first and whether a multistep update is required, ensuring smooth and compatible system upgrades.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/208_208.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/209_209.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/211_211.png"
+    ]
+  },
+  {
+    "example_index": 212,
+    "dataset": "TechReport",
+    "question": "How does the performance of mirrored volumes compare to non-mirrored volumes in IBM FlashSystem?",
+    "reference": "Mirrored volumes in IBM FlashSystem put more workload on the cluster, back-end disk subsystems, and the connectivity infrastructure due to the need to synchronize writes to both copies, potentially slowing down performance.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/118_118.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/117_117.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/212_212.png"
+    ]
+  },
+  {
+    "example_index": 220,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the Snapshot preset in IBM FlashSystem?",
+    "reference": "The Snapshot preset in IBM FlashSystem creates a copy-on-write point-in-time copy that is not intended to be an independent copy. It maintains a view of the production data at the time the snapshot is created.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/220_220.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/821_821.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/827_827.png"
+    ]
+  },
+  {
+    "example_index": 228,
+    "dataset": "TechReport",
+    "question": "What types of encryption can be used for child pools in a mixed encryption storage pool?",
+    "reference": "Child pools in a mixed encryption storage pool can use both hardware and software encryption, depending on whether the parent storage pool is encrypted or not.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/227_227.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/228_228.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/63_63.png"
+    ]
+  },
+  {
+    "example_index": 231,
+    "dataset": "TechReport",
+    "question": "How can space be reclaimed on an IBM FlashSystem 9100 after recovery?",
+    "reference": "Space can be reclaimed on an IBM FlashSystem 9100 by adding more storage, migrating extents to other non-write protected MDisks, migrating volumes to another pool, deleting unneeded volumes, and bringing volumes back online using a Directed Maintenance Procedure.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/231_231.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/230_230.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/294_294.png"
+    ]
+  },
+  {
+    "example_index": 233,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the Swap action in IBM FlashSystem 9200 and 9100?",
+    "reference": "The Swap action in IBM FlashSystem 9200 and 9100 exchanges cold extent in an upper tier with hot extent in a lower tier.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/234_234.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/233_233.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/232_232.png"
+    ]
+  },
+  {
+    "example_index": 242,
+    "dataset": "TechReport",
+    "question": "What is the default cache mode for all volumes in IBM FlashSystem 9200 and 9100?",
+    "reference": "The default cache mode for all volumes in IBM FlashSystem 9200 and 9100 is 'readwrite (enabled)'.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/242_242.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/243_243.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/350_350.png"
+    ]
+  },
+  {
+    "example_index": 244,
+    "dataset": "TechReport",
+    "question": "What is the significance of quick initialization in the context of the IBM FlashSystem 9200 and 9100?",
+    "reference": "Quick initialization is significant because the wizard for certain commands and actions is unavailable until quick initialization is complete for the selected volume.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/244_244.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/99_99.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/100_100.png"
+    ]
+  },
+  {
+    "example_index": 248,
+    "dataset": "TechReport",
+    "question": "What is the limit for deduplicated volume copies in data reduction pools per system in the IBM FlashSystem 9100?",
+    "reference": "There is no specific limit mentioned beyond the volume copy limit per data reduction pool for deduplicated volume copies in data reduction pools per system in the IBM FlashSystem 9100.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/245_245.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/248_248.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/247_247.png"
+    ]
+  },
+  {
+    "example_index": 253,
+    "dataset": "TechReport",
+    "question": "What happens to the space in IBM FlashSystem 9100 when data is deleted or migrated using a host that supports UNMAP commands?",
+    "reference": "When data is deleted or migrated using a host that supports UNMAP commands, the IBM FlashSystem 9100 will issue UNMAP to the array, and the space will be released.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/254_254.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/253_253.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/255_255.png"
+    ]
+  },
+  {
+    "example_index": 259,
+    "dataset": "TechReport",
+    "question": "What is the minimum configuration required for HyperSwap in IBM FS9100?",
+    "reference": "The minimum configuration required for HyperSwap in IBM FS9100 is at least one control enclosure implemented in each location, with a minimum of two control enclosures for each FS9100 cluster.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/259_259.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/260_260.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/402_402.png"
+    ]
+  },
+  {
+    "example_index": 266,
+    "dataset": "TechReport",
+    "question": "What are the potential issues with using the remote system for creating golden or practice copies for Disaster Recovery testing in IBM FlashSystem?",
+    "reference": "Using the remote system for creating golden or practice copies can overload the system due to the workload added by the FlashCopy background processes. This overload can lead to poor remote copy performances and eventually result in a 1920 error.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/266_266.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/364_364.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/330_330.png"
+    ]
+  },
+  {
+    "example_index": 271,
+    "dataset": "TechReport",
+    "question": "What happens to the current data on the production volume during a restore operation in IBM FlashSystem 9200 and 9100?",
+    "reference": "The snapshot version completely replaces the current data that exists on the production volume after the restore operation completes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/271_271.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/270_270.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/272_272.png"
+    ]
+  },
+  {
+    "example_index": 273,
+    "dataset": "TechReport",
+    "question": "What is the difference in the write operation behavior when the volume cache is activated versus deactivated in IBM FlashSystem?",
+    "reference": "When the volume cache is activated, the write operation involves caching and de-staging processes, whereas when deactivated, it bypasses the SVC cache and directly writes to the flash storage.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/274_274.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/273_273.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/242_242.png"
+    ]
+  },
+  {
+    "example_index": 275,
+    "dataset": "TechReport",
+    "question": "What is the preferred method for connecting a host to an IBM FlashSystem 9100?",
+    "reference": "The preferred method is to create a single zone to each host port, which must contain the host port and one port from each FlashSystem 9100 node canister that the host must access.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/275_275.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/276_276.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/359_359.png"
+    ]
+  },
+  {
+    "example_index": 284,
+    "dataset": "TechReport",
+    "question": "What is the preferred grain size for Incremental FlashCopy on IBM FlashSystem 9200 and 9100?",
+    "reference": "The preferred grain size for Incremental FlashCopy on IBM FlashSystem 9200 and 9100 is 64 KB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/284_284.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/285_285.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/190_190.png"
+    ]
+  },
+  {
+    "example_index": 289,
+    "dataset": "TechReport",
+    "question": "How can you create a new policy based on an existing one for an IBM FlashSystem 9100?",
+    "reference": "To create a new policy based on an existing one for an IBM FlashSystem 9100, you need to hover the mouse pointer over the existing policy, click it, and choose 'Copy Policy'.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/289_289.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/81_81.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/80_80.png"
+    ]
+  },
+  {
+    "example_index": 294,
+    "dataset": "TechReport",
+    "question": "What is the default grain size for thin-provisioned volumes in IBM FlashSystem?",
+    "reference": "The default grain size for thin-provisioned volumes in IBM FlashSystem is 256 KB. This grain size is defined when the volume is created and cannot be changed afterward.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/557_557.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/555_555.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/556_556.png"
+    ]
+  },
+  {
+    "example_index": 300,
+    "dataset": "TechReport",
+    "question": "What is required for NPIV to function properly in IBM Spectrum Virtualize?",
+    "reference": "For NPIV to work properly, you must have a symmetric cabling of IBM Spectrum Virtualize in your switch, meaning the ports that perform the failover must be in the same SAN Fabric.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/299_299.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/300_300.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/60_60.png"
+    ]
+  },
+  {
+    "example_index": 306,
+    "dataset": "TechReport",
+    "question": "Which IBM product supports Linux native DM-MPIO multipathing?",
+    "reference": "IBM Spectrum Virtualize supports Linux native DM-MPIO multipathing.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/305_305.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/308_308.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/306_306.png"
+    ]
+  },
+  {
+    "example_index": 308,
+    "dataset": "TechReport",
+    "question": "What are the two options available for multipathing support on Solaris hosts?",
+    "reference": "The two options available for multipathing support on Solaris hosts are Symantec Veritas Volume Manager and Solaris MPxIO.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/305_305.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/309_309.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/306_306.png"
+    ]
+  },
+  {
+    "example_index": 309,
+    "dataset": "TechReport",
+    "question": "What command can be used to increase file system performance in Linux?",
+    "reference": "The `tune2fs` command can be used to increase file system performance in Linux.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/309_309.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/308_308.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/306_306.png"
+    ]
+  },
+  {
+    "example_index": 310,
+    "dataset": "TechReport",
+    "question": "What is the importance of free capacity in Easy Tier enabled storage pools?",
+    "reference": "Allowing some free capacity in Easy Tier enabled storage pools helps to deliver better performance.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/310_310.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/576_576.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/666_666.png"
+    ]
+  },
+  {
+    "example_index": 312,
+    "dataset": "TechReport",
+    "question": "What does the term 'Pool Capacity (GiB)' refer to in the context of IBM FlashSystem?",
+    "reference": "The term 'Pool Capacity (GiB)' refers to the total amount of storage space in the pools, which may include overhead space if the disks for the pools aren't formatted.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/312_312.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/262_262.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/261_261.png"
+    ]
+  },
+  {
+    "example_index": 313,
+    "dataset": "TechReport",
+    "question": "What predefined methods can be used for sending policy notifications in IBM FlashSystem 9200 and 9100?",
+    "reference": "The predefined methods for sending policy notifications include Email Addresses, SNMP, IBM Netcool\u00ae / OMNibus, and Windows Event Log or UNIX syslog.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/313_313.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/135_135.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/136_136.png"
+    ]
+  },
+  {
+    "example_index": 319,
+    "dataset": "TechReport",
+    "question": "How do you create a mirrored volume on IBM FlashSystem 9200 and 9100?",
+    "reference": "You can create a mirrored volume by using the 'Add Volume Copy' option as shown in Figure 5-8.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/319_319.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/49_49.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/117_117.png"
+    ]
+  },
+  {
+    "example_index": 325,
+    "dataset": "TechReport",
+    "question": "How does the IBM FlashSystem 9200 and 9100 utilize the indirection layer to enhance the FlashCopy process?",
+    "reference": "The IBM FlashSystem 9200 and 9100 utilize the indirection layer to enhance the FlashCopy process by incorporating a FlashCopy bitmap and enabling read pre-fetching and coalescing writes, which improve overall performance and efficiency.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/324_324.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/325_325.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/326_326.png"
+    ]
+  },
+  {
+    "example_index": 327,
+    "dataset": "TechReport",
+    "question": "What are the sizes of FlashCopy grains according to IBM?",
+    "reference": "FlashCopy grains can be either 64 KB or 256 KB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/328_328.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/327_327.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/284_284.png"
+    ]
+  },
+  {
+    "example_index": 332,
+    "dataset": "TechReport",
+    "question": "What is the maximum RPO if a cycle completes within the specified cycle period on IBM FlashSystem 9200 and 9100?",
+    "reference": "If a cycle completes within the specified cycle period, the RPO is not more than 2 times the cycle period.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/332_332.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/334_334.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/333_333.png"
+    ]
+  },
+  {
+    "example_index": 340,
+    "dataset": "TechReport",
+    "question": "What types of storage systems are monitored by IBM Storage Insights for IBM Spectrum Control for inventory?",
+    "reference": "IBM Storage Insights for IBM Spectrum Control monitors IBM and non-IBM block storage, file storage, and object storage for inventory.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/338_338.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/340_340.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/339_339.png"
+    ]
+  },
+  {
+    "example_index": 342,
+    "dataset": "TechReport",
+    "question": "What are the steps to set up Global Mirror relationships, save bandwidth, and resize volumes in IBM FlashSystem?",
+    "reference": "The steps include ensuring the hosts are up and running and using their volumes normally, with no Metro Mirror or Global Mirror relationship defined yet.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/164_164.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/342_342.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/341_341.png"
+    ]
+  },
+  {
+    "example_index": 346,
+    "dataset": "TechReport",
+    "question": "What is the acceptable range for 'Zero Buffer Credit Percentage' on IBM FlashSystem 9200 and 9100?",
+    "reference": "The acceptable range for 'Zero Buffer Credit Percentage' is well under 1%. From 1-10%, it indicates a concerning level of congestion, and over 10% indicates severe congestion.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/76_76.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/75_75.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/346_346.png"
+    ]
+  },
+  {
+    "example_index": 347,
+    "dataset": "TechReport",
+    "question": "What are the best practices for managing internal storage in IBM FlashSystem 9100?",
+    "reference": "SAS enclosures are used to scale capacity within the performance envelope of a single controller enclosure. Clustering up to four control enclosures scales performance with the additional NVMe storage.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/348_348.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/347_347.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/225_225.png"
+    ]
+  },
+  {
+    "example_index": 357,
+    "dataset": "TechReport",
+    "question": "What hardware upgrade scenarios are possible for the IBM FlashSystem 9100?",
+    "reference": "The possible hardware upgrade scenarios for the IBM FlashSystem 9100 include adding enclosures to an existing cluster, upgrading nodes in an existing cluster, upgrading NVMe drives in an existing enclosure, moving to a new IBM FlashSystem 9100 cluster, and splitting an IBM FlashSystem 9100 cluster.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/358_358.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/357_357.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/577_577.png"
+    ]
+  },
+  {
+    "example_index": 361,
+    "dataset": "TechReport",
+    "question": "What does the error message 'couldn\u2019t open /dev/hdisk232, errno=16' indicate in the context of IBM FlashSystem?",
+    "reference": "The error message 'couldn\u2019t open /dev/hdisk232, errno=16' indicates a busy condition, which can suggest a legacy reserve or a persistent reserve from another host or a different adapter. However, some AIX technology levels have a diagnostic open issue that prevents the pcmquerypr command from opening the device to display the status or to clear a reserve.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/362_362.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/361_361.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/281_281.png"
+    ]
+  },
+  {
+    "example_index": 364,
+    "dataset": "TechReport",
+    "question": "How does Global Mirror with Change Volumes function in IBM FlashSystem 9100?",
+    "reference": "Global Mirror with Change Volumes makes asynchronous copies of your disk by taking periodic FlashCopies of a disk and writing them to a remote destination, isolating the local copy from wide area network issues.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/128_128.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/127_127.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/330_330.png"
+    ]
+  },
+  {
+    "example_index": 367,
+    "dataset": "TechReport",
+    "question": "How does the IBM Spectrum Virtualize architecture manage data virtualization?",
+    "reference": "Data virtualization in the IBM Spectrum Virtualize architecture is managed through the lower cache and involves RAID/Ext and backend components.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/367_367.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/369_369.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/368_368.png"
+    ]
+  },
+  {
+    "example_index": 368,
+    "dataset": "TechReport",
+    "question": "How does the lower cache optimize I/O operations in the IBM Spectrum Virtualize cache architecture?",
+    "reference": "The lower cache is a read/write cache and optimizes I/O to and from disks.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/367_367.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/369_369.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/368_368.png"
+    ]
+  },
+  {
+    "example_index": 372,
+    "dataset": "TechReport",
+    "question": "What is the minimum length for the password when creating an IBM account?",
+    "reference": "The minimum length for the password is 8 characters.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/372_372.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/371_371.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/445_445.png"
+    ]
+  },
+  {
+    "example_index": 374,
+    "dataset": "TechReport",
+    "question": "What does the owner of IBM Storage Insights manage?",
+    "reference": "The owner of IBM Storage Insights manages access for other users and acts as the main contact.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/374_374.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/373_373.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/195_195.png"
+    ]
+  },
+  {
+    "example_index": 379,
+    "dataset": "TechReport",
+    "question": "What is the impact of SAN zoning on replication in IBM FlashSystem?",
+    "reference": "SAN zoning should be applied to provide separate intraysystem zones for each local-remote I/O group pair used for replication.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/61_61.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/60_60.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/59_59.png"
+    ]
+  },
+  {
+    "example_index": 382,
+    "dataset": "TechReport",
+    "question": "What are the key points to consider when automating the documentation for an IBM FlashSystem 9100 solution?",
+    "reference": "Key points to consider include the availability of several methods and tools for automation, the importance of planning for sustained growth, and ensuring that the documentation is conveniently available and easy to consult.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/382_382.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/265_265.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/439_439.png"
+    ]
+  },
+  {
+    "example_index": 384,
+    "dataset": "TechReport",
+    "question": "What are the benefits of using the approach that uses the server's computing resources for data replication?",
+    "reference": "The biggest benefit of using this approach is that it easily accommodates the replacement of your SAN switches or your back-end storage controllers.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/384_384.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/550_550.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/549_549.png"
+    ]
+  },
+  {
+    "example_index": 386,
+    "dataset": "TechReport",
+    "question": "What is the flexibility offered by Data Reduction Pools in IBM FlashSystem 9100?",
+    "reference": "Data Reduction Pools in IBM FlashSystem 9100 offer great flexibility for future use, allowing compression and deduplication of data at the volume level in a specific pool, even if these features are not initially used at the time of creation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/385_385.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/386_386.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/356_356.png"
+    ]
+  },
+  {
+    "example_index": 390,
+    "dataset": "TechReport",
+    "question": "What is the formula used to calculate the approximate amount of usable space in a DRAID6 array?",
+    "reference": "The formula used is: Array Capacity = D / ((W * 256) + 16) * ((N - S) * (W - 2) * 256), where D is drive capacity, N is drive count, S is spare drives, and W is stripe width.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/391_391.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/390_390.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/217_217.png"
+    ]
+  },
+  {
+    "example_index": 407,
+    "dataset": "TechReport",
+    "question": "What are the storage systems that can be used as the top tier of storage alongside traditional arrays?",
+    "reference": "IBM FlashSystem 710 and IBM FlashSystem 810 can be used as the top tier of storage alongside traditional arrays in tiered storage architectures.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/408_408.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/409_409.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/406_406.png"
+    ]
+  },
+  {
+    "example_index": 409,
+    "dataset": "TechReport",
+    "question": "What are the performance metrics of IBM FlashSystem storage systems?",
+    "reference": "IBM FlashSystem storage systems deliver up to 570,000 read IOPS and up to 5 GBps bandwidth with less than 100 microseconds latency, while they provide up to 10 TB of usable data storage just in 1U of rack space.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/406_406.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/405_405.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/407_407.png"
+    ]
+  },
+  {
+    "example_index": 424,
+    "dataset": "TechReport",
+    "question": "What types of tasks can be performed using the LCD display on IBM FlashSystem 710 and 810?",
+    "reference": "Using the LCD display on IBM FlashSystem 710 and 810, you can configure IP addresses, reboot or shut down the system, and monitor the system status.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/424_424.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/493_493.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/494_494.png"
+    ]
+  },
+  {
+    "example_index": 425,
+    "dataset": "TechReport",
+    "question": "How does the Red Hat Ansible Automation Platform integrate with IBM Storage?",
+    "reference": "The Red Hat Ansible Automation Platform integrates with IBM Storage to allow customers to easily automate tasks such as configuration management, provisioning, workflow orchestration, application deployment, and lifecycle management.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/427_427.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/426_426.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/425_425.png"
+    ]
+  },
+  {
+    "example_index": 426,
+    "dataset": "TechReport",
+    "question": "What is a task in Ansible terminology?",
+    "reference": "A task in Ansible terminology is a section that contains a single procedure that you want to be run as part of the automation process.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/427_427.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/426_426.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/425_425.png"
+    ]
+  },
+  {
+    "example_index": 433,
+    "dataset": "TechReport",
+    "question": "What does the acronym 'GM' stand for in the context of IBM storage FlashSystem?",
+    "reference": "The acronym 'GM' stands for Global Mirror in the context of IBM storage FlashSystem.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/433_433.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/320_320.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/321_321.png"
+    ]
+  },
+  {
+    "example_index": 435,
+    "dataset": "TechReport",
+    "question": "What language are Ansible's configuration files written in?",
+    "reference": "Ansible's configuration files, known as playbooks, are written in YAML.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/435_435.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/434_434.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/427_427.png"
+    ]
+  },
+  {
+    "example_index": 436,
+    "dataset": "TechReport",
+    "question": "What is the advantage of using the 'all' option in the gather_subset parameter?",
+    "reference": "Using the 'all' option in the gather_subset parameter ensures that all supported entities are included in the output, providing comprehensive information retrieval.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/436_436.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/457_457.png",
+      "../data/raw/REAL-MM-RAG_TechSlides/test/pages/454_454.png"
+    ]
+  },
+  {
+    "example_index": 446,
+    "dataset": "TechReport",
+    "question": "What settings can be configured for password history in IBM FlashSystem?",
+    "reference": "You can configure the password history settings using the csecurity command with the -maxpasswordhistory and -minpasswordhistory parameters. For example, to set a minimum of 6 and a maximum of 14 password history, use the command with these parameters.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/446_446.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/445_445.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/431_431.png"
+    ]
+  },
+  {
+    "example_index": 449,
+    "dataset": "TechReport",
+    "question": "What are the support and download resources provided by IBM for FlashSystem?",
+    "reference": "The support and download resources provided by IBM for FlashSystem can be found at: ibm.com/support.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/875_875.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/959_959.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/958_958.png"
+    ]
+  },
+  {
+    "example_index": 458,
+    "dataset": "TechReport",
+    "question": "What version of the Ansible collection for IBM Storage Virtualize is currently available?",
+    "reference": "As of this writing, the Ansible collection for IBM Storage Virtualize is available in version 2.4.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/459_459.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/458_458.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/444_444.png"
+    ]
+  },
+  {
+    "example_index": 460,
+    "dataset": "TechReport",
+    "question": "How does Red Hat Ansible integrate with IBM Storage Virtualize?",
+    "reference": "The IBM Storage Virtualize family includes integration with Red Hat Ansible automation platform, allowing IT to create an Ansible playbook that automates repetitive tasks across an organization in a consistent way.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/461_461.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/460_460.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/462_462.png"
+    ]
+  },
+  {
+    "example_index": 473,
+    "dataset": "TechReport",
+    "question": "What is the return code for too many requests in the REST API?",
+    "reference": "The return code for too many requests in the REST API is 429.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/471_471.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/473_473.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/472_472.png"
+    ]
+  },
+  {
+    "example_index": 480,
+    "dataset": "TechReport",
+    "question": "What is the supported operating system for the IBM FlashSystem 720?",
+    "reference": "The supported operating systems for the IBM FlashSystem 720 include Windows Server 2003 and 2008, Linux, and IBM AIX.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/481_481.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/480_480.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/411_411.png"
+    ]
+  },
+  {
+    "example_index": 488,
+    "dataset": "TechReport",
+    "question": "What types of connectivity does IBM FlashSystem 720 and FlashSystem 820 support?",
+    "reference": "IBM FlashSystem 720 and FlashSystem 820 support either 8 Gb Fibre Channel (FC) or 40 Gbps InfiniBand connectivity with the interface modules.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/488_488.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/487_487.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1281_1281.png"
+    ]
+  },
+  {
+    "example_index": 498,
+    "dataset": "TechReport",
+    "question": "What is the role of IBM Advanced Flash Management in the IBM FlashSystem 900?",
+    "reference": "IBM Advanced Flash Management improves MLC flash endurance by 9x over standard implementations without sacrificing latency.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/498_498.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1123_1123.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/497_497.png"
+    ]
+  },
+  {
+    "example_index": 510,
+    "dataset": "TechReport",
+    "question": "What tasks can be managed through the Command-line interface (CLI) for IBM FlashSystem 900?",
+    "reference": "The CLI supports managing users, configuring event notifications, Call Home, network settings, hosts interface I/O ports, logical units (volumes), setting access policies, backing up configuration settings, and restoring configuration settings.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/510_510.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/713_713.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/762_762.png"
+    ]
+  },
+  {
+    "example_index": 511,
+    "dataset": "TechReport",
+    "question": "What are the different menus available in the FlashSystem 900 management tool?",
+    "reference": "The different menus available in the FlashSystem 900 management tool are: Monitoring menu, Volumes menu, Hosts menu, Access menu, and Settings menu.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/511_511.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/503_503.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/499_499.png"
+    ]
+  },
+  {
+    "example_index": 516,
+    "dataset": "TechReport",
+    "question": "How does the RACE compression I/O stack handle large chunks of data compared to small I/O operations?",
+    "reference": "In the RACE compression I/O stack, large chunks of data are glued together and compressed into 32KB compressed data blocks. Small I/O operations require reading large chunks and then decompressing them to retrieve the small I/O data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/518_518.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/517_517.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/516_516.png"
+    ]
+  },
+  {
+    "example_index": 521,
+    "dataset": "TechReport",
+    "question": "What is the purpose of creating a FlashCopy of the secondary volume in IBM FlashSystem 9100?",
+    "reference": "The purpose of creating a FlashCopy of the secondary volume is to provide a consistent copy of the data, even while the Global Mirror relationship is copying, ensuring data consistency and aiding in disaster recovery.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/523_523.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/521_521.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/522_522.png"
+    ]
+  },
+  {
+    "example_index": 526,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the 'Pageant' option in PuTTY for an IBM FlashSystem 9100?",
+    "reference": "The 'Pageant' option in PuTTY is used for Pageant authentication, which is one of the authentication methods available for SSH sessions, as indicated in Figure 8-11.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/526_526.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/527_527.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/654_654.png"
+    ]
+  },
+  {
+    "example_index": 530,
+    "dataset": "TechReport",
+    "question": "What is the first step to synchronize the time on an IBM FlashSystem 9100?",
+    "reference": "The first step to synchronize the time on an IBM FlashSystem 9100 is to select the NTP Server option from the system settings.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/530_530.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/531_531.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/512_512.png"
+    ]
+  },
+  {
+    "example_index": 533,
+    "dataset": "TechReport",
+    "question": "How much cache is recommended for an IBM FlashSystem 9100?",
+    "reference": "A good starting point is 256 GB per system, with an additional 128 GB per system recommended for DRP or heavy use of copy services.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/533_533.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/532_532.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/536_536.png"
+    ]
+  },
+  {
+    "example_index": 534,
+    "dataset": "TechReport",
+    "question": "How many steps are involved in manually updating a single node in a FlashSystem 9100 scale-out configuration?",
+    "reference": "There are 9 steps involved in manually updating a single node.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/534_534.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/661_661.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/650_650.png"
+    ]
+  },
+  {
+    "example_index": 540,
+    "dataset": "TechReport",
+    "question": "What types of data transfer are excluded from the iplink_mb metric in the IBM FlashSystem 9100?",
+    "reference": "The iplink_mb metric in the IBM FlashSystem 9100 excludes iSCSI host I/O operations. It only includes the total number of megabytes transferred per second for Internet Protocol (IP) replication traffic.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/539_539.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/540_540.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/672_672.png"
+    ]
+  },
+  {
+    "example_index": 541,
+    "dataset": "TechReport",
+    "question": "What command is used to remove volume copies in a previous MDisk group in an IBM FlashSystem 9100?",
+    "reference": "The `rmvdiskcopy` command is used to remove volume copies in a previous MDisk group.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/542_542.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/541_541.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/25_25.png"
+    ]
+  },
+  {
+    "example_index": 559,
+    "dataset": "TechReport",
+    "question": "What action is required to assign the selected drives to candidate use in IBM FlashSystem 9100?",
+    "reference": "To assign the selected drives to candidate use, you need to click 'Yes' in the prompt that appears.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/559_559.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/196_196.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/254_254.png"
+    ]
+  },
+  {
+    "example_index": 562,
+    "dataset": "TechReport",
+    "question": "How long does the automatic license activation process take if everything works correctly?",
+    "reference": "The automatic license activation process takes less than a minute if everything works correctly.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/563_563.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/562_562.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/546_546.png"
+    ]
+  },
+  {
+    "example_index": 564,
+    "dataset": "TechReport",
+    "question": "What should I do if the date and time on my IBM FlashSystem 9100 is not accurate?",
+    "reference": "If the date and time on your IBM FlashSystem 9100 is not accurate, you can either set it manually or synchronize it with an NTP server by entering the NTP server's IP address in the Date and Time settings pane.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/512_512.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/564_564.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/530_530.png"
+    ]
+  },
+  {
+    "example_index": 569,
+    "dataset": "TechReport",
+    "question": "What is the maximum total space requirement for performance statistics from all node canisters in a 4 IOG group IBM FlashSystem 9100 cluster?",
+    "reference": "The maximum total space requirement for performance statistics from all node canisters in a 4 IOG group IBM FlashSystem 9100 cluster is a bit more than 147 MB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/567_567.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/570_570.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/569_569.png"
+    ]
+  },
+  {
+    "example_index": 579,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the Data Reduction Estimator Tool (DRET) in the context of IBM FlashSystem 9100?",
+    "reference": "The Data Reduction Estimator Tool (DRET) is a CLI-operated execution file that runs from the host to analyze a given block device and provides a report of what it would expect the deduplication savings to be from data written to the disk.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/579_579.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/581_581.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/580_580.png"
+    ]
+  },
+  {
+    "example_index": 580,
+    "dataset": "TechReport",
+    "question": "What is the estimated time for DRET to analyze a 1 TB volume?",
+    "reference": "The estimated time for DRET to analyze a 1 TB volume is 32 minutes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/579_579.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/580_580.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/581_581.png"
+    ]
+  },
+  {
+    "example_index": 585,
+    "dataset": "TechReport",
+    "question": "What is the minimum number of USB flash drives required to unlock access to encrypted data after a system restart?",
+    "reference": "A minimum of one USB flash drive with the correct master access key is required to unlock access to encrypted data after a system restart.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/584_584.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/585_585.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1144_1144.png"
+    ]
+  },
+  {
+    "example_index": 593,
+    "dataset": "TechReport",
+    "question": "What types of support services are included in IBM Storage Insights?",
+    "reference": "IBM Storage Insights includes configuration best practices, environment analytics, proactive notification, remote diagnostics, and faster time-to-resolution.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/370_370.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/591_591.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/593_593.png"
+    ]
+  },
+  {
+    "example_index": 597,
+    "dataset": "TechReport",
+    "question": "What are the requirements for enabling data encryption in IBM FlashSystem 9100?",
+    "reference": "To enable data encryption in IBM FlashSystem 9100, Feature code ACE7: Encryption Enablement Pack is required, which enables data encryption at rest on the IBM FlashSystem 9100 control enclosure assigned MDisks. Additionally, USB flash drives (feature ACEA) or IBM Security Key Lifecycle Manager (SKLM) are required for encryption key management.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/597_597.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/596_596.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/198_198.png"
+    ]
+  },
+  {
+    "example_index": 599,
+    "dataset": "TechReport",
+    "question": "How can I view all available versions of the IBM FlashSystem 9100 family?",
+    "reference": "To view all available versions, select 'All' in the 'Installed Version' dropdown on the product selector version page.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/598_598.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/599_599.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/154_154.png"
+    ]
+  },
+  {
+    "example_index": 604,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the Run Fix wizard in the IBM FlashSystem 9100?",
+    "reference": "The Run Fix wizard in the IBM FlashSystem 9100 is used to create an MDisk and resolve errors such as Error Code 3124.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/603_603.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/604_604.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/281_281.png"
+    ]
+  },
+  {
+    "example_index": 605,
+    "dataset": "TechReport",
+    "question": "Can I use NVMe Flashcore Modules (FCMs) from FlashSystem 900 or V9000 in the FlashSystem 9100?",
+    "reference": "No, these modules use the same technology as the FlashSystem 9100 FCMs, but have a different form factor and interface.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/605_605.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/401_401.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/400_400.png"
+    ]
+  },
+  {
+    "example_index": 606,
+    "dataset": "TechReport",
+    "question": "What should be considered when changing names after iSCSI is deployed in the IBM FlashSystem 9100?",
+    "reference": "It is important not to change the clustered system name and the node name after iSCSI is deployed because the ION contains these names.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/618_618.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/617_617.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/616_616.png"
+    ]
+  },
+  {
+    "example_index": 611,
+    "dataset": "TechReport",
+    "question": "What are the possible slots for the 25 Gb Ethernet (iWarp) card in the IBM FlashSystem 9100?",
+    "reference": "The possible slots for the 25 Gb Ethernet (iWarp) card in the IBM FlashSystem 9100 are 1, 2, and 3.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/611_611.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/612_612.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/355_355.png"
+    ]
+  },
+  {
+    "example_index": 612,
+    "dataset": "TechReport",
+    "question": "What is the maximum number of ports available on a 12 Gb SAS Expansion card for IBM FlashSystem 9100?",
+    "reference": "The 12 Gb SAS Expansion card has a maximum of 4 ports, but only 2 ports are active (ports 1 and 3).",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/611_611.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/612_612.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/355_355.png"
+    ]
+  },
+  {
+    "example_index": 614,
+    "dataset": "TechReport",
+    "question": "What is the benefit of using Storage Insights according to the information provided on the screen?",
+    "reference": "Using Storage Insights can help improve performance and reduce costs by providing insights and recommendations for maintaining and troubleshooting the system.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/613_613.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/614_614.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/159_159.png"
+    ]
+  },
+  {
+    "example_index": 616,
+    "dataset": "TechReport",
+    "question": "How can the service IP address be used to access network interfaces on individual nodes of the IBM FlashSystem 9100?",
+    "reference": "The service IP address can be used to directly connect to each individual node for service operations, such as selecting a node from the drop-down list and then clicking any of the ports shown in the GUI. It can be configured to support IPv4 or IPv6.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/618_618.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/619_619.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/616_616.png"
+    ]
+  },
+  {
+    "example_index": 617,
+    "dataset": "TechReport",
+    "question": "What information can be updated in the iSCSI Configuration pane for the IBM FlashSystem 9100?",
+    "reference": "In the iSCSI Configuration pane, you can update the System Name and configure iSCSI aliases.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/619_619.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/618_618.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/616_616.png"
+    ]
+  },
+  {
+    "example_index": 622,
+    "dataset": "TechReport",
+    "question": "How do you specify the source ports for iSCSI connections in IBM FlashSystem 9100?",
+    "reference": "You specify the source ports by selecting one port as 'Source port 1' and another as 'Source port 2' from the available ports.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/622_622.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/618_618.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/619_619.png"
+    ]
+  },
+  {
+    "example_index": 627,
+    "dataset": "TechReport",
+    "question": "What should be avoided when configuring storage controllers for Global Mirror volumes according to IBM?",
+    "reference": "It is important to avoid sharing physical disks between Global Mirror volumes and other I/O, for example, by not splitting an individual RAID array.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/626_626.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/627_627.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/235_235.png"
+    ]
+  },
+  {
+    "example_index": 631,
+    "dataset": "TechReport",
+    "question": "What are the supported extent sizes for the IBM FlashSystem 9100?",
+    "reference": "The IBM FlashSystem 9100 supports extent sizes of 16 MB, 32 MB, 64 MB, 128 MB, 256 MB, 512 MB, 1024 MB, 2048 MB, 4096 MB, and 8192 MB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/631_631.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/699_699.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/696_696.png"
+    ]
+  },
+  {
+    "example_index": 634,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the 'Ping' button in the Email Servers screen of the IBM FlashSystem 9100 setup?",
+    "reference": "The 'Ping' button is used to test the connection to the SMTP server.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/634_634.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/633_633.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/639_639.png"
+    ]
+  },
+  {
+    "example_index": 635,
+    "dataset": "TechReport",
+    "question": "What are the intervals recommended for sending the system inventory to IBM?",
+    "reference": "IBM recommends sending the system inventory on a one-day or seven-day interval for maximum benefit.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/637_637.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/636_636.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/635_635.png"
+    ]
+  },
+  {
+    "example_index": 637,
+    "dataset": "TechReport",
+    "question": "What are the key responsibilities of the IBM Technical Advisor in the support process?",
+    "reference": "The IBM Technical Advisor is responsible for maintaining a specific support plan, coordinating service activities, monitoring progress of open service requests, and communicating issues with customers and IBM teams.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1008_1008.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/636_636.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/635_635.png"
+    ]
+  },
+  {
+    "example_index": 639,
+    "dataset": "TechReport",
+    "question": "How can a remote support proxy server be configured in IBM FlashSystem 9100?",
+    "reference": "To configure a remote support proxy server, enter the server name, IP address, and TCP port in the respective fields and click Apply and Next.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/639_639.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/71_71.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/736_736.png"
+    ]
+  },
+  {
+    "example_index": 647,
+    "dataset": "TechReport",
+    "question": "What is the provisioning limit in IBM FlashSystem 9100?",
+    "reference": "The provisioning limit in IBM FlashSystem 9100 is the maximum provisioned capacity allowed in a pool or system, defined by restrictions in the storage hardware or configured by the user.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/648_648.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/647_647.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/646_646.png"
+    ]
+  },
+  {
+    "example_index": 659,
+    "dataset": "TechReport",
+    "question": "What is the difference in compression techniques between location-based and temporal compression in IBM FlashSystem 9100?",
+    "reference": "Location-based compression uses separate dictionaries for different chunks, resulting in lower efficiency, while temporal compression uses a single dictionary for the same data, yielding higher compression ratios.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/660_660.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/659_659.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/658_658.png"
+    ]
+  },
+  {
+    "example_index": 663,
+    "dataset": "TechReport",
+    "question": "What action can be performed to remove iSCSI sessions in IBM FlashSystem 9100?",
+    "reference": "You can remove iSCSI sessions by right-clicking the session and selecting 'Remove'.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/663_663.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/662_662.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/664_664.png"
+    ]
+  },
+  {
+    "example_index": 664,
+    "dataset": "TechReport",
+    "question": "How do you rename an external storage controller in the IBM FlashSystem 9100?",
+    "reference": "To rename an external controller in the IBM FlashSystem 9100, you select 'Rename', enter the new name, and click 'Rename', following the specified naming rules.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/663_663.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/662_662.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/664_664.png"
+    ]
+  },
+  {
+    "example_index": 665,
+    "dataset": "TechReport",
+    "question": "How long does it take to update a single node in the IBM FlashSystem 9100?",
+    "reference": "Updating a single node in the IBM FlashSystem 9100 takes approximately 20 minutes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/650_650.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/649_649.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/665_665.png"
+    ]
+  },
+  {
+    "example_index": 678,
+    "dataset": "TechReport",
+    "question": "Can the extent size of a storage pool in IBM FlashSystem 9100 be changed after creation?",
+    "reference": "No, the extent size of a storage pool in IBM FlashSystem 9100 cannot be changed after the pool is created.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/631_631.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/310_310.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/677_677.png"
+    ]
+  },
+  {
+    "example_index": 679,
+    "dataset": "TechReport",
+    "question": "What integrated software solutions are available for the IBM FlashSystem 9100?",
+    "reference": "IBM offers integrated software solutions for the FlashSystem 9100, such as the Multi-Cloud Solution for Data Reuse, Protection, and Efficiency.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/679_679.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/680_680.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/560_560.png"
+    ]
+  },
+  {
+    "example_index": 682,
+    "dataset": "TechReport",
+    "question": "How does the new allocation block size of 8 KB in IBM FlashSystem 9100 affect random read requests?",
+    "reference": "The new allocation block size of 8 KB in IBM FlashSystem 9100 ensures that all random read requests are of 8 KB size or less, which is ideal for Flash storage.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/684_684.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/683_683.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/682_682.png"
+    ]
+  },
+  {
+    "example_index": 684,
+    "dataset": "TechReport",
+    "question": "What is the allocation block size for the internal volumes in IBM FlashSystem 9100?",
+    "reference": "The allocation block size for the internal volumes in IBM FlashSystem 9100 is now 8 KB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/684_684.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/683_683.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/682_682.png"
+    ]
+  },
+  {
+    "example_index": 687,
+    "dataset": "TechReport",
+    "question": "What are the key features of IBM FlashSystem 9100 that ensure high availability?",
+    "reference": "The key features of IBM FlashSystem 9100 that ensure high availability include HyperSwap support, dual-active intelligent node canisters with mirrored cache, dual-port flash drives with automatic drive failure detection and RAID rebuild, redundant hardware including power supplies and fans, hot-swappable and customer replaceable components, and automated path failover support for the data path between the server and the drives.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/686_686.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/687_687.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/260_260.png"
+    ]
+  },
+  {
+    "example_index": 689,
+    "dataset": "TechReport",
+    "question": "What does the 'Discover Storage' action do in IBM FlashSystem 9100?",
+    "reference": "The 'Discover Storage' action rescans the Fibre Channel or iSCSI network to discover any new MDISks added to the system and rebalances MDisk access across available ports.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/689_689.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/690_690.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/74_74.png"
+    ]
+  },
+  {
+    "example_index": 695,
+    "dataset": "TechReport",
+    "question": "What are the main characteristics of the IBM Data Reduction Pool design?",
+    "reference": "The main characteristics of the IBM Data Reduction Pool design include fine-grained allocation of data blocks, the ability to free back unused capacity at a fine grain, consistent and predictable performance, and optimization for solid-state storage such as Flash.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/695_695.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/550_550.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/363_363.png"
+    ]
+  },
+  {
+    "example_index": 706,
+    "dataset": "TechReport",
+    "question": "What is the maximum chain weight allowed for SAS chains in IBM FlashSystem 9100?",
+    "reference": "The maximum chain weight allowed for SAS chains in IBM FlashSystem 9100 is 10.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/706_706.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1250_1250.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1184_1184.png"
+    ]
+  },
+  {
+    "example_index": 707,
+    "dataset": "TechReport",
+    "question": "What are the main hardware components of the IBM FlashSystem 9100?",
+    "reference": "The main hardware components of the IBM FlashSystem 9100 include the control enclosure and IBM FlashCore module drives.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/707_707.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/709_709.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/708_708.png"
+    ]
+  },
+  {
+    "example_index": 708,
+    "dataset": "TechReport",
+    "question": "What is the maximum cache size that can be configured on the IBM FlashSystem 9100?",
+    "reference": "The maximum cache size that can be configured on the IBM FlashSystem 9100 is 1.5 TB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/708_708.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/707_707.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/709_709.png"
+    ]
+  },
+  {
+    "example_index": 710,
+    "dataset": "TechReport",
+    "question": "How many types of statistics files are created for each collection interval?",
+    "reference": "Four types of statistics files are created for each collection interval: one for managed disks (MDisks), one for volumes and volume copies, one for nodes, and one for SAS drives.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/710_710.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/568_568.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/571_571.png"
+    ]
+  },
+  {
+    "example_index": 724,
+    "dataset": "TechReport",
+    "question": "What is the purpose of breaking data into fixed-size chunks in IBM FlashSystem 9100?",
+    "reference": "In IBM FlashSystem 9100, data is broken into fixed-size chunks to facilitate independent compression of each chunk into variable-length compressed chunks.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/725_725.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/724_724.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/755_755.png"
+    ]
+  },
+  {
+    "example_index": 725,
+    "dataset": "TechReport",
+    "question": "What is the advantage of using fixed-size chunks for output in the RACE engine?",
+    "reference": "Using fixed-size chunks for output in the RACE engine provides a structured approach that can enhance data management and storage efficiency.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/724_724.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/725_725.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/640_640.png"
+    ]
+  },
+  {
+    "example_index": 727,
+    "dataset": "TechReport",
+    "question": "What does the system prompt if fewer than three USB flash drives are inserted into the IBM FlashSystem 9100?",
+    "reference": "The system prompts to insert more drives and reports how many more are needed.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/728_728.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/727_727.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/584_584.png"
+    ]
+  },
+  {
+    "example_index": 739,
+    "dataset": "TechReport",
+    "question": "What are the specific capacity options for NVMe drives in IBM FlashSystem 9100?",
+    "reference": "The specific capacity options for NVMe drives in IBM FlashSystem 9100 are 1.92 TB, 3.84 TB, 7.68 TB, and 15.36 TB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/739_739.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/740_740.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/605_605.png"
+    ]
+  },
+  {
+    "example_index": 740,
+    "dataset": "TechReport",
+    "question": "What are the capacity variations of the NVMe drives available for IBM FlashSystem 9100?",
+    "reference": "The capacity variations of the NVMe drives available for IBM FlashSystem 9100 are 1.92 TB, 3.84 TB, 7.68 TB, and 15.36 TB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/740_740.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/739_739.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/638_638.png"
+    ]
+  },
+  {
+    "example_index": 741,
+    "dataset": "TechReport",
+    "question": "How are the IP addresses managed in the IBM FlashSystem 9100?",
+    "reference": "In the IBM FlashSystem 9100, the management IP addresses are assigned during initialization and used to manage the system, while the service IP addresses are configured for each individual node port and can be unconfigured by clearing the IP field or setting the IP address to 0.0.0.0.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/742_742.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/741_741.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/749_749.png"
+    ]
+  },
+  {
+    "example_index": 745,
+    "dataset": "TechReport",
+    "question": "What actions can be taken during SAN maintenance to reduce the application I/O workload for IBM FlashSystem 9100?",
+    "reference": "During SAN maintenance, the user can choose to disable the get link to tolerance feature, increase the get link to tolerance value, or stop the Global Mirror relationships to reduce the application I/O workload.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/745_745.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/310_310.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/732_732.png"
+    ]
+  },
+  {
+    "example_index": 748,
+    "dataset": "TechReport",
+    "question": "What is the maximum number of 64 KB grains split per second for a 100% user percentage in IBM FlashSystem 9100?",
+    "reference": "The maximum number of 64 KB grains split per second for a 100% user percentage is 1024.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/746_746.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/748_748.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/747_747.png"
+    ]
+  },
+  {
+    "example_index": 753,
+    "dataset": "TechReport",
+    "question": "What is the syntax for the `analyzevdisk` command in IBM FlashSystem 9100?",
+    "reference": "The syntax for the `analyzevdisk` command is `analyzevdisk -v vdisk_id -n vdisk_name`.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/753_753.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/751_751.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/752_752.png"
+    ]
+  },
+  {
+    "example_index": 757,
+    "dataset": "TechReport",
+    "question": "How often is the system monitored with the call home feature enabled?",
+    "reference": "With the call home feature enabled, the system is effectively monitored 24 x 7 x 365.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/757_757.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1012_1012.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/907_907.png"
+    ]
+  },
+  {
+    "example_index": 758,
+    "dataset": "TechReport",
+    "question": "What is the architecture of the IBM FlashSystem 840 enclosures?",
+    "reference": "The IBM FlashSystem 840 enclosures consist of two fully redundant canisters, each containing a RAID controller, two interface cards, and a management controller with an associated 1 Gbps Ethernet port. Each canister also has a USB port and two hot-swappable fan modules.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/758_758.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/595_595.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/717_717.png"
+    ]
+  },
+  {
+    "example_index": 772,
+    "dataset": "TechReport",
+    "question": "What is the maximum quantity supported for 3 m Minix QSFP Opt FDR14 IB cable?",
+    "reference": "The maximum quantity supported for 3 m Minix QSFP Opt FDR14 IB cable is 8.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/772_772.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/492_492.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/422_422.png"
+    ]
+  },
+  {
+    "example_index": 777,
+    "dataset": "TechReport",
+    "question": "What type of data path is used in the IBM FlashSystem 9500 with IBM FlashCore technology?",
+    "reference": "The IBM FlashSystem 9500 with IBM FlashCore technology uses a hardware-only data path.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1168_1168.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1123_1123.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/498_498.png"
+    ]
+  },
+  {
+    "example_index": 778,
+    "dataset": "TechReport",
+    "question": "What happens if a self-encrypting drive (SED) from an IBM FlashSystem 9500 is removed and placed in another system?",
+    "reference": "The drive data becomes unreadable, and the system posts an error message indicating it is locked. The only way to use the drive is to format it, which also performs a cryptographic erase.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/778_778.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1144_1144.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1116_1116.png"
+    ]
+  },
+  {
+    "example_index": 779,
+    "dataset": "TechReport",
+    "question": "How is the provisioned capacity calculated for billing purposes in the IBM Storage FlashSystem 9500?",
+    "reference": "The provisioned capacity is calculated based on the average capacity used per month over a quarter. This is compared to the base system capacity subscription, and any additional capacity is billed per terabyte, per month on a quarterly basis.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1190_1190.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/779_779.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1134_1134.png"
+    ]
+  },
+  {
+    "example_index": 780,
+    "dataset": "TechReport",
+    "question": "What are the benefits of using NVMe over Fabrics in IBM FlashSystem 9500?",
+    "reference": "NVMe over Fabrics in IBM FlashSystem 9500 provides benefits in terms of latency, efficiency, and scalability due to shortened code paths and lockless concurrency in multi-core environments.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/780_780.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/782_782.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/781_781.png"
+    ]
+  },
+  {
+    "example_index": 793,
+    "dataset": "TechReport",
+    "question": "What advanced functions does the IBM FlashSystem 9500 provide?",
+    "reference": "The IBM FlashSystem 9500 provides advanced functions such as HyperSwap, Snapshot, IBM FlashSystem Cyber Vault, increased security features, and more.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/793_793.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1114_1114.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1115_1115.png"
+    ]
+  },
+  {
+    "example_index": 797,
+    "dataset": "TechReport",
+    "question": "Which cloud service providers are supported by IBM Storage FlashSystem 9500 for transparent cloud tiering?",
+    "reference": "The supported cloud service providers include IBM Cloud, OpenStack Swift, Amazon S3, and Microsoft Azure.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/797_797.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/711_711.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/69_69.png"
+    ]
+  },
+  {
+    "example_index": 802,
+    "dataset": "TechReport",
+    "question": "What is the acoustical noise emission level during operation of the IBM FlashSystem 9000 LFF High-Density Expansion Enclosure A9F?",
+    "reference": "The acoustical noise emission level during operation of the IBM FlashSystem 9000 LFF High-Density Expansion Enclosure A9F is 8.5 beles.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/802_802.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1256_1256.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1259_1259.png"
+    ]
+  },
+  {
+    "example_index": 809,
+    "dataset": "TechReport",
+    "question": "How frequently are snapshots created under the predefinedsspolicypolicy0 policy for IBM Storage Safeguarded snapshots?",
+    "reference": "Under the predefinedsspolicypolicy0 policy, snapshots are created at six-hour intervals and retained for seven days.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/810_810.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/809_809.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/808_808.png"
+    ]
+  },
+  {
+    "example_index": 811,
+    "dataset": "TechReport",
+    "question": "How is the new volume group managed after it is created from a thin clone in IBM Storage Safeguarded snapshots?",
+    "reference": "The new volume group is accessible and manageable from the main volume groups view, regardless of the volume selection during the thin clone creation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/811_811.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/812_812.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/846_846.png"
+    ]
+  },
+  {
+    "example_index": 815,
+    "dataset": "TechReport",
+    "question": "What is the focus of backup-based recovery for secondary workloads?",
+    "reference": "The focus for secondary workloads is on long-term retention and disaster recovery (DR) scenarios rather than immediate accessibility.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/814_814.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/813_813.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/815_815.png"
+    ]
+  },
+  {
+    "example_index": 817,
+    "dataset": "TechReport",
+    "question": "What are the critical assumptions for backup-based recovery to be effective?",
+    "reference": "Backup-based recovery relies on system availability and backup integrity, meaning the backups must be uncompromised and the data not locked, corrupted, or encrypted.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/813_813.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/817_817.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/814_814.png"
+    ]
+  },
+  {
+    "example_index": 820,
+    "dataset": "TechReport",
+    "question": "How can volume groups be created for IBM Safeguarded snapshots?",
+    "reference": "Volume groups can be created independently, and volumes can be assigned to them either during their creation or afterward.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/864_864.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/820_820.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/846_846.png"
+    ]
+  },
+  {
+    "example_index": 823,
+    "dataset": "TechReport",
+    "question": "How does the use of IBM Safeguarded snapshots ensure data protection and business continuity?",
+    "reference": "By scheduling snapshots every 2 hours and retaining them for 3 days, the solution ensures a high level of data protection with minimal data loss potential, allowing recovery from any point within the 3-day retention period.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/823_823.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/824_824.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/861_861.png"
+    ]
+  },
+  {
+    "example_index": 824,
+    "dataset": "TechReport",
+    "question": "What key features are highlighted for IBM Safeguarded snapshots?",
+    "reference": "The key features of IBM Safeguarded snapshots include immutability, cyber resilience, rapid recovery, integration with automation tools, and integration with security tools.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/824_824.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/853_853.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/854_854.png"
+    ]
+  },
+  {
+    "example_index": 834,
+    "dataset": "TechReport",
+    "question": "What is the role of cybersecurity in cyber resiliency as described in the IBM report?",
+    "reference": "Cybersecurity plays a crucial role in cyber resiliency by protecting systems and critical information from digital attacks, which can come from both inside and outside the organization.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/834_834.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/836_836.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/835_835.png"
+    ]
+  },
+  {
+    "example_index": 837,
+    "dataset": "TechReport",
+    "question": "What are the different sections available for further reading on IBM Storage Safeguarded snapshots?",
+    "reference": "The different sections available for further reading on IBM Storage Safeguarded snapshots include IBM Redbooks, Online resources, and Help from IBM.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/837_837.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/821_821.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/847_847.png"
+    ]
+  },
+  {
+    "example_index": 849,
+    "dataset": "TechReport",
+    "question": "What are the methods to determine the Data Change Rate (DCR) according to IBM?",
+    "reference": "According to IBM, the Data Change Rate (DCR) can be obtained through system dashboards, Storage Insights, snapshot measurement, or using a rule of thumb which estimates 12-15% for the DCR x N portion of the equation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/850_850.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/849_849.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/851_851.png"
+    ]
+  },
+  {
+    "example_index": 850,
+    "dataset": "TechReport",
+    "question": "How does IBM ensure the immutability of backups using Safeguarded snapshots?",
+    "reference": "IBM ensures the immutability of backups by preventing Safeguarded snapshots from being accidentally or intentionally modified or deleted, thus protecting the backup data integrity.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/849_849.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/851_851.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/850_850.png"
+    ]
+  },
+  {
+    "example_index": 853,
+    "dataset": "TechReport",
+    "question": "How does IBM Storage Defender use AI for threat detection?",
+    "reference": "IBM Storage Defender uses AI-driven intelligence and anomaly detection to identify potential threats early.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/853_853.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/854_854.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/842_842.png"
+    ]
+  },
+  {
+    "example_index": 865,
+    "dataset": "TechReport",
+    "question": "What does IBM suggest as a more mature approach to DR testing?",
+    "reference": "IBM suggests that a more mature approach to DR testing should include aspects like recovery from loss of data, restarting systems, recovering and restarting applications, and handling complexities associated with microservices.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/865_865.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/845_845.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/844_844.png"
+    ]
+  },
+  {
+    "example_index": 869,
+    "dataset": "TechReport",
+    "question": "What certifications does Nezih Boyacioglu hold?",
+    "reference": "Nezih Boyacioglu holds certifications including Enterprise Storage Technical Support, Flash Technical Solutions, Virtualized Storage, and Spectrum Storage software.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/869_869.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/388_388.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/964_964.png"
+    ]
+  },
+  {
+    "example_index": 872,
+    "dataset": "TechReport",
+    "question": "How does Easy Tier help in reducing the workload on storage?",
+    "reference": "Easy Tier reduces the workload on storage by moving the hottest data to the fastest tier, thereby significantly reducing the workload on the remainder of the storage and accelerating application performance.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/872_872.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/874_874.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/873_873.png"
+    ]
+  },
+  {
+    "example_index": 877,
+    "dataset": "TechReport",
+    "question": "What feature in IBM FlashSystem 5100 and FlashSystem 5000 enables monitoring and self-service provisioning from within VMware vCenter?",
+    "reference": "The vCenter plug-in feature enables monitoring and self-service provisioning of the system from within VMware vCenter.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/878_878.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/877_877.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/876_876.png"
+    ]
+  },
+  {
+    "example_index": 878,
+    "dataset": "TechReport",
+    "question": "What are Virtual Volumes (VVols) in the context of IBM FlashSystem and VMware?",
+    "reference": "Virtual Volumes (VVols) are an integration and management framework that virtualizes the FlashSystem family systems, enabling a more efficient operational model optimized for virtualized environments.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/879_879.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/878_878.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/876_876.png"
+    ]
+  },
+  {
+    "example_index": 881,
+    "dataset": "TechReport",
+    "question": "What is the purpose of HyperSwap in IBM FlashSystem 5000?",
+    "reference": "HyperSwap in IBM FlashSystem 5000 is used to improve availability and support disaster recovery by managing mirrored volumes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/879_879.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/876_876.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/877_877.png"
+    ]
+  },
+  {
+    "example_index": 890,
+    "dataset": "TechReport",
+    "question": "What type of compression is supported by the IBM FlashSystem 5010?",
+    "reference": "The IBM FlashSystem 5010 supports DRP compression only.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/890_890.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/889_889.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/887_887.png"
+    ]
+  },
+  {
+    "example_index": 893,
+    "dataset": "TechReport",
+    "question": "What are the different types of onboard Ethernet ports available on the IBM FlashSystem 5100 control bottom canister?",
+    "reference": "The IBM FlashSystem 5100 control bottom canister has several types of onboard Ethernet ports, including Management IP, Service IP, Host I/O (iSCSI only), Secondary Management IP, Host I/O (iSCSI only), Host I/O (iSCSI only), and a Technician Port for direct attach service management.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/894_894.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/893_893.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1218_1218.png"
+    ]
+  },
+  {
+    "example_index": 899,
+    "dataset": "TechReport",
+    "question": "How can FlashCopy be used to create test environments in IBM FlashSystem products?",
+    "reference": "FlashCopy can be used to create a fully functional snapshot of a clone of a volume containing real data, enabling read and write access for the test environment while keeping the real production environment data both safe and untouched.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/900_900.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/899_899.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/389_389.png"
+    ]
+  },
+  {
+    "example_index": 901,
+    "dataset": "TechReport",
+    "question": "What types of drives can be intermixed within an enclosure in the IBM FlashSystem 5000?",
+    "reference": "The IBM FlashSystem 5000 allows the intermixing of high-performance disk drives, high-capacity nearline disk drives, and flash (solid-state drives) within an enclosure.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/902_902.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/901_901.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/799_799.png"
+    ]
+  },
+  {
+    "example_index": 902,
+    "dataset": "TechReport",
+    "question": "What are the different types of 2.5-inch drives supported by the IBM FlashSystem 5000?",
+    "reference": "The IBM FlashSystem 5000 supports Tier 1 Flash drives with speeds ranging from 1.9 TB to 30.72 TB, High Performance Enterprise Class Disk Drives with speeds up to 10,000 RPM and capacities from 900 GB to 2.4 TB, and High Capacity, Archival class Nearline Disk Drives with speeds up to 7,200 RPM and capacities of 2 TB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/902_902.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/901_901.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/880_880.png"
+    ]
+  },
+  {
+    "example_index": 905,
+    "dataset": "TechReport",
+    "question": "How does the compression process occur in IBM FlashSystem?",
+    "reference": "The compression process occurs transparently to host systems making them unaware of the compression. When a host sends a write request, the request is acknowledged by the write cache of the system, then staged to the Data Reduction Pool, passing through the compression engine before being stored in compressed format.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1034_1034.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1036_1036.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1035_1035.png"
+    ]
+  },
+  {
+    "example_index": 907,
+    "dataset": "TechReport",
+    "question": "What features does IBM Storage Insights provide for monitoring and optimizing storage resources?",
+    "reference": "IBM Storage Insights provides a unified view of IBM systems, collects telemetry and call home data, and offers real-time system reporting of capacity and performance, helping to monitor and optimize storage resources.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/907_907.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/716_716.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/715_715.png"
+    ]
+  },
+  {
+    "example_index": 909,
+    "dataset": "TechReport",
+    "question": "How does the IBM FlashSystem A9000 and A9000R gather information in real-time?",
+    "reference": "The systems gather information in real-time through various methods and functions, in addition to the self-monitoring, self-healing, and automatic alert functions implemented with IBM Hyper-Scale Manager software.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/909_909.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1012_1012.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1053_1053.png"
+    ]
+  },
+  {
+    "example_index": 920,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the 4 KB alignment in the IBM FlashSystem A9000 and A9000R architecture?",
+    "reference": "The 4 KB alignment in the IBM FlashSystem A9000 and A9000R architecture is used to augment the probability of finding a match for data deduplication within 8 KB blocks, thereby increasing the data deduplication percentage.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/920_920.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/917_917.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/918_918.png"
+    ]
+  },
+  {
+    "example_index": 923,
+    "dataset": "TechReport",
+    "question": "How does IBM FlashSystem A9000 or A9000R initiate communication with SNMP managers?",
+    "reference": "IBM FlashSystem A9000 or A9000R initiates SNMP packets when it sends traps to SNMP managers.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/923_923.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1099_1099.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/953_953.png"
+    ]
+  },
+  {
+    "example_index": 928,
+    "dataset": "TechReport",
+    "question": "What is the importance of the SKLM server in the context of IBM FlashSystem A9000 and A9000R?",
+    "reference": "The IBM SKLM server is crucial because it can be installed as a virtual machine and must not use the encrypted FlashSystem A9000 or A9000R as a storage device to prevent encryption deadlock situations.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/930_930.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/929_929.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/927_927.png"
+    ]
+  },
+  {
+    "example_index": 930,
+    "dataset": "TechReport",
+    "question": "How many IP addresses are required for the management of IBM FlashSystem A9000 or A9000R?",
+    "reference": "Three IP addresses are required for the management of FlashSystem A9000 or A9000R and the appropriate network and gateway.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/929_929.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/930_930.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/927_927.png"
+    ]
+  },
+  {
+    "example_index": 936,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the 'dest_test' command in the IBM FlashSystem A9000 and A9000R?",
+    "reference": "The 'dest_test' command sends a test message to an event notification destination.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/934_934.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/933_933.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/935_935.png"
+    ]
+  },
+  {
+    "example_index": 940,
+    "dataset": "TechReport",
+    "question": "What is the combination of RAID and VSR protection referred to as in IBM FlashSystem?",
+    "reference": "The combination of RAID 5 over the MicroLatency module and the VSR inside a MicroLatency module is referred to as two-dimensional RAID protection (2D RAID) in IBM FlashSystem.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/941_941.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/940_940.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1002_1002.png"
+    ]
+  },
+  {
+    "example_index": 941,
+    "dataset": "TechReport",
+    "question": "How does the data path inside the flash enclosure of IBM FlashSystem contribute to low latency?",
+    "reference": "The data path inside the flash enclosure of IBM FlashSystem is hardware-accelerated, meaning no processing or CPU is consumed in the data path, which enables the lowest latency and highest throughput.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/941_941.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/940_940.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/961_961.png"
+    ]
+  },
+  {
+    "example_index": 961,
+    "dataset": "TechReport",
+    "question": "How does the IBM FlashSystem A9000 and A9000R differ from other hybrid or SSD-only-based disk systems?",
+    "reference": "The internal architecture of the IBM FlashSystem A9000 and A9000R differs from other hybrid (SSD and HDD) or SSD-only-based disk systems due to its all-hardware data path design.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/962_962.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/961_961.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1013_1013.png"
+    ]
+  },
+  {
+    "example_index": 971,
+    "dataset": "TechReport",
+    "question": "What is the purpose of using syslog in IBM FlashSystem A9000 and A9000R?",
+    "reference": "Syslog is used for logging and exporting all user actions, including administrative commands and parameters, in IBM FlashSystem A9000 and A9000R.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/970_970.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/969_969.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/971_971.png"
+    ]
+  },
+  {
+    "example_index": 976,
+    "dataset": "TechReport",
+    "question": "What is the default output size limit for the event_list command on the IBM FlashSystem A9000?",
+    "reference": "The default output size limit for the event_list command on the IBM FlashSystem A9000 is 300 events.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/976_976.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/978_978.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/977_977.png"
+    ]
+  },
+  {
+    "example_index": 988,
+    "dataset": "TechReport",
+    "question": "What are the system requirements for the operating system of the Hyper-Scale Manager server for IBM FlashSystem A9000 and A9000R?",
+    "reference": "The Hyper-Scale Manager server requires Redhat Enterprise Linux (RHEL) x64, Version 6.x or later, or CentOS 6.8 or 7.2.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/989_989.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/990_990.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/987_987.png"
+    ]
+  },
+  {
+    "example_index": 997,
+    "dataset": "TechReport",
+    "question": "How can I monitor the status of system components that require service in IBM FlashSystem A9000 and A9000R?",
+    "reference": "The 'component_service_required_list' command displays a list of system components that require service.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/997_997.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/996_996.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/995_995.png"
+    ]
+  },
+  {
+    "example_index": 1000,
+    "dataset": "TechReport",
+    "question": "What is the smallest capacity option for the MicroLatency modules in the FlashSystem A9000?",
+    "reference": "The smallest capacity option for the MicroLatency modules in the FlashSystem A9000 is 3.6 TB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1090_1090.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1089_1089.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1091_1091.png"
+    ]
+  },
+  {
+    "example_index": 1005,
+    "dataset": "TechReport",
+    "question": "What is the estimated compression saving for the merged volumes of RHEL7 and win2008 in the second example?",
+    "reference": "The estimated compression saving for the merged volumes of RHEL7 and win2008 is 16.3%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1003_1003.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1005_1005.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1004_1004.png"
+    ]
+  },
+  {
+    "example_index": 1017,
+    "dataset": "TechReport",
+    "question": "What resources in IBM FlashSystem A9000 and A9000R have finite limits?",
+    "reference": "Certain resources within IBM FlashSystem A9000 and A9000R have finite limits, including storage capacity and the number of volumes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1017_1017.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/932_932.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/931_931.png"
+    ]
+  },
+  {
+    "example_index": 1024,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the daisy chain connection in the IBM FlashSystem A9000?",
+    "reference": "The daisy chain connection in the IBM FlashSystem A9000 is used for internal management traffic and debugging that are utilized by IBM Support only.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1024_1024.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1100_1100.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1101_1101.png"
+    ]
+  },
+  {
+    "example_index": 1035,
+    "dataset": "TechReport",
+    "question": "How does the system handle the compression of data in IBM FlashSystem A9000 and A9000R?",
+    "reference": "The system handles the compression of data in IBM FlashSystem A9000 and A9000R by first deduplicating the data and then applying compression techniques to reduce the data size further.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1036_1036.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1035_1035.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1034_1034.png"
+    ]
+  },
+  {
+    "example_index": 1043,
+    "dataset": "TechReport",
+    "question": "What is the command to list all defined destinations in IBM FlashSystem A9000 and A9000R?",
+    "reference": "The command to list all defined destinations is 'dest_list'. For example, the command 'dest_list' outputs a list of defined destinations including their types, email addresses, area codes, phone numbers, and SNMP managers.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1042_1042.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1043_1043.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/934_934.png"
+    ]
+  },
+  {
+    "example_index": 1046,
+    "dataset": "TechReport",
+    "question": "What is the benefit of using inline data reduction in IBM FlashSystem A9000 and A9000R?",
+    "reference": "Inline data reduction in IBM FlashSystem A9000 and A9000R provides application hosts with the capability to provision virtual storage capacity that is much greater than the actual physical capacity.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1045_1045.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1046_1046.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1047_1047.png"
+    ]
+  },
+  {
+    "example_index": 1053,
+    "dataset": "TechReport",
+    "question": "What type of monitoring does Hyper-Scale Manager provide?",
+    "reference": "Hyper-Scale Manager provides real-time performance monitoring and powerful health monitoring by integrating events and alerts across managed systems.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/909_909.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1053_1053.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1052_1052.png"
+    ]
+  },
+  {
+    "example_index": 1056,
+    "dataset": "TechReport",
+    "question": "What are the levels at which a performance class can be defined in IBM FlashSystem A9000?",
+    "reference": "A performance class in IBM FlashSystem A9000 can be defined for Domains, Hosts, Pools, and Volumes.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1056_1056.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/924_924.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/931_931.png"
+    ]
+  },
+  {
+    "example_index": 1058,
+    "dataset": "TechReport",
+    "question": "What additional components can be placed in the middle PCI slots of the grid controller?",
+    "reference": "The middle PCI slots on the rear view of the grid controller can contain an FC-NVMe connector, an additional InfiniBand card, or both.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1057_1057.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1058_1058.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1029_1029.png"
+    ]
+  },
+  {
+    "example_index": 1069,
+    "dataset": "TechReport",
+    "question": "What is the maximum number of planes that can fail before a whole MicroLatency module is considered failed in IBM FlashSystem A9000 and A9000R?",
+    "reference": "Up to 64 planes can fail before a whole MicroLatency module is considered failed in IBM FlashSystem A9000 and A9000R.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1070_1070.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1069_1069.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1067_1067.png"
+    ]
+  },
+  {
+    "example_index": 1074,
+    "dataset": "TechReport",
+    "question": "What specific technology is used for data compression in FlashSystem A9000 and A9000R?",
+    "reference": "IBM Inline Hardware Data Compression is used for data compression in FlashSystem A9000 and A9000R.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1097_1097.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1096_1096.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1094_1094.png"
+    ]
+  },
+  {
+    "example_index": 1076,
+    "dataset": "TechReport",
+    "question": "What is the power consumption of the FlashSystem A9000R with twelve grid controllers and six flash enclosures?",
+    "reference": "The power consumption is 11.08 kVA.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1075_1075.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1076_1076.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1092_1092.png"
+    ]
+  },
+  {
+    "example_index": 1077,
+    "dataset": "TechReport",
+    "question": "How many canisters are included in the flash enclosure of IBM FlashSystem A9000 and A9000R?",
+    "reference": "The flash enclosure of IBM FlashSystem A9000 and A9000R includes 2 canisters.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1077_1077.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1024_1024.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/912_912.png"
+    ]
+  },
+  {
+    "example_index": 1079,
+    "dataset": "TechReport",
+    "question": "What are the delivery requirements for the IBM FlashSystem A9000R components?",
+    "reference": "It is the responsibility of the customer or moving contractor to unpack and move IBM FlashSystem A9000R components as close as possible to the system\u2019s final destination before an IBM SSR can start the physical installation.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1079_1079.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1080_1080.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1063_1063.png"
+    ]
+  },
+  {
+    "example_index": 1080,
+    "dataset": "TechReport",
+    "question": "What is the maximum tilt angle allowed for the IBM FlashSystem A9000R storage system rack?",
+    "reference": "Be careful not to tilt the FlashSystem A9000R storage system rack more than 10 degrees.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1080_1080.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1079_1079.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/993_993.png"
+    ]
+  },
+  {
+    "example_index": 1094,
+    "dataset": "TechReport",
+    "question": "How does the IBM compression technique handle the storage of compressed data?",
+    "reference": "The IBM compression technique stores the resulting compressed blocks sequentially in fixed-size, 32 KB blocks.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1096_1096.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1095_1095.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1093_1093.png"
+    ]
+  },
+  {
+    "example_index": 1101,
+    "dataset": "TechReport",
+    "question": "How many flash enclosures are there in the maximum configuration of IBM FlashSystem A9000R Model 415?",
+    "reference": "There are 6 flash enclosures in the maximum configuration of IBM FlashSystem A9000R Model 415.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1021_1021.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1018_1018.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1019_1019.png"
+    ]
+  },
+  {
+    "example_index": 1104,
+    "dataset": "TechReport",
+    "question": "What happens if the sampling fails in the IBM Hyper-Scale Manager?",
+    "reference": "If the sampling fails, the Management Server samples the system every 15 minutes for a period of 12 hours. If the sample still fails, the operation is repeated the following day.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1104_1104.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1103_1103.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1105_1105.png"
+    ]
+  },
+  {
+    "example_index": 1112,
+    "dataset": "TechReport",
+    "question": "What is the role of HyperSwap in the IBM FlashSystem 9200?",
+    "reference": "HyperSwap is used to present each volume to two I/O groups, tolerating combinations of node and site failures using host multipathing driver interoperability.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1113_1113.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1143_1143.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1114_1114.png"
+    ]
+  },
+  {
+    "example_index": 1117,
+    "dataset": "TechReport",
+    "question": "How many SAS ports are available for Expansion Enclosure attachment in the IBM FlashSystem 9200?",
+    "reference": "There are 12 GB SAS ports available for Expansion Enclosure attachment.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1117_1117.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1158_1158.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/702_702.png"
+    ]
+  },
+  {
+    "example_index": 1122,
+    "dataset": "TechReport",
+    "question": "Which protocol does the FC-NVMe use for data transfer?",
+    "reference": "FC-NVMe uses the Fibre Channel Protocol (FCP) as its transport mechanism for data transfer.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/782_782.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1122_1122.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/780_780.png"
+    ]
+  },
+  {
+    "example_index": 1128,
+    "dataset": "TechReport",
+    "question": "What is the maximum cache memory in a two-enclosure configuration of the IBM FlashSystem 9200?",
+    "reference": "In a two-enclosure configuration, the maximum cache memory is 3072 GB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1128_1128.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1130_1130.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1129_1129.png"
+    ]
+  },
+  {
+    "example_index": 1138,
+    "dataset": "TechReport",
+    "question": "What does the IBM Compressimator and DRET show for data reduction pool compression and deduplication?",
+    "reference": "The IBM Compressimator and DRET shows the savings for thin-provisioning, compression, and deduplication.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1138_1138.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1137_1137.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1140_1140.png"
+    ]
+  },
+  {
+    "example_index": 1149,
+    "dataset": "TechReport",
+    "question": "What are the main DRAID types supported by the IBM FlashSystem 9200 system?",
+    "reference": "The main DRAID types supported by the IBM FlashSystem 9200 system include Distributed DRAID 6 and DRAID 5 for IBM FlashCore Modules, and traditional RAID 10 and DRAID 6 for industry-standard NVMe drives.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1146_1146.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1149_1149.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1147_1147.png"
+    ]
+  },
+  {
+    "example_index": 1150,
+    "dataset": "TechReport",
+    "question": "Where can I find information about IBM's patent applications?",
+    "reference": "Information about IBM's patent or pending patent applications can be found in the IBM FlashSystem 9200 Product Guide. The guide mentions that IBM may have patents covering the subject matter described and provides contact information for sending license inquiries.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1150_1150.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/250_250.png",
+      "../data/raw/REAL-MM-RAG_FinReport/test/pages/60_60.png"
+    ]
+  },
+  {
+    "example_index": 1159,
+    "dataset": "TechReport",
+    "question": "What specific features can be accessed using the web and SSH interfaces of the IBM FlashSystem 9200?",
+    "reference": "Using the web and SSH interfaces, administrators can monitor system performance and health metrics, configure storage, and collect support data.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1159_1159.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/759_759.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1192_1192.png"
+    ]
+  },
+  {
+    "example_index": 1164,
+    "dataset": "TechReport",
+    "question": "What are the benefits of using the Data Reduction Pool compression in the IBM FlashSystem 9200 Control Enclosure?",
+    "reference": "The Data Reduction Pool compression in the IBM FlashSystem 9200 Control Enclosure can increase the effective capacity of your flash memory up to 5x, decreasing the cost for effective capacity up to 80%.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1165_1165.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1164_1164.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/804_804.png"
+    ]
+  },
+  {
+    "example_index": 1166,
+    "dataset": "TechReport",
+    "question": "What is the base memory configuration for the IBM FlashSystem 9200?",
+    "reference": "The base memory configuration for the IBM FlashSystem 9200 is 256 GB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1166_1166.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1167_1167.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1187_1187.png"
+    ]
+  },
+  {
+    "example_index": 1183,
+    "dataset": "TechReport",
+    "question": "What is the maximum raw capacity of the IBM FlashSystem 9500?",
+    "reference": "The maximum raw capacity of the IBM FlashSystem 9500 is up to 32 PB.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1179_1179.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1185_1185.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/505_505.png"
+    ]
+  },
+  {
+    "example_index": 1191,
+    "dataset": "TechReport",
+    "question": "What role do storage partitions play in managing high availability resources?",
+    "reference": "Storage partitions in IBM FlashSystem 9500 facilitate easy management of highly available resources by grouping related volume groups, hosts, and mappings. They automate host mapping to volume group replicas across both systems.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1191_1191.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1173_1173.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1174_1174.png"
+    ]
+  },
+  {
+    "example_index": 1193,
+    "dataset": "TechReport",
+    "question": "What protocols are supported by the Fibre Channel ports in the IBM Storage FlashSystem 5300?",
+    "reference": "All FC ports support FCP-SCSI and FC-NVMe.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1220_1220.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1219_1219.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1222_1222.png"
+    ]
+  },
+  {
+    "example_index": 1196,
+    "dataset": "TechReport",
+    "question": "What are the supported protocols for host I/O with the onboard 10/25 GbE ports on the IBM FlashSystem 5300?",
+    "reference": "The supported protocols for host I/O with the onboard 10/25 GbE ports on the IBM FlashSystem 5300 are iSCSI and NVMe/TCP.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1196_1196.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1197_1197.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1198_1198.png"
+    ]
+  },
+  {
+    "example_index": 1199,
+    "dataset": "TechReport",
+    "question": "What benefits does N-Port ID Virtualization (NPIV) provide for IBM FlashSystem storage units?",
+    "reference": "NPIV benefits include improved host behavior during node restarts by delaying virtual port activation until I/O is needed, masking path failures caused by offline nodes from host multipathing drivers, and efficient use of physical FC ports by allowing separate WWPNs for host I/O and clustering on the same port.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1200_1200.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1199_1199.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/300_300.png"
+    ]
+  },
+  {
+    "example_index": 1204,
+    "dataset": "TechReport",
+    "question": "What happens to the host WWPNs during an NPIV failover in the IBM FlashSystem 5300?",
+    "reference": "During an NPIV failover, host WWPNs migrate to the partner node while the physical WWPN remains static, allowing up to five WWPN logins per physical FC port.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1205_1205.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1204_1204.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1199_1199.png"
+    ]
+  },
+  {
+    "example_index": 1205,
+    "dataset": "TechReport",
+    "question": "What is the recommended practice for FC SAN configuration in IBM FlashSystem 5300 for high availability?",
+    "reference": "In HyperSwap or policy-based high availability configurations, use FC portsets or SAN zoning to dedicate ports for node-to-node traffic or replication.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1204_1204.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1205_1205.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1222_1222.png"
+    ]
+  },
+  {
+    "example_index": 1211,
+    "dataset": "TechReport",
+    "question": "Where can I find information about active NVMe connections in the IBM Storage FlashSystem 5300?",
+    "reference": "You can find information about active NVMe connections by navigating to Settings -> NVMe Connectivity within the system management interface, as indicated in Figure 3-18.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1211_1211.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1212_1212.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1217_1217.png"
+    ]
+  },
+  {
+    "example_index": 1212,
+    "dataset": "TechReport",
+    "question": "Where can I find information about active NVMe connections in the IBM Storage FlashSystem 5300?",
+    "reference": "Active NVMe connections can be checked under Settings -> NVMe Connectivity.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1211_1211.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1212_1212.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1217_1217.png"
+    ]
+  },
+  {
+    "example_index": 1223,
+    "dataset": "TechReport",
+    "question": "How many management IPs can be configured on an IBM Storage FlashSystem 5300?",
+    "reference": "Only two management IPs can be configured on an IBM Storage FlashSystem 5300.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1223_1223.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1193_1193.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1194_1194.png"
+    ]
+  },
+  {
+    "example_index": 1236,
+    "dataset": "TechReport",
+    "question": "What are the conditions under which an automatic hardware refresh is triggered under the Perpetual Model?",
+    "reference": "An automatic hardware refresh is triggered if the system is not meeting performance or energy efficiency needs, if the system is no longer compatible with the latest SW release or has reached its end-of-support (EOS) date, if the system cannot add more capacity, or at least once during an 8-year contract.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1189_1189.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1188_1188.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1236_1236.png"
+    ]
+  },
+  {
+    "example_index": 1240,
+    "dataset": "TechReport",
+    "question": "How does IBM's cyber security environment contribute to faster detection and recovery?",
+    "reference": "IBM's cyber security environment contributes to faster detection and recovery by identifying data breaches much earlier, allowing for quicker response and recovery actions.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1240_1240.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/776_776.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/824_824.png"
+    ]
+  },
+  {
+    "example_index": 1242,
+    "dataset": "TechReport",
+    "question": "What resources are available for more information on the IBM FlashSystem 7300?",
+    "reference": "For more information, you can refer to the IBM Documentation for IBM FlashSystem, the IBM FlashSystem Family FAQ, the IBM FlashSystems & SAN Volume Controller FAQ, the IBM FlashSystem 7300 product page, and the IBM Offering Information page.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1241_1241.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1242_1242.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1281_1281.png"
+    ]
+  },
+  {
+    "example_index": 1258,
+    "dataset": "TechReport",
+    "question": "What is the approximate weight of the fully configured IBM FlashSystem 7000 Expansion Enclosure 12G/24G?",
+    "reference": "The approximate weight of the fully configured IBM FlashSystem 7000 Expansion Enclosure 12G/24G is 25.0 kg (55.1 lb).",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1256_1256.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1259_1259.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1257_1257.png"
+    ]
+  },
+  {
+    "example_index": 1274,
+    "dataset": "TechReport",
+    "question": "How many 32 Gbps FC control enclosures are supported with three control enclosures in the IBM Storage FlashSystem 7300?",
+    "reference": "72",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1277_1277.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1276_1276.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1273_1273.png"
+    ]
+  },
+  {
+    "example_index": 1276,
+    "dataset": "TechReport",
+    "question": "How many 100 Gbps iSCSI (RoCE) ports are there with three control enclosures in the IBM Storage FlashSystem 7300?",
+    "reference": "36",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1275_1275.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1278_1278.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1273_1273.png"
+    ]
+  },
+  {
+    "example_index": 1281,
+    "dataset": "TechReport",
+    "question": "What high availability solutions are mentioned for IBM Storage FlashSystem 7300?",
+    "reference": "High availability solutions such as policy-based high availability (HA) are mentioned.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1280_1280.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1281_1281.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1292_1292.png"
+    ]
+  },
+  {
+    "example_index": 1283,
+    "dataset": "TechReport",
+    "question": "How many SCUs are required for 800 TB of Nearline capacity in IBM FlashSystem 7300?",
+    "reference": "200 SCUs are required for 800 TB of Nearline capacity.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1283_1283.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1282_1282.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1284_1284.png"
+    ]
+  },
+  {
+    "example_index": 1284,
+    "dataset": "TechReport",
+    "question": "What is the SCU ratio for Nearline drives in IBM FlashSystem 7300?",
+    "reference": "SCU equates to 4.00 TB usable of Category 3 storage.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1282_1282.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1284_1284.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1283_1283.png"
+    ]
+  },
+  {
+    "example_index": 1285,
+    "dataset": "TechReport",
+    "question": "What is the purpose of the IBM Storage Insights in the context of IBM FlashSystem 7300?",
+    "reference": "IBM Storage Insights is used to monitor system usage and capacity that is used, billing customers based on a capacity-used basis.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1285_1285.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1281_1281.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1280_1280.png"
+    ]
+  },
+  {
+    "example_index": 1287,
+    "dataset": "TechReport",
+    "question": "What types of components are hot-swappable in the IBM FlashSystem 7300?",
+    "reference": "The hot-swappable components in the IBM FlashSystem 7300 include secure boot drives, batteries, PSUs (2 per canister), and NVMe or FCM drives.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1287_1287.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1286_1286.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/497_497.png"
+    ]
+  },
+  {
+    "example_index": 1291,
+    "dataset": "TechReport",
+    "question": "How does the IBM FlashSystem 7300 integrate with hybrid cloud environments?",
+    "reference": "The IBM FlashSystem 7300 seamlessly integrates with hybrid cloud environments, allowing management of data across on-premises and cloud storage, providing greater flexibility and scalability for your IT infrastructure.",
+    "retrieved_images": [
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1292_1292.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1291_1291.png",
+      "../data/raw/REAL-MM-RAG_TechReport/test/pages/1224_1224.png"
+    ]
+  }
+]

@@ -201,8 +201,13 @@ class OCRRetriever:
             else:
                 texts_to_index = [(0, page_text)]
 
+            # Prefix IDs with the dataset slug so entries from different datasets
+            # never collide in the shared ChromaDB collection.
+            dataset_slug = str(entry.get("dataset", "unk")).split("/")[-1]
+            ex_idx = entry.get('example_index', '0')
+
             for chunk_idx, txt in texts_to_index:
-                vid = f"page_{entry.get('doc_id','unk')}_{entry.get('example_index','0')}_c{chunk_idx}"
+                vid = f"{dataset_slug}_{ex_idx}_c{chunk_idx}"
                 metadata = {
                     "doc_id": str(entry.get("doc_id", "")),
                     "text_path": text_path,

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slide Tinder</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #1a1a2e;
+    color: #eee;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.2rem;
+    color: #e94560;
+  }
+
+  /* --- Upload screen --- */
+  #upload-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  #drop-zone {
+    width: 420px;
+    height: 220px;
+    border: 2.5px dashed #e94560;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    color: #aaa;
+    font-size: 0.95rem;
+  }
+  #drop-zone:hover, #drop-zone.dragover { background: rgba(233,69,96,0.08); }
+  #drop-zone .icon { font-size: 2.4rem; }
+  #file-input { display: none; }
+
+  #file-list {
+    width: 420px;
+    max-height: 120px;
+    overflow-y: auto;
+    font-size: 0.82rem;
+    color: #ccc;
+  }
+  #file-list div { padding: 2px 4px; }
+  #file-list div::before { content: "📄 "; }
+
+  #start-btn {
+    padding: 0.7rem 2.2rem;
+    background: #e94560;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    display: none;
+  }
+  #start-btn:hover { opacity: 0.85; }
+
+  #upload-progress {
+    color: #aaa;
+    font-size: 0.9rem;
+    display: none;
+  }
+
+  /* --- Swipe screen --- */
+  #swipe-screen { display: none; flex-direction: column; align-items: center; gap: 1.2rem; }
+
+  #progress-bar-wrap {
+    width: 480px;
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  #progress-bar { height: 100%; background: #e94560; width: 0%; transition: width 0.3s; }
+
+  #stats {
+    display: flex;
+    gap: 2rem;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  #stats span { font-weight: 600; color: #eee; }
+
+  /* Card stack */
+  #card-area {
+    position: relative;
+    width: 480px;
+    height: 340px;
+  }
+
+  .card {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #16213e;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    cursor: grab;
+    user-select: none;
+    transition: transform 0.08s ease-out;
+    will-change: transform;
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #fff;
+    pointer-events: none;
+  }
+
+  /* Stamp overlays */
+  .card .stamp {
+    position: absolute;
+    top: 22px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    padding: 4px 14px;
+    border-radius: 8px;
+    border: 4px solid;
+    opacity: 0;
+    transform: rotate(-15deg);
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: opacity 0.1s;
+  }
+  .card .stamp.accept {
+    left: 20px;
+    color: #2ecc71;
+    border-color: #2ecc71;
+    transform: rotate(-15deg);
+  }
+  .card .stamp.reject {
+    right: 20px;
+    color: #e74c3c;
+    border-color: #e74c3c;
+    transform: rotate(15deg);
+  }
+
+  /* Background hint cards */
+  .card-bg {
+    position: absolute;
+    top: 10px; left: 50%;
+    transform: translateX(-50%) scale(0.94);
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    background: #16213e;
+    z-index: 0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+  .card-bg2 {
+    top: 20px;
+    transform: translateX(-50%) scale(0.88);
+    opacity: 0.5;
+  }
+
+  /* Buttons */
+  #action-btns {
+    display: flex;
+    gap: 3rem;
+    margin-top: 0.4rem;
+  }
+  .action-btn {
+    width: 66px; height: 66px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .action-btn:hover { transform: scale(1.1); box-shadow: 0 6px 24px rgba(0,0,0,0.5); }
+  .action-btn:active { transform: scale(0.95); }
+  #btn-reject { background: #e74c3c; }
+  #btn-accept { background: #2ecc71; }
+
+  #keyboard-hint {
+    font-size: 0.75rem;
+    color: #555;
+    margin-top: -0.4rem;
+  }
+
+  /* Done screen */
+  #done-screen {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+  #done-screen .big { font-size: 3rem; }
+  #done-screen p { color: #aaa; font-size: 1rem; }
+  #done-screen strong { color: #2ecc71; font-size: 1.4rem; }
+  #restart-btn {
+    padding: 0.65rem 2rem;
+    background: #e94560;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  #restart-btn:hover { opacity: 0.85; }
+
+  /* Counter badge */
+  #counter-badge {
+    position: fixed;
+    top: 18px; right: 22px;
+    background: #2ecc71;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 6px 16px;
+    border-radius: 20px;
+    display: none;
+    box-shadow: 0 2px 10px rgba(46,204,113,0.4);
+  }
+</style>
+</head>
+<body>
+
+<div id="counter-badge">✓ <span id="counter-num">0</span> accepted</div>
+
+<!-- Upload screen -->
+<div id="upload-screen">
+  <h1>Slide Tinder</h1>
+  <div id="drop-zone">
+    <span class="icon">📂</span>
+    <span>Drop PDF slide decks here</span>
+    <span style="font-size:0.8rem">or click to browse</span>
+    <input type="file" id="file-input" accept=".pdf" multiple>
+  </div>
+  <div id="file-list"></div>
+  <button id="start-btn">Convert &amp; Start →</button>
+  <div id="upload-progress">Converting slides…</div>
+</div>
+
+<!-- Swipe screen -->
+<div id="swipe-screen">
+  <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
+  <div id="stats">
+    Slide <span id="stat-cur">1</span> of <span id="stat-total">?</span>
+    &nbsp;·&nbsp; <span id="stat-acc" style="color:#2ecc71">0</span> accepted
+  </div>
+  <div id="card-area">
+    <div class="card-bg card-bg2"></div>
+    <div class="card-bg"></div>
+    <div class="card" id="main-card">
+      <img id="slide-img" src="" alt="slide">
+      <div class="stamp accept">Keep</div>
+      <div class="stamp reject">Skip</div>
+    </div>
+  </div>
+  <div id="action-btns">
+    <button class="action-btn" id="btn-reject" title="Reject (←)">✕</button>
+    <button class="action-btn" id="btn-accept" title="Accept (→)">✓</button>
+  </div>
+  <div id="keyboard-hint">← reject &nbsp;·&nbsp; → accept</div>
+</div>
+
+<!-- Done screen -->
+<div id="done-screen">
+  <div class="big">🎉</div>
+  <p>All slides reviewed!</p>
+  <strong id="done-count">0 accepted</strong>
+  <p style="font-size:0.85rem;color:#666">Accepted slides saved to <code>accepted/</code></p>
+  <button id="restart-btn">Upload more PDFs</button>
+</div>
+
+<script>
+const uploadScreen = document.getElementById("upload-screen");
+const swipeScreen  = document.getElementById("swipe-screen");
+const doneScreen   = document.getElementById("done-screen");
+
+const dropZone     = document.getElementById("drop-zone");
+const fileInput    = document.getElementById("file-input");
+const fileList     = document.getElementById("file-list");
+const startBtn     = document.getElementById("start-btn");
+const uploadProg   = document.getElementById("upload-progress");
+
+const progressBar  = document.getElementById("progress-bar");
+const statCur      = document.getElementById("stat-cur");
+const statTotal    = document.getElementById("stat-total");
+const statAcc      = document.getElementById("stat-acc");
+const slideImg     = document.getElementById("slide-img");
+const mainCard     = document.getElementById("main-card");
+const btnAccept    = document.getElementById("btn-accept");
+const btnReject    = document.getElementById("btn-reject");
+const counterBadge = document.getElementById("counter-badge");
+const counterNum   = document.getElementById("counter-num");
+const doneCount    = document.getElementById("done-count");
+
+let selectedFiles = [];
+let total = 0;
+let acceptedCount = 0;
+let busy = false;
+
+// ---- File selection ----
+dropZone.addEventListener("click", () => fileInput.click());
+fileInput.addEventListener("change", () => handleFiles(Array.from(fileInput.files)));
+
+dropZone.addEventListener("dragover", e => { e.preventDefault(); dropZone.classList.add("dragover"); });
+dropZone.addEventListener("dragleave", () => dropZone.classList.remove("dragover"));
+dropZone.addEventListener("drop", e => {
+  e.preventDefault();
+  dropZone.classList.remove("dragover");
+  handleFiles(Array.from(e.dataTransfer.files).filter(f => f.name.toLowerCase().endsWith(".pdf")));
+});
+
+function handleFiles(files) {
+  selectedFiles = files;
+  fileList.innerHTML = "";
+  files.forEach(f => {
+    const d = document.createElement("div");
+    d.textContent = f.name;
+    fileList.appendChild(d);
+  });
+  startBtn.style.display = selectedFiles.length ? "block" : "none";
+}
+
+// ---- Upload & convert ----
+startBtn.addEventListener("click", async () => {
+  if (!selectedFiles.length) return;
+  startBtn.style.display = "none";
+  uploadProg.style.display = "block";
+
+  const form = new FormData();
+  selectedFiles.forEach(f => form.append("pdfs", f));
+
+  const res = await fetch("/upload", { method: "POST", body: form });
+  const data = await res.json();
+  if (data.error) { alert(data.error); uploadProg.style.display = "none"; startBtn.style.display = "block"; return; }
+
+  total = data.total;
+  acceptedCount = 0;
+  uploadProg.style.display = "none";
+  uploadScreen.style.display = "none";
+  swipeScreen.style.display = "flex";
+  counterBadge.style.display = "block";
+  updateCounter(0);
+  loadCurrent();
+});
+
+// ---- Slide loading ----
+async function loadCurrent() {
+  const res = await fetch("/slide/current");
+  const data = await res.json();
+  if (data.done) { showDone(data.accepted_count); return; }
+
+  acceptedCount = data.accepted_count;
+  updateStats(data.index, data.total, data.accepted_count);
+  preloadAndShow(data.slide);
+}
+
+function preloadAndShow(slidePath) {
+  const img = new Image();
+  img.onload = () => {
+    slideImg.src = img.src;
+    resetCard();
+  };
+  img.src = `/slides/${slidePath}`;
+}
+
+function updateStats(cur, tot, acc) {
+  statCur.textContent = cur;
+  statTotal.textContent = tot;
+  statAcc.textContent = acc;
+  progressBar.style.width = `${(cur / tot) * 100}%`;
+  updateCounter(acc);
+}
+
+function updateCounter(n) {
+  counterNum.textContent = n;
+}
+
+// ---- Card interactions ----
+function resetCard() {
+  mainCard.style.transition = "none";
+  mainCard.style.transform = "none";
+  mainCard.style.opacity = "1";
+  mainCard.querySelector(".stamp.accept").style.opacity = 0;
+  mainCard.querySelector(".stamp.reject").style.opacity = 0;
+  busy = false;
+}
+
+async function doAction(action) {
+  if (busy) return;
+  busy = true;
+
+  // Animate card out
+  const dx = action === "accept" ? 600 : -600;
+  mainCard.style.transition = "transform 0.3s ease-in, opacity 0.3s";
+  mainCard.style.transform = `translateX(${dx}px) rotate(${dx > 0 ? 15 : -15}deg)`;
+  mainCard.style.opacity = "0";
+
+  const res = await fetch("/slide/action", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ action })
+  });
+  const data = await res.json();
+  updateCounter(data.accepted_count);
+
+  // Wait for animation then load next
+  setTimeout(() => loadCurrent(), 280);
+}
+
+btnAccept.addEventListener("click", () => doAction("accept"));
+btnReject.addEventListener("click", () => doAction("reject"));
+
+document.addEventListener("keydown", e => {
+  if (swipeScreen.style.display === "none") return;
+  if (e.key === "ArrowRight") doAction("accept");
+  if (e.key === "ArrowLeft")  doAction("reject");
+});
+
+// ---- Drag/swipe on card ----
+let dragStartX = 0, dragStartY = 0, dragging = false;
+
+mainCard.addEventListener("mousedown", e => {
+  if (busy) return;
+  dragging = true;
+  dragStartX = e.clientX;
+  dragStartY = e.clientY;
+  mainCard.style.transition = "none";
+});
+
+document.addEventListener("mousemove", e => {
+  if (!dragging) return;
+  const dx = e.clientX - dragStartX;
+  const dy = e.clientY - dragStartY;
+  const rot = dx * 0.08;
+  mainCard.style.transform = `translate(${dx}px, ${dy}px) rotate(${rot}deg)`;
+
+  const acceptStamp = mainCard.querySelector(".stamp.accept");
+  const rejectStamp = mainCard.querySelector(".stamp.reject");
+  if (dx > 40) { acceptStamp.style.opacity = Math.min(1, (dx - 40) / 80); rejectStamp.style.opacity = 0; }
+  else if (dx < -40) { rejectStamp.style.opacity = Math.min(1, (-dx - 40) / 80); acceptStamp.style.opacity = 0; }
+  else { acceptStamp.style.opacity = 0; rejectStamp.style.opacity = 0; }
+});
+
+document.addEventListener("mouseup", e => {
+  if (!dragging) return;
+  dragging = false;
+  const dx = e.clientX - dragStartX;
+  if (dx > 100)       doAction("accept");
+  else if (dx < -100) doAction("reject");
+  else {
+    mainCard.style.transition = "transform 0.3s ease-out";
+    mainCard.style.transform = "none";
+    mainCard.querySelector(".stamp.accept").style.opacity = 0;
+    mainCard.querySelector(".stamp.reject").style.opacity = 0;
+  }
+});
+
+// ---- Done screen ----
+function showDone(count) {
+  swipeScreen.style.display = "none";
+  doneScreen.style.display = "flex";
+  doneCount.textContent = `${count} slide${count !== 1 ? "s" : ""} accepted`;
+  counterBadge.style.display = "none";
+}
+
+document.getElementById("restart-btn").addEventListener("click", () => {
+  doneScreen.style.display = "none";
+  uploadScreen.style.display = "flex";
+  fileList.innerHTML = "";
+  startBtn.style.display = "none";
+  selectedFiles = [];
+});
+</script>
+</body>
+</html>
